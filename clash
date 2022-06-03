@@ -661,6 +661,18 @@ proxies:
   - {"type":"ss","name":"🇸🇬_SG_新加坡vmess://eyJhZGQiOiI0My4xNTQuNzcuMTk2IiwidiI6MiwicHMiOiLwn4eo8J+Hs19DTl/kuK3lm70iLCJwb3J0IjozODUzOSwiaWQiOiJhMzc5YmQ3Zi05ZDBkLTRmYjUtOTBjMi05YjMwMjc4MmM0ZDYiLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJodHRwIiwidHlwZSI6IiIsImhvc3QiOiI0My4xNTQuNzcuMTk2IiwidGxzIjoiIiwicGF0aCI6Ii8ifQ==","server":"139.99.123.156","port":7002,"cipher":"aes-256-gcm","password":"RexnBgU7EV5ADxG"}
   - {"type":"ss","name":"🇺🇸_US_美国_84","server":"43.200.6.24","port":443,"cipher":"aes-256-cfb","password":"amazonskr05"}
   - {"type":"ss","name":"🇮🇳_IN_印度_4","server":"159.65.157.70","port":61548,"cipher":"chacha20-ietf-poly1305","password":"5e04bdc6-6f09-4f5e-a3c7-edf4d3220ad3"}
+  - {"type":"trojan","name":"🇺🇸_US_美国_28","server":"20.210.229.72","port":3389,"password":"d66013c645b93c5c","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇺🇸_US_美国_29","server":"155.248.162.21","port":443,"uuid":"7454097f-15fb-44bb-9e59-e1fdd1ac03a5","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"🇺🇸_US_美国_30","server":"212.81.47.15","port":443,"password":"3yFq7NCP53mVfpXJz3","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇺🇸_US_美国_31","server":"20.210.229.72","port":3389,"password":"d66013c645b93c5c","udp":true,"skip-cert-verify":true}
+  - {"type":"vmess","name":"🇺🇸_US_美国_32","server":"155.248.162.21","port":443,"uuid":"7454097f-15fb-44bb-9e59-e1fdd1ac03a5","alterId":0,"cipher":"auto","network":"tcp"}
+  - {"type":"trojan","name":"🇺🇸_US_美国_33","server":"212.81.47.15","port":443,"password":"3yFq7NCP53mVfpXJz3","udp":true,"skip-cert-verify":true}
+  - {"type":"ssr","name":"🇬🇧_GB_英国_20","server":"152.89.210.105","port":9064,"protocol":"origin","cipher":"aes-256-cfb","obfs":"plain","password":"cp8pRSUAyLhTfVWH"}
+  - {"type":"ss","name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_9","server":"rr006.zhuan666.top","port":11206,"cipher":"chacha20-ietf-poly1305","password":"8c313190-4d93-43f3-b557-fe0ffe4c260a"}
+  - {"type":"trojan","name":"🇨🇳_CN_中国->🇯🇵_JP_日本_8","server":"29d78fe.nf.gladns.com","port":3389,"password":"8c72bafbd4837610","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇨🇳_CN_中国->🇸🇬_SG_新加坡_10","server":"116.129.254.47","port":3389,"password":"e37c6d7efa845d60","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇭🇰_HK_香港_6","server":"20.187.100.205","port":3389,"password":"ca4596fb9bc63cf2","udp":true,"skip-cert-verify":true}
+  - {"type":"trojan","name":"🇹🇼_TW_台湾_5","server":"211.72.35.158","port":3389,"password":"9a27800ca7b52ee0","udp":true,"skip-cert-verify":true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -1323,6 +1335,18 @@ proxy-groups:
       -     🇸🇬_SG_新加坡vmess://eyJhZGQiOiI0My4xNTQuNzcuMTk2IiwidiI6MiwicHMiOiLwn4eo8J+Hs19DTl/kuK3lm70iLCJwb3J0IjozODUzOSwiaWQiOiJhMzc5YmQ3Zi05ZDBkLTRmYjUtOTBjMi05YjMwMjc4MmM0ZDYiLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJodHRwIiwidHlwZSI6IiIsImhvc3QiOiI0My4xNTQuNzcuMTk2IiwidGxzIjoiIiwicGF0aCI6Ii8ifQ==
       - 🇺🇸_US_美国_84
       - 🇮🇳_IN_印度_4
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇬🇧_GB_英国_20
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_8
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
+      - 🇭🇰_HK_香港_6
+      - 🇹🇼_TW_台湾_5
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -1985,6 +2009,18 @@ proxy-groups:
       -     🇸🇬_SG_新加坡vmess://eyJhZGQiOiI0My4xNTQuNzcuMTk2IiwidiI6MiwicHMiOiLwn4eo8J+Hs19DTl/kuK3lm70iLCJwb3J0IjozODUzOSwiaWQiOiJhMzc5YmQ3Zi05ZDBkLTRmYjUtOTBjMi05YjMwMjc4MmM0ZDYiLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJodHRwIiwidHlwZSI6IiIsImhvc3QiOiI0My4xNTQuNzcuMTk2IiwidGxzIjoiIiwicGF0aCI6Ii8ifQ==
       - 🇺🇸_US_美国_84
       - 🇮🇳_IN_印度_4
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇬🇧_GB_英国_20
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_8
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
+      - 🇭🇰_HK_香港_6
+      - 🇹🇼_TW_台湾_5
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -2647,6 +2683,18 @@ proxy-groups:
       -     🇸🇬_SG_新加坡vmess://eyJhZGQiOiI0My4xNTQuNzcuMTk2IiwidiI6MiwicHMiOiLwn4eo8J+Hs19DTl/kuK3lm70iLCJwb3J0IjozODUzOSwiaWQiOiJhMzc5YmQ3Zi05ZDBkLTRmYjUtOTBjMi05YjMwMjc4MmM0ZDYiLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJodHRwIiwidHlwZSI6IiIsImhvc3QiOiI0My4xNTQuNzcuMTk2IiwidGxzIjoiIiwicGF0aCI6Ii8ifQ==
       - 🇺🇸_US_美国_84
       - 🇮🇳_IN_印度_4
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇬🇧_GB_英国_20
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_8
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
+      - 🇭🇰_HK_香港_6
+      - 🇹🇼_TW_台湾_5
   - name: 📲 电报信息
     type: select
     proxies:
@@ -3308,6 +3356,18 @@ proxy-groups:
       -     🇸🇬_SG_新加坡vmess://eyJhZGQiOiI0My4xNTQuNzcuMTk2IiwidiI6MiwicHMiOiLwn4eo8J+Hs19DTl/kuK3lm70iLCJwb3J0IjozODUzOSwiaWQiOiJhMzc5YmQ3Zi05ZDBkLTRmYjUtOTBjMi05YjMwMjc4MmM0ZDYiLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJodHRwIiwidHlwZSI6IiIsImhvc3QiOiI0My4xNTQuNzcuMTk2IiwidGxzIjoiIiwicGF0aCI6Ii8ifQ==
       - 🇺🇸_US_美国_84
       - 🇮🇳_IN_印度_4
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇬🇧_GB_英国_20
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_8
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
+      - 🇭🇰_HK_香港_6
+      - 🇹🇼_TW_台湾_5
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -3969,6 +4029,18 @@ proxy-groups:
       -     🇸🇬_SG_新加坡vmess://eyJhZGQiOiI0My4xNTQuNzcuMTk2IiwidiI6MiwicHMiOiLwn4eo8J+Hs19DTl/kuK3lm70iLCJwb3J0IjozODUzOSwiaWQiOiJhMzc5YmQ3Zi05ZDBkLTRmYjUtOTBjMi05YjMwMjc4MmM0ZDYiLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJodHRwIiwidHlwZSI6IiIsImhvc3QiOiI0My4xNTQuNzcuMTk2IiwidGxzIjoiIiwicGF0aCI6Ii8ifQ==
       - 🇺🇸_US_美国_84
       - 🇮🇳_IN_印度_4
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇬🇧_GB_英国_20
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_8
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
+      - 🇭🇰_HK_香港_6
+      - 🇹🇼_TW_台湾_5
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -4630,6 +4702,18 @@ proxy-groups:
       -     🇸🇬_SG_新加坡vmess://eyJhZGQiOiI0My4xNTQuNzcuMTk2IiwidiI6MiwicHMiOiLwn4eo8J+Hs19DTl/kuK3lm70iLCJwb3J0IjozODUzOSwiaWQiOiJhMzc5YmQ3Zi05ZDBkLTRmYjUtOTBjMi05YjMwMjc4MmM0ZDYiLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJodHRwIiwidHlwZSI6IiIsImhvc3QiOiI0My4xNTQuNzcuMTk2IiwidGxzIjoiIiwicGF0aCI6Ii8ifQ==
       - 🇺🇸_US_美国_84
       - 🇮🇳_IN_印度_4
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇬🇧_GB_英国_20
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_8
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
+      - 🇭🇰_HK_香港_6
+      - 🇹🇼_TW_台湾_5
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -5308,6 +5392,18 @@ proxy-groups:
       -     🇸🇬_SG_新加坡vmess://eyJhZGQiOiI0My4xNTQuNzcuMTk2IiwidiI6MiwicHMiOiLwn4eo8J+Hs19DTl/kuK3lm70iLCJwb3J0IjozODUzOSwiaWQiOiJhMzc5YmQ3Zi05ZDBkLTRmYjUtOTBjMi05YjMwMjc4MmM0ZDYiLCJhaWQiOjAsInNjeSI6ImF1dG8iLCJuZXQiOiJodHRwIiwidHlwZSI6IiIsImhvc3QiOiI0My4xNTQuNzcuMTk2IiwidGxzIjoiIiwicGF0aCI6Ii8ifQ==
       - 🇺🇸_US_美国_84
       - 🇮🇳_IN_印度_4
+      - 🇺🇸_US_美国_28
+      - 🇺🇸_US_美国_29
+      - 🇺🇸_US_美国_30
+      - 🇺🇸_US_美国_31
+      - 🇺🇸_US_美国_32
+      - 🇺🇸_US_美国_33
+      - 🇬🇧_GB_英国_20
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_9
+      - 🇨🇳_CN_中国->🇯🇵_JP_日本_8
+      - 🇨🇳_CN_中国->🇸🇬_SG_新加坡_10
+      - 🇭🇰_HK_香港_6
+      - 🇹🇼_TW_台湾_5
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
