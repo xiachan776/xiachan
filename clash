@@ -5,323 +5,323 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: 欧洲(yudou66.com 玉豆分享), server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i1.onebox6.org}, udp: true}
-  - {name: _油管：全网最强白嫖, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: _油管：全网最强白嫖 2, server: 14.29.124.174, port: 11006, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _CN_中国->🇰🇷_KR_韩国, server: 180.163.62.91, port: 10064, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "|21.42Mb", server: 38.68.135.19, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _油管：全网最强白嫖 3, server: 134.195.196.231, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: "|10.39Mb", server: 167.88.63.99, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "|15.86Mb", server: 167.88.63.82, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _油管：全网最强白嫖 4, server: 134.195.196.231, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: 韩国（欢迎订阅Youtube元亨利贞）, server: 146.56.108.108, port: 26113, type: vmess, uuid: 1071810b-8a51-4fba-de7f-1efe88c87ea8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "|12.78Mb", server: 167.88.61.60, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: "|20.56Mb", server: 172.99.190.87, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _CA_加拿大, server: 198.57.27.225, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|20.45Mb", server: 172.99.190.7, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: _US_美国, server: 167.88.63.59, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: _油管：全网最强白嫖 5, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: _油管：全网最强白嫖 6, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: "| 9.55Mb", server: 38.64.138.145, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "|11.03Mb", server: 38.91.107.16, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "|11.12Mb", server: 142.202.48.52, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: _JP_日本, server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 2, server: 38.114.114.67, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: _US_美国 3, server: usa004.369boy.com, port: 14001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, sni: usa004.369boy.com, skip-cert-verify: true, udp: true}
-  - {name: 美国(youtube阿伟科技), server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us02.yiyodns.xyz, skip-cert-verify: true, udp: true}
-  - {name: 日本（欢迎订阅Youtube元亨利贞）, server: 150.230.4.136, port: 11151, type: vmess, uuid: 18ef8b86-5dfe-48a9-b4e4-b5f595f7e555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "| 6.10Mb", server: 213.183.53.212, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: Relay_ |24.34Mb, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾, server: cm.spacez.cloud, port: 30002, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
   - {name: 美国(欢迎订阅Youtube破解资源君)+15, server: ussc.scsevers.cf, port: 443, type: trojan, password: sharecentre, sni: ussc.scsevers.cf, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国, server: 43.154.114.208, port: 3245, type: vmess, uuid: e4a15b1d-8dfd-4bd7-ab33-06c8cd174c0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖 7, server: 152.67.102.225, port: 46360, type: vmess, uuid: 61fe4d4e-8c7e-4f2e-9b9f-49f38991be7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 4, server: 107.167.24.6, port: 17001, type: trojan, password: d4e9e6bb-daa4-44ed-aa29-d1b8d00ba7d6, skip-cert-verify: true, udp: true}
-  - {name: "|10.59Mb", server: 213.183.53.207, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: "|13.90Mb", server: 213.183.53.214, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
-  - {name: "|10.25Mb", server: 213.183.53.208, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: "| 8.89Mb", server: 38.64.138.145, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|16.46Mb", server: 38.114.114.67, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: "|19.88Mb", server: 167.88.62.68, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "|27.43Mb", server: 38.114.114.67, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh, server: bai-piao-wang-zhe-iplc6.98848.xyz, port: 12824, type: vmess, uuid: ce49b03a-ec36-4afd-d6f1-f678ad37cbb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇭🇰_HK_香港, server: cdn1.myuuusss.com, port: 30041, type: ss, cipher: chacha20-ietf-poly1305, password: b195963c-2631-442d-ab3a-6e78df25d904, udp: true}
-  - {name: "|12.89Mb", server: 213.183.53.177, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: "| 5.12Mb", server: 213.183.53.212, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
-  - {name: "| 6.05Mb", server: 213.183.53.214, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: "| 9.47Mb", server: 38.107.226.132, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|16.15Mb", server: 142.202.48.83, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: _US_美国 5, server: 172.99.188.71, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: 韩国(欢迎订阅Youtube破解资源君), server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, sni: kr05.wangxd.life, skip-cert-verify: true, udp: true}
+  - {name: _NL_荷兰, server: 185.246.155.29, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: _油管：全网最强白嫖, server: 134.195.196.231, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君)+7, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, sni: jgwld2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国, server: cn.speedabc.xyz, port: 42004, type: trojan, password: 804d36c2-0585-4568-b277-eaabf4bc8e48, sni: cn.speedabc.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN_212 |66.67Mb, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 2, server: shcm.pdjc.cc, port: 42000, type: trojan, password: b7dcc148-c8a3-4173-931f-8ecf9413eb58, sni: shcm.pdjc.cc, skip-cert-verify: true, udp: true}
+  - {name: CN_66+TG@peekfun, server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _CN_中国->🇰🇷_KR_韩国, server: 223.166.129.29, port: 63004, type: vmess, uuid: d9ac2f26-cc36-3faf-80c4-e2345cb25680, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 223.166.129.29}, udp: true}
+  - {name: _US_美国, server: 38.86.135.36, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: 欧洲(yudou66.com 玉豆分享), server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i1.onebox6.org}, udp: true}
+  - {name: _US_美国 2, server: 212.81.47.14, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君)+18, server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: CN_38+TG@peekfun, server: 14.29.124.168, port: 25218, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_215 |44.57Mb, server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _油管：全网最强白嫖 2, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: CN_210 |67.26Mb, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 越南(v2rayshare.com免费节点日更), server: nnv.chitacdn.xyz, port: 54242, type: vmess, uuid: f2393d82-94c4-4b12-8267-293a7500e487, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: CN_213 |28.56Mb, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 3, server: cn.speedabc.xyz, port: 32003, type: trojan, password: 804d36c2-0585-4568-b277-eaabf4bc8e48, sni: cn.speedabc.xyz, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 3, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: _油管：全网最强白嫖 4, server: 213.183.59.214, port: 9080, type: ss, cipher: aes-256-cfb, password: VP8ZPxQpJtZRCjfZ, udp: true}
+  - {name: ZZ_1919 | 8.27Mb, server: 134.195.196.200, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: _油管：全网最强白嫖 5, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: _油管：全网最强白嫖 6, server: 49hk05.fans8.xyz, port: 443, type: trojan, password: cd3d48cb-6641-4183-aff1-f8f6789fecce, sni: 49hk05.fans8.xyz, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 7, server: 213.183.59.214, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
+  - {name: _油管：全网最强白嫖 8, server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p, udp: true}
+  - {name: US_1327 |24.29Mb, server: 167.88.61.60, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CN_中国->🇰🇷_KR_韩国 2, server: cn.speedabc.xyz, port: 42005, type: trojan, password: 804d36c2-0585-4568-b277-eaabf4bc8e48, sni: cn.speedabc.xyz, skip-cert-verify: true, udp: true}
+  - {name: US_1271 |12.27Mb, server: 38.114.114.49, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: ZZ_1889 |11.46Mb, server: 134.195.196.227, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: _CN_中国->🇺🇸_US_美国 4, server: ah.b.speedabc.xyz, port: 42002, type: trojan, password: 804d36c2-0585-4568-b277-eaabf4bc8e48, sni: ah.b.speedabc.xyz, skip-cert-verify: true, udp: true}
+  - {name: "|13.85Mb", server: 107.148.23.159, port: 26969, type: trojan, password: 1f316deb-02e7-4050-acd9-abcb3942fd37, skip-cert-verify: true, udp: true}
+  - {name: LT_454 | 5.12Mb, server: 213.183.53.221, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
+  - {name: CN_153+|+3.62Mb, server: 14.29.124.168, port: 25296, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _CN_中国->🇯🇵_JP_日本, server: cn.speedabc.xyz, port: 32002, type: trojan, password: 804d36c2-0585-4568-b277-eaabf4bc8e48, sni: cn.speedabc.xyz, skip-cert-verify: true, udp: true}
+  - {name: _CA_加拿大, server: 134.195.196.150, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: CN_211 |77.43Mb, server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "|26.33Mb", server: 150.230.41.9, port: 23292, type: vmess, uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇩🇪_DE_德国, server: jm.b.speedabc.xyz, port: 42011, type: trojan, password: 804d36c2-0585-4568-b277-eaabf4bc8e48, sni: jm.b.speedabc.xyz, skip-cert-verify: true, udp: true}
+  - {name: _SG_新加坡, server: 67tw01.fans8.xyz, port: 443, type: trojan, password: 96abb4d5-d709-40bd-9933-58f57b67c641, sni: 67tw01.fans8.xyz, skip-cert-verify: true, udp: true}
+  - {name: _CN_中国->🇹🇼_TW_台湾 2, server: jj01.nfeng6.pp.ua, port: 39052, type: vmess, uuid: 025f4054-7985-38c3-8f62-6e50f098ad3b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 台湾(v2rayshare.com免费节点日更)_3, server: ingress-i1.onebox6.org, port: 38201, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i1.onebox6.org}, udp: true}
+  - {name: _US_美国 3, server: 212.81.47.13, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, skip-cert-verify: true, udp: true}
+  - {name: CN_86+TG@peekfun, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: 中国（欢迎订阅Youtube元亨利贞）, server: bgpv2.ktyjsq.com, port: 12229, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 节点更新 bit.ly/36b6iJh 13, server: bgpv2.ktyjsq.com, port: 12205, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国（欢迎订阅Youtube元亨利贞） 2, server: bgpv2.ktyjsq.com, port: 12222, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 中国（欢迎订阅Youtube元亨利贞） 3, server: bgpv2.ktyjsq.com, port: 12221, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 节点更新 bit.ly/36b6iJh 12, server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 亚洲(欢迎订阅Youtube破解资源君) 3, server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 节点更新 bit.ly/36b6iJh 24, server: bgpv2.ktyjsq.com, port: 12229, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 美国(yudou66.com 玉豆分享), server: bgpv2.ktyjsq.com, port: 12205, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 欧洲(yudou66.com 玉豆分享) 2, server: bgpv2.ktyjsq.com, port: 12205, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 节点更新 bit.ly/36b6iJh 7, server: bgpv2.ktyjsq.com, port: 12205, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 节点更新 bit.ly/36b6iJh 13, server: bgpv2.ktyjsq.com, port: 12205, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 2022-6-4, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 节点更新 bit.ly/36b6iJh 8, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 节点更新 bit.ly/36b6iJh 5, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(yudou66.com 玉豆分享), server: bgpv2.ktyjsq.com, port: 12205, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 9, server: bgpv2.ktyjsq.com, port: 12223, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 10, server: bgpv2.ktyjsq.com, port: 12229, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 台湾(v2rayshare.com免费节点日更)_2, server: bgpv2.ktyjsq.com, port: 12222, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: CN_83 TG@peekfun, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "| 8.38Mb", server: 213.183.53.221, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
-  - {name: "| 7.33Mb", server: 213.183.53.212, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: "|21.42Mb 2", server: 38.114.114.69, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "|19.05Mb", server: 38.107.226.49, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 中国（欢迎订阅Youtube元亨利贞） 4, server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 节点更新 bit.ly/36b6iJh 12, server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 节点更新 bit.ly/36b6iJh 10, server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 亚洲(欢迎订阅Youtube破解资源君) 3, server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 亚洲(欢迎订阅Youtube破解资源君) 6, server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 中国（欢迎订阅Youtube元亨利贞） 2, server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君) 16, server: bgpv2.ktyjsq.com, port: 12005, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _SG_新加坡 2, server: 165.154.253.68, port: 80, type: vmess, uuid: 1764e589-7fa9-43f6-9e7e-25733729f61f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 165.154.253.68}, udp: true}
+  - {name: "|65.12Mb", server: 155.248.162.21, port: 443, type: vmess, uuid: 7454097f-15fb-44bb-9e59-e1fdd1ac03a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: ZZ_1888 |14.02Mb, server: 134.195.196.227, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 中国（欢迎订阅Youtube元亨利贞） 3, server: bgpv2.ktyjsq.com, port: 12222, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 节点更新 bit.ly/36b6iJh 9, server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: 节点更新 bit.ly/36b6iJh 22, server: bgpv2.ktyjsq.com, port: 12224, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: 台湾(yudou66.com 玉豆分享), server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 330tw.fans8.xyz}, udp: true}
-  - {name: _油管：全网最强白嫖 8, server: 34.215.130.186, port: 10089, type: vmess, uuid: 3608c9dc-1eeb-48b0-b570-43074b4a0c9e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 34.215.130.186}, udp: true}
-  - {name: _SG_新加坡, server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s2.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: _台湾(v2rayshare.com免费节点日更), server: 330tw.fans8.xyz, port: 443, type: vmess, uuid: 7f4ff2e1-c08f-35bd-afe7-4a6a386907aa, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ray, ws-headers: {Host: 330tw.fans8.xyz}, udp: true}
-  - {name: _US_美国 6, server: 143.110.145.33, port: 12315, type: vmess, uuid: 63297c39-3e69-4fd0-8632-da4c708f139f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: _US_美国 7, server: 38.86.135.36, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: _US_美国 8, server: 38.86.135.36, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: _US_美国 9, server: 38.86.135.36, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: _US_美国 10, server: 38.86.135.36, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: _US_美国 4, server: au2-4.nigirocloud.com, port: 443, type: trojan, password: 3yFq7NCP53mVfpXJz3, sni: au2-4.nigirocloud.com, skip-cert-verify: true, udp: true}
+  - {name: 中国（欢迎订阅Youtube元亨利贞） 4, server: bgpv2.ktyjsq.com, port: 12221, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖 11, server: bgpv2.ktyjsq.com, port: 12221, type: vmess, uuid: 9ea70d57-9cb6-3bd0-ae41-5601e516dcc6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 新加坡(v2rayshare.com免费节点日更), server: 159.223.48.47, port: 80, type: vmess, uuid: 751b7ae2-49b3-4950-97a2-145f2ab7a228, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 159.223.48.47}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 欧洲(yudou66.com 玉豆分享)
+      - Relay_ |24.34Mb
+      - _CN_中国->🇹🇼_TW_台湾
+      - 美国(欢迎订阅Youtube破解资源君)+15
+      - 韩国(欢迎订阅Youtube破解资源君)
+      - _NL_荷兰
       - _油管：全网最强白嫖
-      - _油管：全网最强白嫖 2
+      - 欧洲(欢迎订阅Youtube破解资源君)+7
+      - _CN_中国->🇺🇸_US_美国
+      - CN_212 |66.67Mb
+      - _CN_中国->🇺🇸_US_美国 2
+      - CN_66+TG@peekfun
       - _CN_中国->🇰🇷_KR_韩国
-      - "|21.42Mb"
-      - _油管：全网最强白嫖 3
-      - "|10.39Mb"
-      - "|15.86Mb"
-      - _油管：全网最强白嫖 4
-      - 韩国（欢迎订阅Youtube元亨利贞）
-      - "|12.78Mb"
-      - "|20.56Mb"
-      - _CA_加拿大
-      - "|20.45Mb"
       - _US_美国
+      - 欧洲(yudou66.com 玉豆分享)
+      - _US_美国 2
+      - 美国(欢迎订阅Youtube破解资源君)+18
+      - CN_38+TG@peekfun
+      - CN_215 |44.57Mb
+      - _油管：全网最强白嫖 2
+      - CN_210 |67.26Mb
+      - 越南(v2rayshare.com免费节点日更)
+      - CN_213 |28.56Mb
+      - _CN_中国->🇺🇸_US_美国 3
+      - _油管：全网最强白嫖 3
+      - _油管：全网最强白嫖 4
+      - ZZ_1919 | 8.27Mb
       - _油管：全网最强白嫖 5
       - _油管：全网最强白嫖 6
-      - "| 9.55Mb"
-      - "|11.03Mb"
-      - "|11.12Mb"
-      - _JP_日本
-      - _US_美国 2
-      - _US_美国 3
-      - 美国(youtube阿伟科技)
-      - 日本（欢迎订阅Youtube元亨利贞）
-      - "| 6.10Mb"
-      - 美国(欢迎订阅Youtube破解资源君)+15
-      - _CN_中国
       - _油管：全网最强白嫖 7
-      - _US_美国 4
-      - "|10.59Mb"
-      - "|13.90Mb"
-      - "|10.25Mb"
-      - "| 8.89Mb"
-      - "|16.46Mb"
-      - "|19.88Mb"
-      - "|27.43Mb"
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh
-      - _CN_中国->🇭🇰_HK_香港
-      - "|12.89Mb"
-      - "| 5.12Mb"
-      - "| 6.05Mb"
-      - "| 9.47Mb"
-      - "|16.15Mb"
-      - _US_美国 5
+      - _油管：全网最强白嫖 8
+      - US_1327 |24.29Mb
+      - _CN_中国->🇰🇷_KR_韩国 2
+      - US_1271 |12.27Mb
+      - ZZ_1889 |11.46Mb
+      - _CN_中国->🇺🇸_US_美国 4
+      - "|13.85Mb"
+      - LT_454 | 5.12Mb
+      - CN_153+|+3.62Mb
+      - _CN_中国->🇯🇵_JP_日本
+      - _CA_加拿大
+      - CN_211 |77.43Mb
+      - "|26.33Mb"
+      - _CN_中国->🇩🇪_DE_德国
+      - _SG_新加坡
+      - _CN_中国->🇹🇼_TW_台湾 2
+      - 台湾(v2rayshare.com免费节点日更)_3
+      - _US_美国 3
+      - CN_86+TG@peekfun
       - 中国（欢迎订阅Youtube元亨利贞）
-      - 节点更新 bit.ly/36b6iJh 13
-      - 中国（欢迎订阅Youtube元亨利贞） 2
-      - 中国（欢迎订阅Youtube元亨利贞） 3
-      - 节点更新 bit.ly/36b6iJh 12
-      - 亚洲(欢迎订阅Youtube破解资源君) 3
-      - 节点更新 bit.ly/36b6iJh 24
-      - 美国(yudou66.com 玉豆分享)
       - 欧洲(yudou66.com 玉豆分享) 2
+      - 节点更新 bit.ly/36b6iJh 7
+      - 节点更新 bit.ly/36b6iJh 13
+      - 2022-6-4
+      - 节点更新 bit.ly/36b6iJh 8
+      - 节点更新 bit.ly/36b6iJh 5
+      - 美国(yudou66.com 玉豆分享)
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 10
       - 台湾(v2rayshare.com免费节点日更)_2
-      - CN_83 TG@peekfun
-      - "| 8.38Mb"
-      - "| 7.33Mb"
-      - "|21.42Mb 2"
-      - "|19.05Mb"
-      - 中国（欢迎订阅Youtube元亨利贞） 4
+      - 节点更新 bit.ly/36b6iJh 12
       - 节点更新 bit.ly/36b6iJh 10
+      - 亚洲(欢迎订阅Youtube破解资源君) 3
       - 亚洲(欢迎订阅Youtube破解资源君) 6
+      - 中国（欢迎订阅Youtube元亨利贞） 2
       - 欧洲(欢迎订阅Youtube破解资源君) 16
+      - _SG_新加坡 2
+      - "|65.12Mb"
+      - ZZ_1888 |14.02Mb
+      - 中国（欢迎订阅Youtube元亨利贞） 3
       - 节点更新 bit.ly/36b6iJh 9
       - 节点更新 bit.ly/36b6iJh 22
-      - 台湾(yudou66.com 玉豆分享)
-      - _油管：全网最强白嫖 8
-      - _SG_新加坡
-      - _台湾(v2rayshare.com免费节点日更)
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
+      - _US_美国 4
+      - 中国（欢迎订阅Youtube元亨利贞） 4
+      - _油管：全网最强白嫖 11
+      - 新加坡(v2rayshare.com免费节点日更)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - 欧洲(yudou66.com 玉豆分享)
+      - Relay_ |24.34Mb
+      - _CN_中国->🇹🇼_TW_台湾
+      - 美国(欢迎订阅Youtube破解资源君)+15
+      - 韩国(欢迎订阅Youtube破解资源君)
+      - _NL_荷兰
       - _油管：全网最强白嫖
-      - _油管：全网最强白嫖 2
+      - 欧洲(欢迎订阅Youtube破解资源君)+7
+      - _CN_中国->🇺🇸_US_美国
+      - CN_212 |66.67Mb
+      - _CN_中国->🇺🇸_US_美国 2
+      - CN_66+TG@peekfun
       - _CN_中国->🇰🇷_KR_韩国
-      - "|21.42Mb"
-      - _油管：全网最强白嫖 3
-      - "|10.39Mb"
-      - "|15.86Mb"
-      - _油管：全网最强白嫖 4
-      - 韩国（欢迎订阅Youtube元亨利贞）
-      - "|12.78Mb"
-      - "|20.56Mb"
-      - _CA_加拿大
-      - "|20.45Mb"
       - _US_美国
+      - 欧洲(yudou66.com 玉豆分享)
+      - _US_美国 2
+      - 美国(欢迎订阅Youtube破解资源君)+18
+      - CN_38+TG@peekfun
+      - CN_215 |44.57Mb
+      - _油管：全网最强白嫖 2
+      - CN_210 |67.26Mb
+      - 越南(v2rayshare.com免费节点日更)
+      - CN_213 |28.56Mb
+      - _CN_中国->🇺🇸_US_美国 3
+      - _油管：全网最强白嫖 3
+      - _油管：全网最强白嫖 4
+      - ZZ_1919 | 8.27Mb
       - _油管：全网最强白嫖 5
       - _油管：全网最强白嫖 6
-      - "| 9.55Mb"
-      - "|11.03Mb"
-      - "|11.12Mb"
-      - _JP_日本
-      - _US_美国 2
-      - _US_美国 3
-      - 美国(youtube阿伟科技)
-      - 日本（欢迎订阅Youtube元亨利贞）
-      - "| 6.10Mb"
-      - 美国(欢迎订阅Youtube破解资源君)+15
-      - _CN_中国
       - _油管：全网最强白嫖 7
-      - _US_美国 4
-      - "|10.59Mb"
-      - "|13.90Mb"
-      - "|10.25Mb"
-      - "| 8.89Mb"
-      - "|16.46Mb"
-      - "|19.88Mb"
-      - "|27.43Mb"
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh
-      - _CN_中国->🇭🇰_HK_香港
-      - "|12.89Mb"
-      - "| 5.12Mb"
-      - "| 6.05Mb"
-      - "| 9.47Mb"
-      - "|16.15Mb"
-      - _US_美国 5
+      - _油管：全网最强白嫖 8
+      - US_1327 |24.29Mb
+      - _CN_中国->🇰🇷_KR_韩国 2
+      - US_1271 |12.27Mb
+      - ZZ_1889 |11.46Mb
+      - _CN_中国->🇺🇸_US_美国 4
+      - "|13.85Mb"
+      - LT_454 | 5.12Mb
+      - CN_153+|+3.62Mb
+      - _CN_中国->🇯🇵_JP_日本
+      - _CA_加拿大
+      - CN_211 |77.43Mb
+      - "|26.33Mb"
+      - _CN_中国->🇩🇪_DE_德国
+      - _SG_新加坡
+      - _CN_中国->🇹🇼_TW_台湾 2
+      - 台湾(v2rayshare.com免费节点日更)_3
+      - _US_美国 3
+      - CN_86+TG@peekfun
       - 中国（欢迎订阅Youtube元亨利贞）
-      - 节点更新 bit.ly/36b6iJh 13
-      - 中国（欢迎订阅Youtube元亨利贞） 2
-      - 中国（欢迎订阅Youtube元亨利贞） 3
-      - 节点更新 bit.ly/36b6iJh 12
-      - 亚洲(欢迎订阅Youtube破解资源君) 3
-      - 节点更新 bit.ly/36b6iJh 24
-      - 美国(yudou66.com 玉豆分享)
       - 欧洲(yudou66.com 玉豆分享) 2
+      - 节点更新 bit.ly/36b6iJh 7
+      - 节点更新 bit.ly/36b6iJh 13
+      - 2022-6-4
+      - 节点更新 bit.ly/36b6iJh 8
+      - 节点更新 bit.ly/36b6iJh 5
+      - 美国(yudou66.com 玉豆分享)
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 10
       - 台湾(v2rayshare.com免费节点日更)_2
-      - CN_83 TG@peekfun
-      - "| 8.38Mb"
-      - "| 7.33Mb"
-      - "|21.42Mb 2"
-      - "|19.05Mb"
-      - 中国（欢迎订阅Youtube元亨利贞） 4
+      - 节点更新 bit.ly/36b6iJh 12
       - 节点更新 bit.ly/36b6iJh 10
+      - 亚洲(欢迎订阅Youtube破解资源君) 3
       - 亚洲(欢迎订阅Youtube破解资源君) 6
+      - 中国（欢迎订阅Youtube元亨利贞） 2
       - 欧洲(欢迎订阅Youtube破解资源君) 16
+      - _SG_新加坡 2
+      - "|65.12Mb"
+      - ZZ_1888 |14.02Mb
+      - 中国（欢迎订阅Youtube元亨利贞） 3
       - 节点更新 bit.ly/36b6iJh 9
       - 节点更新 bit.ly/36b6iJh 22
-      - 台湾(yudou66.com 玉豆分享)
-      - _油管：全网最强白嫖 8
-      - _SG_新加坡
-      - _台湾(v2rayshare.com免费节点日更)
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
+      - _US_美国 4
+      - 中国（欢迎订阅Youtube元亨利贞） 4
+      - _油管：全网最强白嫖 11
+      - 新加坡(v2rayshare.com免费节点日更)
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 欧洲(yudou66.com 玉豆分享)
+      - Relay_ |24.34Mb
+      - _CN_中国->🇹🇼_TW_台湾
+      - 美国(欢迎订阅Youtube破解资源君)+15
+      - 韩国(欢迎订阅Youtube破解资源君)
+      - _NL_荷兰
       - _油管：全网最强白嫖
-      - _油管：全网最强白嫖 2
+      - 欧洲(欢迎订阅Youtube破解资源君)+7
+      - _CN_中国->🇺🇸_US_美国
+      - CN_212 |66.67Mb
+      - _CN_中国->🇺🇸_US_美国 2
+      - CN_66+TG@peekfun
       - _CN_中国->🇰🇷_KR_韩国
-      - "|21.42Mb"
-      - _油管：全网最强白嫖 3
-      - "|10.39Mb"
-      - "|15.86Mb"
-      - _油管：全网最强白嫖 4
-      - 韩国（欢迎订阅Youtube元亨利贞）
-      - "|12.78Mb"
-      - "|20.56Mb"
-      - _CA_加拿大
-      - "|20.45Mb"
       - _US_美国
+      - 欧洲(yudou66.com 玉豆分享)
+      - _US_美国 2
+      - 美国(欢迎订阅Youtube破解资源君)+18
+      - CN_38+TG@peekfun
+      - CN_215 |44.57Mb
+      - _油管：全网最强白嫖 2
+      - CN_210 |67.26Mb
+      - 越南(v2rayshare.com免费节点日更)
+      - CN_213 |28.56Mb
+      - _CN_中国->🇺🇸_US_美国 3
+      - _油管：全网最强白嫖 3
+      - _油管：全网最强白嫖 4
+      - ZZ_1919 | 8.27Mb
       - _油管：全网最强白嫖 5
       - _油管：全网最强白嫖 6
-      - "| 9.55Mb"
-      - "|11.03Mb"
-      - "|11.12Mb"
-      - _JP_日本
-      - _US_美国 2
-      - _US_美国 3
-      - 美国(youtube阿伟科技)
-      - 日本（欢迎订阅Youtube元亨利贞）
-      - "| 6.10Mb"
-      - 美国(欢迎订阅Youtube破解资源君)+15
-      - _CN_中国
       - _油管：全网最强白嫖 7
-      - _US_美国 4
-      - "|10.59Mb"
-      - "|13.90Mb"
-      - "|10.25Mb"
-      - "| 8.89Mb"
-      - "|16.46Mb"
-      - "|19.88Mb"
-      - "|27.43Mb"
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh
-      - _CN_中国->🇭🇰_HK_香港
-      - "|12.89Mb"
-      - "| 5.12Mb"
-      - "| 6.05Mb"
-      - "| 9.47Mb"
-      - "|16.15Mb"
-      - _US_美国 5
+      - _油管：全网最强白嫖 8
+      - US_1327 |24.29Mb
+      - _CN_中国->🇰🇷_KR_韩国 2
+      - US_1271 |12.27Mb
+      - ZZ_1889 |11.46Mb
+      - _CN_中国->🇺🇸_US_美国 4
+      - "|13.85Mb"
+      - LT_454 | 5.12Mb
+      - CN_153+|+3.62Mb
+      - _CN_中国->🇯🇵_JP_日本
+      - _CA_加拿大
+      - CN_211 |77.43Mb
+      - "|26.33Mb"
+      - _CN_中国->🇩🇪_DE_德国
+      - _SG_新加坡
+      - _CN_中国->🇹🇼_TW_台湾 2
+      - 台湾(v2rayshare.com免费节点日更)_3
+      - _US_美国 3
+      - CN_86+TG@peekfun
       - 中国（欢迎订阅Youtube元亨利贞）
-      - 节点更新 bit.ly/36b6iJh 13
-      - 中国（欢迎订阅Youtube元亨利贞） 2
-      - 中国（欢迎订阅Youtube元亨利贞） 3
-      - 节点更新 bit.ly/36b6iJh 12
-      - 亚洲(欢迎订阅Youtube破解资源君) 3
-      - 节点更新 bit.ly/36b6iJh 24
-      - 美国(yudou66.com 玉豆分享)
       - 欧洲(yudou66.com 玉豆分享) 2
+      - 节点更新 bit.ly/36b6iJh 7
+      - 节点更新 bit.ly/36b6iJh 13
+      - 2022-6-4
+      - 节点更新 bit.ly/36b6iJh 8
+      - 节点更新 bit.ly/36b6iJh 5
+      - 美国(yudou66.com 玉豆分享)
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 10
       - 台湾(v2rayshare.com免费节点日更)_2
-      - CN_83 TG@peekfun
-      - "| 8.38Mb"
-      - "| 7.33Mb"
-      - "|21.42Mb 2"
-      - "|19.05Mb"
-      - 中国（欢迎订阅Youtube元亨利贞） 4
+      - 节点更新 bit.ly/36b6iJh 12
       - 节点更新 bit.ly/36b6iJh 10
+      - 亚洲(欢迎订阅Youtube破解资源君) 3
       - 亚洲(欢迎订阅Youtube破解资源君) 6
+      - 中国（欢迎订阅Youtube元亨利贞） 2
       - 欧洲(欢迎订阅Youtube破解资源君) 16
+      - _SG_新加坡 2
+      - "|65.12Mb"
+      - ZZ_1888 |14.02Mb
+      - 中国（欢迎订阅Youtube元亨利贞） 3
       - 节点更新 bit.ly/36b6iJh 9
       - 节点更新 bit.ly/36b6iJh 22
-      - 台湾(yudou66.com 玉豆分享)
-      - _油管：全网最强白嫖 8
-      - _SG_新加坡
-      - _台湾(v2rayshare.com免费节点日更)
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
+      - _US_美国 4
+      - 中国（欢迎订阅Youtube元亨利贞） 4
+      - _油管：全网最强白嫖 11
+      - 新加坡(v2rayshare.com免费节点日更)
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -340,331 +340,331 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 欧洲(yudou66.com 玉豆分享)
+      - Relay_ |24.34Mb
+      - _CN_中国->🇹🇼_TW_台湾
+      - 美国(欢迎订阅Youtube破解资源君)+15
+      - 韩国(欢迎订阅Youtube破解资源君)
+      - _NL_荷兰
       - _油管：全网最强白嫖
-      - _油管：全网最强白嫖 2
+      - 欧洲(欢迎订阅Youtube破解资源君)+7
+      - _CN_中国->🇺🇸_US_美国
+      - CN_212 |66.67Mb
+      - _CN_中国->🇺🇸_US_美国 2
+      - CN_66+TG@peekfun
       - _CN_中国->🇰🇷_KR_韩国
-      - "|21.42Mb"
-      - _油管：全网最强白嫖 3
-      - "|10.39Mb"
-      - "|15.86Mb"
-      - _油管：全网最强白嫖 4
-      - 韩国（欢迎订阅Youtube元亨利贞）
-      - "|12.78Mb"
-      - "|20.56Mb"
-      - _CA_加拿大
-      - "|20.45Mb"
       - _US_美国
+      - 欧洲(yudou66.com 玉豆分享)
+      - _US_美国 2
+      - 美国(欢迎订阅Youtube破解资源君)+18
+      - CN_38+TG@peekfun
+      - CN_215 |44.57Mb
+      - _油管：全网最强白嫖 2
+      - CN_210 |67.26Mb
+      - 越南(v2rayshare.com免费节点日更)
+      - CN_213 |28.56Mb
+      - _CN_中国->🇺🇸_US_美国 3
+      - _油管：全网最强白嫖 3
+      - _油管：全网最强白嫖 4
+      - ZZ_1919 | 8.27Mb
       - _油管：全网最强白嫖 5
       - _油管：全网最强白嫖 6
-      - "| 9.55Mb"
-      - "|11.03Mb"
-      - "|11.12Mb"
-      - _JP_日本
-      - _US_美国 2
-      - _US_美国 3
-      - 美国(youtube阿伟科技)
-      - 日本（欢迎订阅Youtube元亨利贞）
-      - "| 6.10Mb"
-      - 美国(欢迎订阅Youtube破解资源君)+15
-      - _CN_中国
       - _油管：全网最强白嫖 7
-      - _US_美国 4
-      - "|10.59Mb"
-      - "|13.90Mb"
-      - "|10.25Mb"
-      - "| 8.89Mb"
-      - "|16.46Mb"
-      - "|19.88Mb"
-      - "|27.43Mb"
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh
-      - _CN_中国->🇭🇰_HK_香港
-      - "|12.89Mb"
-      - "| 5.12Mb"
-      - "| 6.05Mb"
-      - "| 9.47Mb"
-      - "|16.15Mb"
-      - _US_美国 5
+      - _油管：全网最强白嫖 8
+      - US_1327 |24.29Mb
+      - _CN_中国->🇰🇷_KR_韩国 2
+      - US_1271 |12.27Mb
+      - ZZ_1889 |11.46Mb
+      - _CN_中国->🇺🇸_US_美国 4
+      - "|13.85Mb"
+      - LT_454 | 5.12Mb
+      - CN_153+|+3.62Mb
+      - _CN_中国->🇯🇵_JP_日本
+      - _CA_加拿大
+      - CN_211 |77.43Mb
+      - "|26.33Mb"
+      - _CN_中国->🇩🇪_DE_德国
+      - _SG_新加坡
+      - _CN_中国->🇹🇼_TW_台湾 2
+      - 台湾(v2rayshare.com免费节点日更)_3
+      - _US_美国 3
+      - CN_86+TG@peekfun
       - 中国（欢迎订阅Youtube元亨利贞）
-      - 节点更新 bit.ly/36b6iJh 13
-      - 中国（欢迎订阅Youtube元亨利贞） 2
-      - 中国（欢迎订阅Youtube元亨利贞） 3
-      - 节点更新 bit.ly/36b6iJh 12
-      - 亚洲(欢迎订阅Youtube破解资源君) 3
-      - 节点更新 bit.ly/36b6iJh 24
-      - 美国(yudou66.com 玉豆分享)
       - 欧洲(yudou66.com 玉豆分享) 2
+      - 节点更新 bit.ly/36b6iJh 7
+      - 节点更新 bit.ly/36b6iJh 13
+      - 2022-6-4
+      - 节点更新 bit.ly/36b6iJh 8
+      - 节点更新 bit.ly/36b6iJh 5
+      - 美国(yudou66.com 玉豆分享)
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 10
       - 台湾(v2rayshare.com免费节点日更)_2
-      - CN_83 TG@peekfun
-      - "| 8.38Mb"
-      - "| 7.33Mb"
-      - "|21.42Mb 2"
-      - "|19.05Mb"
-      - 中国（欢迎订阅Youtube元亨利贞） 4
+      - 节点更新 bit.ly/36b6iJh 12
       - 节点更新 bit.ly/36b6iJh 10
+      - 亚洲(欢迎订阅Youtube破解资源君) 3
       - 亚洲(欢迎订阅Youtube破解资源君) 6
+      - 中国（欢迎订阅Youtube元亨利贞） 2
       - 欧洲(欢迎订阅Youtube破解资源君) 16
+      - _SG_新加坡 2
+      - "|65.12Mb"
+      - ZZ_1888 |14.02Mb
+      - 中国（欢迎订阅Youtube元亨利贞） 3
       - 节点更新 bit.ly/36b6iJh 9
       - 节点更新 bit.ly/36b6iJh 22
-      - 台湾(yudou66.com 玉豆分享)
-      - _油管：全网最强白嫖 8
-      - _SG_新加坡
-      - _台湾(v2rayshare.com免费节点日更)
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
+      - _US_美国 4
+      - 中国（欢迎订阅Youtube元亨利贞） 4
+      - _油管：全网最强白嫖 11
+      - 新加坡(v2rayshare.com免费节点日更)
   - name: 🌏 国内媒体
     type: select
     proxies:
       - 🎯 全球直连
-      - _CN_中国->🇭🇰_HK_香港
+      - _CN_中国->🇹🇼_TW_台湾
+      - _CN_中国->🇹🇼_TW_台湾 2
+      - 台湾(v2rayshare.com免费节点日更)_3
       - 台湾(v2rayshare.com免费节点日更)_2
-      - 台湾(yudou66.com 玉豆分享)
-      - _台湾(v2rayshare.com免费节点日更)
       - 🔰 节点选择
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - 欧洲(yudou66.com 玉豆分享)
+      - Relay_ |24.34Mb
+      - _CN_中国->🇹🇼_TW_台湾
+      - 美国(欢迎订阅Youtube破解资源君)+15
+      - 韩国(欢迎订阅Youtube破解资源君)
+      - _NL_荷兰
       - _油管：全网最强白嫖
-      - _油管：全网最强白嫖 2
+      - 欧洲(欢迎订阅Youtube破解资源君)+7
+      - _CN_中国->🇺🇸_US_美国
+      - CN_212 |66.67Mb
+      - _CN_中国->🇺🇸_US_美国 2
+      - CN_66+TG@peekfun
       - _CN_中国->🇰🇷_KR_韩国
-      - "|21.42Mb"
-      - _油管：全网最强白嫖 3
-      - "|10.39Mb"
-      - "|15.86Mb"
-      - _油管：全网最强白嫖 4
-      - 韩国（欢迎订阅Youtube元亨利贞）
-      - "|12.78Mb"
-      - "|20.56Mb"
-      - _CA_加拿大
-      - "|20.45Mb"
       - _US_美国
+      - 欧洲(yudou66.com 玉豆分享)
+      - _US_美国 2
+      - 美国(欢迎订阅Youtube破解资源君)+18
+      - CN_38+TG@peekfun
+      - CN_215 |44.57Mb
+      - _油管：全网最强白嫖 2
+      - CN_210 |67.26Mb
+      - 越南(v2rayshare.com免费节点日更)
+      - CN_213 |28.56Mb
+      - _CN_中国->🇺🇸_US_美国 3
+      - _油管：全网最强白嫖 3
+      - _油管：全网最强白嫖 4
+      - ZZ_1919 | 8.27Mb
       - _油管：全网最强白嫖 5
       - _油管：全网最强白嫖 6
-      - "| 9.55Mb"
-      - "|11.03Mb"
-      - "|11.12Mb"
-      - _JP_日本
-      - _US_美国 2
-      - _US_美国 3
-      - 美国(youtube阿伟科技)
-      - 日本（欢迎订阅Youtube元亨利贞）
-      - "| 6.10Mb"
-      - 美国(欢迎订阅Youtube破解资源君)+15
-      - _CN_中国
       - _油管：全网最强白嫖 7
-      - _US_美国 4
-      - "|10.59Mb"
-      - "|13.90Mb"
-      - "|10.25Mb"
-      - "| 8.89Mb"
-      - "|16.46Mb"
-      - "|19.88Mb"
-      - "|27.43Mb"
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh
-      - _CN_中国->🇭🇰_HK_香港
-      - "|12.89Mb"
-      - "| 5.12Mb"
-      - "| 6.05Mb"
-      - "| 9.47Mb"
-      - "|16.15Mb"
-      - _US_美国 5
+      - _油管：全网最强白嫖 8
+      - US_1327 |24.29Mb
+      - _CN_中国->🇰🇷_KR_韩国 2
+      - US_1271 |12.27Mb
+      - ZZ_1889 |11.46Mb
+      - _CN_中国->🇺🇸_US_美国 4
+      - "|13.85Mb"
+      - LT_454 | 5.12Mb
+      - CN_153+|+3.62Mb
+      - _CN_中国->🇯🇵_JP_日本
+      - _CA_加拿大
+      - CN_211 |77.43Mb
+      - "|26.33Mb"
+      - _CN_中国->🇩🇪_DE_德国
+      - _SG_新加坡
+      - _CN_中国->🇹🇼_TW_台湾 2
+      - 台湾(v2rayshare.com免费节点日更)_3
+      - _US_美国 3
+      - CN_86+TG@peekfun
       - 中国（欢迎订阅Youtube元亨利贞）
-      - 节点更新 bit.ly/36b6iJh 13
-      - 中国（欢迎订阅Youtube元亨利贞） 2
-      - 中国（欢迎订阅Youtube元亨利贞） 3
-      - 节点更新 bit.ly/36b6iJh 12
-      - 亚洲(欢迎订阅Youtube破解资源君) 3
-      - 节点更新 bit.ly/36b6iJh 24
-      - 美国(yudou66.com 玉豆分享)
       - 欧洲(yudou66.com 玉豆分享) 2
+      - 节点更新 bit.ly/36b6iJh 7
+      - 节点更新 bit.ly/36b6iJh 13
+      - 2022-6-4
+      - 节点更新 bit.ly/36b6iJh 8
+      - 节点更新 bit.ly/36b6iJh 5
+      - 美国(yudou66.com 玉豆分享)
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 10
       - 台湾(v2rayshare.com免费节点日更)_2
-      - CN_83 TG@peekfun
-      - "| 8.38Mb"
-      - "| 7.33Mb"
-      - "|21.42Mb 2"
-      - "|19.05Mb"
-      - 中国（欢迎订阅Youtube元亨利贞） 4
+      - 节点更新 bit.ly/36b6iJh 12
       - 节点更新 bit.ly/36b6iJh 10
+      - 亚洲(欢迎订阅Youtube破解资源君) 3
       - 亚洲(欢迎订阅Youtube破解资源君) 6
+      - 中国（欢迎订阅Youtube元亨利贞） 2
       - 欧洲(欢迎订阅Youtube破解资源君) 16
+      - _SG_新加坡 2
+      - "|65.12Mb"
+      - ZZ_1888 |14.02Mb
+      - 中国（欢迎订阅Youtube元亨利贞） 3
       - 节点更新 bit.ly/36b6iJh 9
       - 节点更新 bit.ly/36b6iJh 22
-      - 台湾(yudou66.com 玉豆分享)
-      - _油管：全网最强白嫖 8
-      - _SG_新加坡
-      - _台湾(v2rayshare.com免费节点日更)
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
+      - _US_美国 4
+      - 中国（欢迎订阅Youtube元亨利贞） 4
+      - _油管：全网最强白嫖 11
+      - 新加坡(v2rayshare.com免费节点日更)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - 欧洲(yudou66.com 玉豆分享)
+      - Relay_ |24.34Mb
+      - _CN_中国->🇹🇼_TW_台湾
+      - 美国(欢迎订阅Youtube破解资源君)+15
+      - 韩国(欢迎订阅Youtube破解资源君)
+      - _NL_荷兰
       - _油管：全网最强白嫖
-      - _油管：全网最强白嫖 2
+      - 欧洲(欢迎订阅Youtube破解资源君)+7
+      - _CN_中国->🇺🇸_US_美国
+      - CN_212 |66.67Mb
+      - _CN_中国->🇺🇸_US_美国 2
+      - CN_66+TG@peekfun
       - _CN_中国->🇰🇷_KR_韩国
-      - "|21.42Mb"
-      - _油管：全网最强白嫖 3
-      - "|10.39Mb"
-      - "|15.86Mb"
-      - _油管：全网最强白嫖 4
-      - 韩国（欢迎订阅Youtube元亨利贞）
-      - "|12.78Mb"
-      - "|20.56Mb"
-      - _CA_加拿大
-      - "|20.45Mb"
       - _US_美国
+      - 欧洲(yudou66.com 玉豆分享)
+      - _US_美国 2
+      - 美国(欢迎订阅Youtube破解资源君)+18
+      - CN_38+TG@peekfun
+      - CN_215 |44.57Mb
+      - _油管：全网最强白嫖 2
+      - CN_210 |67.26Mb
+      - 越南(v2rayshare.com免费节点日更)
+      - CN_213 |28.56Mb
+      - _CN_中国->🇺🇸_US_美国 3
+      - _油管：全网最强白嫖 3
+      - _油管：全网最强白嫖 4
+      - ZZ_1919 | 8.27Mb
       - _油管：全网最强白嫖 5
       - _油管：全网最强白嫖 6
-      - "| 9.55Mb"
-      - "|11.03Mb"
-      - "|11.12Mb"
-      - _JP_日本
-      - _US_美国 2
-      - _US_美国 3
-      - 美国(youtube阿伟科技)
-      - 日本（欢迎订阅Youtube元亨利贞）
-      - "| 6.10Mb"
-      - 美国(欢迎订阅Youtube破解资源君)+15
-      - _CN_中国
       - _油管：全网最强白嫖 7
-      - _US_美国 4
-      - "|10.59Mb"
-      - "|13.90Mb"
-      - "|10.25Mb"
-      - "| 8.89Mb"
-      - "|16.46Mb"
-      - "|19.88Mb"
-      - "|27.43Mb"
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh
-      - _CN_中国->🇭🇰_HK_香港
-      - "|12.89Mb"
-      - "| 5.12Mb"
-      - "| 6.05Mb"
-      - "| 9.47Mb"
-      - "|16.15Mb"
-      - _US_美国 5
+      - _油管：全网最强白嫖 8
+      - US_1327 |24.29Mb
+      - _CN_中国->🇰🇷_KR_韩国 2
+      - US_1271 |12.27Mb
+      - ZZ_1889 |11.46Mb
+      - _CN_中国->🇺🇸_US_美国 4
+      - "|13.85Mb"
+      - LT_454 | 5.12Mb
+      - CN_153+|+3.62Mb
+      - _CN_中国->🇯🇵_JP_日本
+      - _CA_加拿大
+      - CN_211 |77.43Mb
+      - "|26.33Mb"
+      - _CN_中国->🇩🇪_DE_德国
+      - _SG_新加坡
+      - _CN_中国->🇹🇼_TW_台湾 2
+      - 台湾(v2rayshare.com免费节点日更)_3
+      - _US_美国 3
+      - CN_86+TG@peekfun
       - 中国（欢迎订阅Youtube元亨利贞）
-      - 节点更新 bit.ly/36b6iJh 13
-      - 中国（欢迎订阅Youtube元亨利贞） 2
-      - 中国（欢迎订阅Youtube元亨利贞） 3
-      - 节点更新 bit.ly/36b6iJh 12
-      - 亚洲(欢迎订阅Youtube破解资源君) 3
-      - 节点更新 bit.ly/36b6iJh 24
-      - 美国(yudou66.com 玉豆分享)
       - 欧洲(yudou66.com 玉豆分享) 2
+      - 节点更新 bit.ly/36b6iJh 7
+      - 节点更新 bit.ly/36b6iJh 13
+      - 2022-6-4
+      - 节点更新 bit.ly/36b6iJh 8
+      - 节点更新 bit.ly/36b6iJh 5
+      - 美国(yudou66.com 玉豆分享)
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 10
       - 台湾(v2rayshare.com免费节点日更)_2
-      - CN_83 TG@peekfun
-      - "| 8.38Mb"
-      - "| 7.33Mb"
-      - "|21.42Mb 2"
-      - "|19.05Mb"
-      - 中国（欢迎订阅Youtube元亨利贞） 4
+      - 节点更新 bit.ly/36b6iJh 12
       - 节点更新 bit.ly/36b6iJh 10
+      - 亚洲(欢迎订阅Youtube破解资源君) 3
       - 亚洲(欢迎订阅Youtube破解资源君) 6
+      - 中国（欢迎订阅Youtube元亨利贞） 2
       - 欧洲(欢迎订阅Youtube破解资源君) 16
+      - _SG_新加坡 2
+      - "|65.12Mb"
+      - ZZ_1888 |14.02Mb
+      - 中国（欢迎订阅Youtube元亨利贞） 3
       - 节点更新 bit.ly/36b6iJh 9
       - 节点更新 bit.ly/36b6iJh 22
-      - 台湾(yudou66.com 玉豆分享)
-      - _油管：全网最强白嫖 8
-      - _SG_新加坡
-      - _台湾(v2rayshare.com免费节点日更)
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
+      - _US_美国 4
+      - 中国（欢迎订阅Youtube元亨利贞） 4
+      - _油管：全网最强白嫖 11
+      - 新加坡(v2rayshare.com免费节点日更)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 欧洲(yudou66.com 玉豆分享)
+      - Relay_ |24.34Mb
+      - _CN_中国->🇹🇼_TW_台湾
+      - 美国(欢迎订阅Youtube破解资源君)+15
+      - 韩国(欢迎订阅Youtube破解资源君)
+      - _NL_荷兰
       - _油管：全网最强白嫖
-      - _油管：全网最强白嫖 2
+      - 欧洲(欢迎订阅Youtube破解资源君)+7
+      - _CN_中国->🇺🇸_US_美国
+      - CN_212 |66.67Mb
+      - _CN_中国->🇺🇸_US_美国 2
+      - CN_66+TG@peekfun
       - _CN_中国->🇰🇷_KR_韩国
-      - "|21.42Mb"
-      - _油管：全网最强白嫖 3
-      - "|10.39Mb"
-      - "|15.86Mb"
-      - _油管：全网最强白嫖 4
-      - 韩国（欢迎订阅Youtube元亨利贞）
-      - "|12.78Mb"
-      - "|20.56Mb"
-      - _CA_加拿大
-      - "|20.45Mb"
       - _US_美国
+      - 欧洲(yudou66.com 玉豆分享)
+      - _US_美国 2
+      - 美国(欢迎订阅Youtube破解资源君)+18
+      - CN_38+TG@peekfun
+      - CN_215 |44.57Mb
+      - _油管：全网最强白嫖 2
+      - CN_210 |67.26Mb
+      - 越南(v2rayshare.com免费节点日更)
+      - CN_213 |28.56Mb
+      - _CN_中国->🇺🇸_US_美国 3
+      - _油管：全网最强白嫖 3
+      - _油管：全网最强白嫖 4
+      - ZZ_1919 | 8.27Mb
       - _油管：全网最强白嫖 5
       - _油管：全网最强白嫖 6
-      - "| 9.55Mb"
-      - "|11.03Mb"
-      - "|11.12Mb"
-      - _JP_日本
-      - _US_美国 2
-      - _US_美国 3
-      - 美国(youtube阿伟科技)
-      - 日本（欢迎订阅Youtube元亨利贞）
-      - "| 6.10Mb"
-      - 美国(欢迎订阅Youtube破解资源君)+15
-      - _CN_中国
       - _油管：全网最强白嫖 7
-      - _US_美国 4
-      - "|10.59Mb"
-      - "|13.90Mb"
-      - "|10.25Mb"
-      - "| 8.89Mb"
-      - "|16.46Mb"
-      - "|19.88Mb"
-      - "|27.43Mb"
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh
-      - _CN_中国->🇭🇰_HK_香港
-      - "|12.89Mb"
-      - "| 5.12Mb"
-      - "| 6.05Mb"
-      - "| 9.47Mb"
-      - "|16.15Mb"
-      - _US_美国 5
+      - _油管：全网最强白嫖 8
+      - US_1327 |24.29Mb
+      - _CN_中国->🇰🇷_KR_韩国 2
+      - US_1271 |12.27Mb
+      - ZZ_1889 |11.46Mb
+      - _CN_中国->🇺🇸_US_美国 4
+      - "|13.85Mb"
+      - LT_454 | 5.12Mb
+      - CN_153+|+3.62Mb
+      - _CN_中国->🇯🇵_JP_日本
+      - _CA_加拿大
+      - CN_211 |77.43Mb
+      - "|26.33Mb"
+      - _CN_中国->🇩🇪_DE_德国
+      - _SG_新加坡
+      - _CN_中国->🇹🇼_TW_台湾 2
+      - 台湾(v2rayshare.com免费节点日更)_3
+      - _US_美国 3
+      - CN_86+TG@peekfun
       - 中国（欢迎订阅Youtube元亨利贞）
-      - 节点更新 bit.ly/36b6iJh 13
-      - 中国（欢迎订阅Youtube元亨利贞） 2
-      - 中国（欢迎订阅Youtube元亨利贞） 3
-      - 节点更新 bit.ly/36b6iJh 12
-      - 亚洲(欢迎订阅Youtube破解资源君) 3
-      - 节点更新 bit.ly/36b6iJh 24
-      - 美国(yudou66.com 玉豆分享)
       - 欧洲(yudou66.com 玉豆分享) 2
+      - 节点更新 bit.ly/36b6iJh 7
+      - 节点更新 bit.ly/36b6iJh 13
+      - 2022-6-4
+      - 节点更新 bit.ly/36b6iJh 8
+      - 节点更新 bit.ly/36b6iJh 5
+      - 美国(yudou66.com 玉豆分享)
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 10
       - 台湾(v2rayshare.com免费节点日更)_2
-      - CN_83 TG@peekfun
-      - "| 8.38Mb"
-      - "| 7.33Mb"
-      - "|21.42Mb 2"
-      - "|19.05Mb"
-      - 中国（欢迎订阅Youtube元亨利贞） 4
+      - 节点更新 bit.ly/36b6iJh 12
       - 节点更新 bit.ly/36b6iJh 10
+      - 亚洲(欢迎订阅Youtube破解资源君) 3
       - 亚洲(欢迎订阅Youtube破解资源君) 6
+      - 中国（欢迎订阅Youtube元亨利贞） 2
       - 欧洲(欢迎订阅Youtube破解资源君) 16
+      - _SG_新加坡 2
+      - "|65.12Mb"
+      - ZZ_1888 |14.02Mb
+      - 中国（欢迎订阅Youtube元亨利贞） 3
       - 节点更新 bit.ly/36b6iJh 9
       - 节点更新 bit.ly/36b6iJh 22
-      - 台湾(yudou66.com 玉豆分享)
-      - _油管：全网最强白嫖 8
-      - _SG_新加坡
-      - _台湾(v2rayshare.com免费节点日更)
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
+      - _US_美国 4
+      - 中国（欢迎订阅Youtube元亨利贞） 4
+      - _油管：全网最强白嫖 11
+      - 新加坡(v2rayshare.com免费节点日更)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -680,81 +680,81 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 欧洲(yudou66.com 玉豆分享)
+      - Relay_ |24.34Mb
+      - _CN_中国->🇹🇼_TW_台湾
+      - 美国(欢迎订阅Youtube破解资源君)+15
+      - 韩国(欢迎订阅Youtube破解资源君)
+      - _NL_荷兰
       - _油管：全网最强白嫖
-      - _油管：全网最强白嫖 2
+      - 欧洲(欢迎订阅Youtube破解资源君)+7
+      - _CN_中国->🇺🇸_US_美国
+      - CN_212 |66.67Mb
+      - _CN_中国->🇺🇸_US_美国 2
+      - CN_66+TG@peekfun
       - _CN_中国->🇰🇷_KR_韩国
-      - "|21.42Mb"
-      - _油管：全网最强白嫖 3
-      - "|10.39Mb"
-      - "|15.86Mb"
-      - _油管：全网最强白嫖 4
-      - 韩国（欢迎订阅Youtube元亨利贞）
-      - "|12.78Mb"
-      - "|20.56Mb"
-      - _CA_加拿大
-      - "|20.45Mb"
       - _US_美国
+      - 欧洲(yudou66.com 玉豆分享)
+      - _US_美国 2
+      - 美国(欢迎订阅Youtube破解资源君)+18
+      - CN_38+TG@peekfun
+      - CN_215 |44.57Mb
+      - _油管：全网最强白嫖 2
+      - CN_210 |67.26Mb
+      - 越南(v2rayshare.com免费节点日更)
+      - CN_213 |28.56Mb
+      - _CN_中国->🇺🇸_US_美国 3
+      - _油管：全网最强白嫖 3
+      - _油管：全网最强白嫖 4
+      - ZZ_1919 | 8.27Mb
       - _油管：全网最强白嫖 5
       - _油管：全网最强白嫖 6
-      - "| 9.55Mb"
-      - "|11.03Mb"
-      - "|11.12Mb"
-      - _JP_日本
-      - _US_美国 2
-      - _US_美国 3
-      - 美国(youtube阿伟科技)
-      - 日本（欢迎订阅Youtube元亨利贞）
-      - "| 6.10Mb"
-      - 美国(欢迎订阅Youtube破解资源君)+15
-      - _CN_中国
       - _油管：全网最强白嫖 7
-      - _US_美国 4
-      - "|10.59Mb"
-      - "|13.90Mb"
-      - "|10.25Mb"
-      - "| 8.89Mb"
-      - "|16.46Mb"
-      - "|19.88Mb"
-      - "|27.43Mb"
-      - United States (US) 5Gbp/s节点更新 bit.ly/36b6iJh
-      - _CN_中国->🇭🇰_HK_香港
-      - "|12.89Mb"
-      - "| 5.12Mb"
-      - "| 6.05Mb"
-      - "| 9.47Mb"
-      - "|16.15Mb"
-      - _US_美国 5
+      - _油管：全网最强白嫖 8
+      - US_1327 |24.29Mb
+      - _CN_中国->🇰🇷_KR_韩国 2
+      - US_1271 |12.27Mb
+      - ZZ_1889 |11.46Mb
+      - _CN_中国->🇺🇸_US_美国 4
+      - "|13.85Mb"
+      - LT_454 | 5.12Mb
+      - CN_153+|+3.62Mb
+      - _CN_中国->🇯🇵_JP_日本
+      - _CA_加拿大
+      - CN_211 |77.43Mb
+      - "|26.33Mb"
+      - _CN_中国->🇩🇪_DE_德国
+      - _SG_新加坡
+      - _CN_中国->🇹🇼_TW_台湾 2
+      - 台湾(v2rayshare.com免费节点日更)_3
+      - _US_美国 3
+      - CN_86+TG@peekfun
       - 中国（欢迎订阅Youtube元亨利贞）
-      - 节点更新 bit.ly/36b6iJh 13
-      - 中国（欢迎订阅Youtube元亨利贞） 2
-      - 中国（欢迎订阅Youtube元亨利贞） 3
-      - 节点更新 bit.ly/36b6iJh 12
-      - 亚洲(欢迎订阅Youtube破解资源君) 3
-      - 节点更新 bit.ly/36b6iJh 24
-      - 美国(yudou66.com 玉豆分享)
       - 欧洲(yudou66.com 玉豆分享) 2
+      - 节点更新 bit.ly/36b6iJh 7
+      - 节点更新 bit.ly/36b6iJh 13
+      - 2022-6-4
+      - 节点更新 bit.ly/36b6iJh 8
+      - 节点更新 bit.ly/36b6iJh 5
+      - 美国(yudou66.com 玉豆分享)
+      - _油管：全网最强白嫖 9
+      - _油管：全网最强白嫖 10
       - 台湾(v2rayshare.com免费节点日更)_2
-      - CN_83 TG@peekfun
-      - "| 8.38Mb"
-      - "| 7.33Mb"
-      - "|21.42Mb 2"
-      - "|19.05Mb"
-      - 中国（欢迎订阅Youtube元亨利贞） 4
+      - 节点更新 bit.ly/36b6iJh 12
       - 节点更新 bit.ly/36b6iJh 10
+      - 亚洲(欢迎订阅Youtube破解资源君) 3
       - 亚洲(欢迎订阅Youtube破解资源君) 6
+      - 中国（欢迎订阅Youtube元亨利贞） 2
       - 欧洲(欢迎订阅Youtube破解资源君) 16
+      - _SG_新加坡 2
+      - "|65.12Mb"
+      - ZZ_1888 |14.02Mb
+      - 中国（欢迎订阅Youtube元亨利贞） 3
       - 节点更新 bit.ly/36b6iJh 9
       - 节点更新 bit.ly/36b6iJh 22
-      - 台湾(yudou66.com 玉豆分享)
-      - _油管：全网最强白嫖 8
-      - _SG_新加坡
-      - _台湾(v2rayshare.com免费节点日更)
-      - _US_美国 6
-      - _US_美国 7
-      - _US_美国 8
-      - _US_美国 9
-      - _US_美国 10
+      - _US_美国 4
+      - 中国（欢迎订阅Youtube元亨利贞） 4
+      - _油管：全网最强白嫖 11
+      - 新加坡(v2rayshare.com免费节点日更)
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
