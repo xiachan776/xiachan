@@ -5,1735 +5,287 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: "|40.30Mb", server: 85.208.108.60, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: CN_262, server: 14.29.124.168, port: 25226, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "|10.33Mb", server: 213.183.53.221, port: 9008, type: ss, cipher: aes-256-cfb, password: y9VURyNzJWNRYEGQ, udp: true}
-  - {name: "|17.09Mb", server: 198.200.51.219, port: 26969, type: trojan, password: 151dada5-c12e-4eb3-940e-d93f365f8a4a, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 30, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: us02.gogogoo.cyou}, udp: true}
-  - {name: CN_255, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_244 |10.30Mb, server: 14.29.124.168, port: 25254, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: Relay_🇨🇳CN-🇹🇼TW_34 |38.98Mb, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
-  - {name: "|40.66Mb", server: 85.208.108.20, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: "|46.98Mb", server: 85.208.108.59, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|23.38Mb", server: 38.68.135.18, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: "|45.49Mb", server: 85.208.108.94, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: "|21.25Mb", server: 167.88.61.2, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: "| 3.12Mb", server: 169.197.141.187, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "|37.54Mb", server: 85.208.108.94, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "| 3.26Mb", server: 169.197.141.187, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: "|47.59Mb", server: 85.208.108.21, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: "| 3.16Mb", server: 169.197.141.187, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: _JP_日本, server: 85.208.108.90, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "|20.47Mb", server: 167.88.61.50, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: "|34.11Mb", server: 43.154.114.208, port: 3245, type: vmess, uuid: e4a15b1d-8dfd-4bd7-ab33-06c8cd174c0b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "|36.45Mb", server: 85.208.108.20, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: "|21.37Mb", server: hkbgp2.jiantian.xyz, port: 34532, type: trojan, password: 7cb64c49-2ce5-4fa6-9b79-9c02eb54735c, sni: hkbgp2.jiantian.xyz, skip-cert-verify: true, udp: true}
-  - {name: "|43.41Mb", server: 85.208.108.20, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "|37.12Mb", server: 85.208.108.60, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CN_255, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_229, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Relay_ | 1.78Mb, server: cm.spacez.cloud, port: 30002, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
+  - {name: _油管：全网最强白嫖, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: Relay_🇨🇳CN | 3.14Mb, server: scloud29.jafiyun.life, port: 22029, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: scloud29.jafiyun.life, skip-cert-verify: true, udp: true}
+  - {name: CN_256 |24.30Mb, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_84 TG@peekfun, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _油管：全网最强白嫖 2, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: _CN_中国->🇰🇷_KR_韩国, server: 180.163.62.91, port: 10065, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _油管：全网最强白嫖 3, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: CN_37 TG@peekfun, server: 14.29.124.168, port: 25210, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_38 | 7.02Mb, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_40 | 1.19Mb, server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: "| 3.98Mb", server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "|47.60Mb", server: 85.208.108.60, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "|18.49Mb", server: 31.192.232.172, port: 36280, type: vmess, uuid: 1f9e830f-ebd7-48c5-ca79-eadaa550e270, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 31.192.232.172}, udp: true}
-  - {name: "|11.40Mb", server: 38.91.101.62, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: "|19.43Mb", server: 134.195.196.128, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: CN_72 TG@peekfun, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "|47.39Mb", server: 85.208.108.59, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: "|44.66Mb", server: 85.208.108.94, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: "|12.60Mb", server: 217.30.10.63, port: 9097, type: ss, cipher: aes-256-cfb, password: Sn5B7jTqr76aCJT8, udp: true}
-  - {name: "|32.23Mb", server: 85.208.108.60, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|24.37Mb", server: 85.208.108.18, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|33.98Mb", server: 85.208.108.20, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: "|13.18Mb", server: 217.30.10.63, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: "|16.17Mb", server: 38.91.101.62, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "|18.79Mb", server: 167.88.61.2, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: "|19.49Mb", server: 167.88.61.50, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: "|46.69Mb", server: 85.208.108.18, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: "| 8.85Mb", server: 169.197.141.187, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|41.15Mb", server: 85.208.108.60, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "|46.23Mb", server: 85.208.108.60, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|10.48Mb", server: 217.30.10.63, port: 9060, type: ss, cipher: aes-256-cfb, password: ueLXVkvh4hckhErQ, udp: true}
-  - {name: "|17.62Mb", server: 167.88.61.50, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|46.70Mb", server: 85.208.108.60, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "|19.53Mb", server: 185.167.116.24, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: ZZ |12.85Mb, server: 134.195.196.231, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "|40.30Mb", server: 85.208.108.60, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "|46.98Mb", server: 85.208.108.59, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: Relay_ |11.66Mb, server: jp05.jafiyun.life, port: 21232, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: jp05.jafiyun.life, skip-cert-verify: true, udp: true}
+  - {name: LT | 1.78Mb, server: 213.183.53.179, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: SG | 5.40Mb, server: 194.124.35.40, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: ZZ |11.62Mb, server: 134.195.196.231, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
   - {name: "|45.99Mb", server: 85.208.108.18, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: "|45.47Mb", server: 85.208.108.21, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: "|11.02Mb", server: 38.91.101.62, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: "|32.06Mb", server: 185.167.116.253, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: "|47.44Mb", server: 85.208.108.20, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: "|45.90Mb", server: 85.208.108.20, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|45.13Mb", server: 85.208.108.59, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "|46.02Mb", server: 85.208.108.18, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|45.49Mb 2", server: 85.208.108.94, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "|183.30Mb", server: w12.udpgw.com, port: 443, type: trojan, password: 08964210-e7b8-11ec-95aa-1239d0255272, sni: w12.udpgw.com, skip-cert-verify: true, udp: true}
-  - {name: "|11.82Mb", server: 38.91.101.62, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "| 9.33Mb", server: 38.121.43.71, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|46.11Mb", server: 85.208.108.20, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "|36.69Mb", server: 85.208.108.94, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "| 8.32Mb", server: 217.30.10.63, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: "| 7.05Mb", server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 640e3ef0-9c44-49a8-98f6-0895b11eecd6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v1.ssrsub.com}, udp: true}
-  - {name: "|41.77Mb", server: 85.208.108.21, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|46.95Mb", server: 85.208.108.59, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "|49.59Mb", server: 185.167.116.252, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: "|14.78Mb", server: 213.183.53.177, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: "|38.49Mb", server: 85.208.108.21, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "|13.68Mb", server: 217.30.10.63, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: "|15.68Mb", server: 167.88.61.50, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: "|18.59Mb", server: 134.195.196.150, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "| 7.19Mb", server: 213.183.53.208, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: "|33.55Mb", server: 85.208.108.59, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: "|44.91Mb", server: 85.208.108.94, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: "|13.71Mb", server: 217.30.10.63, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: "|44.33Mb", server: 85.208.108.94, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "|43.97Mb", server: 85.208.108.21, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "|11.93Mb", server: 193.108.117.75, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|19.28Mb", server: 85.208.108.94, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "|48.85Mb", server: 85.208.108.59, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: LT |12.78Mb, server: 213.183.53.222, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: Pool_🇳🇱NL |13.66Mb, server: 85.208.108.21, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US |15.31Mb, server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US |24.81Mb, server: 38.114.114.69, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: "|46.69Mb", server: 85.208.108.18, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: "|46.02Mb", server: 85.208.108.18, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: "|15.68Mb", server: 167.88.61.50, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "|33.55Mb", server: 85.208.108.59, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: "|47.21Mb", server: 85.208.108.94, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|11.42Mb", server: 38.91.101.62, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: "|27.36Mb", server: 85.208.108.20, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|35.86Mb", server: 85.208.108.18, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: "|46.63Mb", server: 85.208.108.21, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "|44.61Mb", server: 85.208.108.20, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: "|42.29Mb", server: 85.208.108.60, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|46.19Mb", server: 85.208.108.21, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: "|46.54Mb", server: 85.208.108.18, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: NL |14.34Mb, server: 185.246.155.35, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: CN_54 TG@peekfun, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "|44.33Mb", server: 85.208.108.94, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "|30.28Mb", server: 85.208.108.60, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|21.30Mb", server: 85.208.108.94, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "|10.62Mb", server: 217.30.10.63, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: "|12.80Mb", server: 134.195.196.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: "|10.59Mb", server: 217.30.10.63, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
+  - {name: "|17.22Mb", server: 167.88.61.50, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US |16.91Mb, server: 172.99.190.149, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US | 8.75Mb, server: 142.202.48.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "|13.71Mb", server: 217.30.10.63, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
   - {name: "|16.37Mb", server: 167.88.61.50, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: "|19.80Mb", server: 167.88.61.2, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: "| 2.77Mb", server: 169.197.141.187, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: "|12.58Mb", server: 134.195.196.231, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: "|30.28Mb", server: 85.208.108.60, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|45.99Mb 2", server: 85.208.108.20, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|202.34Mb", server: w13.udpgw.com, port: 443, type: trojan, password: 16877c70-e7b8-11ec-99f2-1239d0255272, sni: w13.udpgw.com, skip-cert-verify: true, udp: true}
-  - {name: "|11.73Mb", server: 38.91.101.62, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "| 9.65Mb", server: jgwld1.gaox.ml, port: 443, type: trojan, password: 02e653c9-7c93-46a9-999d-11834bd0c577, sni: jgwld1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: "|30.94Mb", server: 85.208.108.60, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|27.36Mb", server: 85.208.108.20, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|46.92Mb", server: 85.208.108.18, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: "|14.69Mb", server: 167.88.61.50, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "|26.98Mb", server: 104.243.25.95, port: 253, type: ss, cipher: aes-256-cfb, password: bwhskrskr03, udp: true}
-  - {name: "|14.97Mb", server: 167.88.61.50, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|23.58Mb", server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: "|31.75Mb", server: 85.208.108.59, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|44.23Mb", server: 85.208.108.18, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "|29.60Mb", server: 85.208.108.94, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|46.66Mb", server: 85.208.108.59, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: "| 3.05Mb", server: 169.197.141.187, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _油管：全网最强白嫖, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: "|44.86Mb", server: 85.208.108.60, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "|43.14Mb", server: 85.208.108.20, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: "|43.97Mb", server: 85.208.108.21, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "|40.66Mb 2", server: 85.208.108.20, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|46.47Mb", server: 85.208.108.59, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "|11.18Mb", server: 217.30.10.63, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: _油管：全网最强白嫖 2, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: "|44.80Mb", server: 85.208.108.94, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|17.27Mb", server: v2.ssrsub.com, port: 153, type: vmess, uuid: 640e3ef0-9c44-49a8-98f6-0895b11eecd6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v2.ssrsub.com}, udp: true}
-  - {name: "|23.01Mb", server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: "|11.93Mb", server: 193.108.117.75, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|30.05Mb", server: 85.208.108.59, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|46.72Mb", server: 85.208.108.21, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "|22.91Mb", server: 85.208.108.94, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "|46.07Mb", server: 85.208.108.20, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|45.51Mb", server: 85.208.108.59, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "| 9.97Mb", server: 217.30.10.63, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: "|15.81Mb", server: jgwdb3.gaox.ml, port: 443, type: trojan, password: 8d2d5953-d649-4034-94f2-72f2df2623da, sni: jgwdb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: "|21.30Mb", server: 85.208.108.94, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|45.44Mb", server: 85.208.108.59, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "|47.03Mb", server: 85.208.108.21, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: "|44.75Mb", server: 85.208.108.94, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|35.86Mb", server: 85.208.108.18, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: "| 8.03Mb", server: 217.30.10.63, port: 9015, type: ss, cipher: aes-256-cfb, password: ZpNDDKRu9MagNvaf, udp: true}
-  - {name: "|21.64Mb", server: 38.75.136.102, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|16.08Mb", server: 167.88.61.2, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: "|42.81Mb", server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, sni: kr05.wangxd.life, skip-cert-verify: true, udp: true}
-  - {name: "|305.39Mb", server: tj-sg02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-sg02.yiyodns.xyz, skip-cert-verify: true, udp: true}
-  - {name: "| 2.79Mb", server: 169.197.141.187, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: "|25.05Mb", server: 103.172.116.9, port: 9006, type: ss, cipher: aes-256-cfb, password: FAdUvMJUq5vDgKEq, udp: true}
-  - {name: CN_243 |23.81Mb, server: 14.29.124.168, port: 25261, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "| 6.45Mb", server: 213.183.53.208, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: "|41.24Mb", server: 85.208.108.18, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "|46.96Mb", server: 85.208.108.21, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: "|35.66Mb", server: 85.208.108.94, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|47.34Mb", server: 85.208.108.94, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: "|45.06Mb", server: 85.208.108.60, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|36.06Mb", server: 85.208.108.59, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "|45.01Mb", server: 85.208.108.21, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "|16.06Mb", server: 167.88.61.50, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|14.25Mb", server: 167.88.61.50, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|12.27Mb", server: 38.91.101.62, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: "| 3.92Mb", server: 169.197.141.187, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: "|11.80Mb", server: 194.71.130.194, port: 50003, type: ss, cipher: aes-256-cfb, password: !<str> 8460400130, udp: true}
-  - {name: "|45.55Mb", server: 85.208.108.94, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: "|47.68Mb", server: 85.208.108.60, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: "|35.37Mb", server: 85.208.108.59, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: "|46.47Mb 2", server: 85.208.108.59, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: "|18.32Mb", server: 138.68.248.130, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
-  - {name: "|16.13Mb", server: 167.88.61.50, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "| 3.36Mb", server: 169.197.141.187, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: "|36.34Mb", server: 85.208.108.94, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|46.12Mb", server: 85.208.108.20, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|39.09Mb", server: 85.208.108.59, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "| 3.63Mb", server: 213.183.59.206, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: "|46.53Mb", server: 85.208.108.60, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: "|46.99Mb", server: 85.208.108.59, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: "|46.63Mb", server: 85.208.108.21, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: "|47.08Mb", server: 85.208.108.60, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|10.62Mb", server: 217.30.10.63, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: "| 4.35Mb", server: 169.197.141.187, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "|42.08Mb", server: 85.208.108.59, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "|44.61Mb", server: 85.208.108.20, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: "|19.28Mb", server: 85.208.108.94, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|11.20Mb", server: 38.91.101.62, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|11.91Mb", server: 38.91.101.62, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "|48.85Mb", server: 85.208.108.59, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "|41.87Mb", server: 85.208.108.18, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|38.47Mb", server: 85.208.108.59, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|34.36Mb", server: 85.208.108.94, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: "|46.39Mb", server: 85.208.108.21, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|44.78Mb", server: 85.208.108.18, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "|45.27Mb", server: 85.208.108.59, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|11.23Mb", server: 38.91.101.62, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: "|15.65Mb", server: 167.88.61.2, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: "|24.16Mb", server: 167.88.61.50, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "|19.94Mb", server: 167.88.61.2, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: "| 2.81Mb", server: 169.197.141.187, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: _油管：全网最强白嫖 3, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: 日本(youtube阿伟科技), server: 212.50.247.44, port: 443, type: vmess, uuid: 41282d6a-5887-40b6-802f-2a02d074f4b6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /1D6WqJ, ws-headers: {Host: 212.50.247.44}, udp: true}
-  - {name: "|34.64Mb", server: 85.208.108.60, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: "|43.23Mb", server: 85.208.108.20, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: "|47.84Mb", server: 85.208.108.20, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "|45.20Mb", server: 85.208.108.59, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|47.33Mb", server: 85.208.108.60, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "|61.04Mb", server: 81.90.189.18, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: "|75.61Mb", server: jgwhdlb1.gaox.ml, port: 443, type: trojan, password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a, sni: jgwhdlb1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: "| 9.85Mb", server: tj-us01.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us01.yiyodns.xyz, skip-cert-verify: true, udp: true}
-  - {name: "|12.80Mb", server: 134.195.196.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "| 9.18Mb", server: 92.223.93.233, port: 1035, type: ss, cipher: chacha20-ietf-poly1305, password: )1N1E6v0SU_rGTpg, udp: true}
-  - {name: "|47.58Mb", server: 85.208.108.20, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|42.42Mb", server: 85.208.108.94, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|44.97Mb", server: 85.208.108.18, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "| 8.11Mb", server: 217.30.10.63, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
-  - {name: "|12.49Mb", server: 217.30.10.63, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: "|314.81Mb", server: s2.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s2.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: "|11.95Mb", server: 38.91.101.62, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "|15.17Mb", server: 92.38.176.81, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: Ultr@r00t_2017, udp: true}
-  - {name: "|11.94Mb", server: 38.91.101.62, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: "|15.08Mb", server: 167.88.61.50, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|16.94Mb", server: 167.88.61.50, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|20.72Mb", server: 167.88.61.50, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: "| 3.06Mb", server: 169.197.141.187, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: "| 6.39Mb", server: 169.197.141.187, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_23, server: vus4.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vus4.0bad.com}, udp: true}
-  - {name: "|11.26Mb", server: 85.208.108.18, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "|41.58Mb", server: 85.208.108.20, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|46.24Mb", server: 85.208.108.21, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|11.56Mb", server: 217.30.10.63, port: 9064, type: ss, cipher: aes-256-cfb, password: cp8pRSUAyLhTfVWH, udp: true}
-  - {name: "|13.40Mb", server: 167.88.61.50, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: "|17.47Mb", server: 167.88.61.2, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: "|11.88Mb", server: 38.91.101.62, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|24.25Mb", server: fhcarm1.gaox.ml, port: 443, type: trojan, password: 05742120-ce23-4cc8-88f5-6d221ce45bf4, sni: fhcarm1.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: "| 8.22Mb", server: 169.197.141.187, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: 日本（欢迎订阅Youtube元亨利贞）, server: 150.230.4.136, port: 11151, type: vmess, uuid: 18ef8b86-5dfe-48a9-b4e4-b5f595f7e555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "|31.91Mb", server: 185.167.116.253, port: 9005, type: ss, cipher: aes-256-cfb, password: ZET59LF6DvCC8KVt, udp: true}
-  - {name: "|36.07Mb", server: 85.208.108.20, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|46.77Mb", server: 85.208.108.21, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|45.23Mb", server: 85.208.108.60, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "|30.71Mb", server: 85.208.108.94, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "| 8.17Mb", server: 185.126.116.119, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: "|11.34Mb", server: 38.91.101.62, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: "|11.75Mb", server: 38.91.101.62, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|12.46Mb", server: 38.91.101.62, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|11.88Mb 2", server: 38.91.101.62, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "|11.61Mb", server: 38.91.101.62, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|16.87Mb", server: 167.88.61.2, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: "| 3.01Mb", server: 169.197.141.187, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "| 4.22Mb", server: s4.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s4.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: "|11.01Mb", server: 213.183.53.208, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: "| 3.49Mb", server: 213.183.59.206, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: "| 7.96Mb", server: 213.183.51.171, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: "|41.69Mb", server: 85.208.108.21, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|42.62Mb", server: 85.208.108.20, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "|33.28Mb", server: 85.208.108.94, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "|46.66Mb 2", server: 85.208.108.18, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: "|37.23Mb", server: 85.208.108.94, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: "|45.59Mb", server: 85.208.108.20, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|46.28Mb", server: 85.208.108.94, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: "|10.52Mb", server: 217.30.10.63, port: 9037, type: ss, cipher: aes-256-cfb, password: TN2YqghxeFDKZfLU, udp: true}
-  - {name: "| 7.77Mb", server: 217.30.10.63, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
-  - {name: "|10.59Mb", server: 217.30.10.63, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: "|17.60Mb", server: 167.88.61.50, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|20.68Mb", server: 38.68.135.18, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "| 8.32Mb 2", server: 165.232.169.142, port: 29332, type: ss, cipher: aes-256-cfb, password: 1e5111699c45496da84112f35db665c4, udp: true}
-  - {name: "|16.39Mb", server: 38.75.136.102, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|16.77Mb", server: 38.121.43.71, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|11.35Mb", server: 38.91.101.62, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "| 3.41Mb", server: 169.197.141.187, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "| 4.39Mb", server: 169.197.141.187, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|41.44Mb", server: 85.208.108.21, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|35.91Mb", server: 85.208.108.20, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|46.02Mb 2", server: 85.208.108.18, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: "|32.33Mb", server: 85.208.108.60, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|47.02Mb", server: 85.208.108.21, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|41.34Mb", server: 85.208.108.21, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "| 6.62Mb", server: 217.30.10.63, port: 9001, type: ss, cipher: aes-256-cfb, password: UkXRsXvR6buDMG2Y, udp: true}
-  - {name: "| 9.32Mb", server: 217.30.10.67, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: "|19.31Mb", server: 38.86.135.36, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: "|19.80Mb 2", server: 167.88.61.50, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: "|17.22Mb", server: 38.91.101.62, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: "|14.40Mb", server: 167.88.61.50, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "|12.37Mb", server: 38.86.135.36, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "| 9.88Mb", server: 38.121.43.71, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "|24.26Mb", server: 38.75.136.102, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
   - {name: "| 3.24Mb", server: 169.197.141.187, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "|48.63Mb", server: 85.208.108.94, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|47.21Mb 2", server: 85.208.108.20, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: "|47.00Mb", server: 85.208.108.59, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: "|269.68Mb", server: sg.sharecentrepro.tk, port: 443, type: trojan, password: sharecentre, sni: sg.sharecentrepro.tk, skip-cert-verify: true, udp: true}
-  - {name: "|12.77Mb", server: 38.121.43.71, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|11.65Mb", server: 38.91.101.62, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: "|12.13Mb", server: 38.91.101.62, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "| 1.96Mb", server: 213.183.53.207, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
-  - {name: "|46.41Mb", server: 85.208.108.20, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|42.29Mb", server: 85.208.108.60, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|44.20Mb", server: 85.208.108.21, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|43.18Mb", server: 85.208.108.94, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: "|45.00Mb", server: 85.208.108.21, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "| 7.94Mb", server: 217.30.10.63, port: 9011, type: ss, cipher: aes-256-cfb, password: M3t2ZEQcMGRWBjRa, udp: true}
-  - {name: "|193.93Mb", server: trojan1.udpgw.com, port: 443, type: trojan, password: affae2e0-e84b-11ec-b09f-1239d0255272, sni: trojan1.udpgw.com, skip-cert-verify: true, udp: true}
-  - {name: "|11.97Mb", server: 38.91.101.62, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|17.70Mb", server: 167.88.61.2, port: 804, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: "|20.08Mb", server: 38.86.135.36, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "|16.03Mb", server: 167.88.61.50, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: "| 2.52Mb", server: 169.197.141.187, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "|47.29Mb", server: jgwxn2.gaox.ml, port: 443, type: trojan, password: c2b60d6a-a2f5-40ff-b7f9-f7658abcbf26, sni: jgwxn2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: "| 1.63Mb", server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, sni: v2cross.com.01.v2ce.com, skip-cert-verify: true, udp: true}
-  - {name: "| 2.68Mb", server: v2cross.com.02.v2ce.com, port: 443, type: trojan, password: 3gLlCYBipVwr6Y5F, sni: v2cross.com.02.v2ce.com, skip-cert-verify: true, udp: true}
-  - {name: "|35.18Mb", server: 85.208.108.20, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "|44.87Mb", server: 85.208.108.18, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: "|46.35Mb", server: 85.208.108.59, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|35.66Mb 2", server: 85.208.108.20, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "|47.86Mb", server: 85.208.108.60, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "|47.07Mb", server: 85.208.108.60, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: "|14.64Mb", server: 217.30.10.63, port: 9010, type: ss, cipher: aes-256-cfb, password: f63gg8EruDnUrmz4, udp: true}
-  - {name: "|13.24Mb", server: 217.30.10.63, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
-  - {name: "| 5.62Mb", server: v2cross.com.05.v2ce.com, port: 443, type: trojan, password: kGrwqmB1nEKUsDwE, sni: v2cross.com.05.v2ce.com, skip-cert-verify: true, udp: true}
-  - {name: "|19.98Mb", server: 167.88.61.50, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|19.16Mb", server: 134.195.196.150, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|34.43Mb", server: 85.208.108.20, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "|46.49Mb", server: 85.208.108.18, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|47.18Mb", server: 85.208.108.59, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: "|45.93Mb", server: 85.208.108.60, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: "|29.64Mb", server: 85.208.108.18, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "| 6.96Mb", server: 185.126.116.119, port: 9031, type: ss, cipher: aes-256-cfb, password: BwcAUZk8hUFAkDGN, udp: true}
-  - {name: "|23.58Mb 2", server: 167.88.61.50, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|11.93Mb 2", server: 38.91.101.62, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|11.71Mb", server: 38.91.101.62, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: "|97.58Mb", server: jgwhdlb3.gaox.ml, port: 443, type: trojan, password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11, sni: jgwhdlb3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: "| 4.38Mb", server: 169.197.141.187, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|11.65Mb 2", server: 213.183.53.208, port: 9088, type: ss, cipher: aes-256-cfb, password: f8npKgNzdkss2ytn, udp: true}
-  - {name: "|46.19Mb", server: 85.208.108.21, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: "|45.58Mb", server: 85.208.108.20, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|12.28Mb", server: 217.30.10.63, port: 9050, type: ss, cipher: aes-256-cfb, password: FG5ddLsMPbV5CutE, udp: true}
-  - {name: "| 8.39Mb", server: 217.30.10.63, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: "|10.33Mb 2", server: 217.30.10.63, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: "|17.22Mb 2", server: 167.88.61.50, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "| 9.34Mb", server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, sni: jgwld2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: "|25.31Mb", server: 85.208.108.20, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: "|46.54Mb", server: 85.208.108.18, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: "| 9.56Mb", server: 217.30.10.63, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: "| 7.37Mb", server: v2cross.com.03.v2ce.com, port: 443, type: trojan, password: ZD4dLSBXiMrmzdLd, sni: v2cross.com.03.v2ce.com, skip-cert-verify: true, udp: true}
-  - {name: "|11.71Mb 2", server: 38.91.101.62, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: "|11.78Mb", server: 38.68.135.19, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: "| 9.84Mb", server: 38.121.43.71, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "|13.05Mb", server: 213.183.53.222, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: "|16.57Mb", server: 213.183.53.221, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: "|40.62Mb", server: 85.208.108.18, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|20.36Mb", server: 213.183.51.172, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
-  - {name: "|39.21Mb", server: 85.208.108.18, port: 9102, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: "|36.09Mb", server: 85.208.108.20, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: "|39.06Mb", server: 85.208.108.18, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "|46.77Mb 2", server: 85.208.108.59, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: "|45.34Mb", server: 85.208.108.21, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "| 7.10Mb", server: 185.126.116.119, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
-  - {name: "|12.44Mb", server: 217.30.10.63, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: "|10.35Mb", server: 217.30.10.63, port: 9033, type: ss, cipher: aes-256-cfb, password: UTJA57ypk2XKQpnm, udp: true}
-  - {name: "|12.40Mb", server: 217.30.10.63, port: 9079, type: ss, cipher: aes-256-cfb, password: TPqX8edgbAURcAMb, udp: true}
-  - {name: "|17.60Mb 2", server: v2.ssrsub.com, port: 153, type: vmess, uuid: 57229afb-d4e4-426e-bfdc-18fc1f3267fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v2.ssrsub.com}, udp: true}
-  - {name: "|11.24Mb", server: 38.91.101.62, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "|11.75Mb 2", server: 38.91.101.62, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|11.96Mb", server: 38.91.101.62, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|17.01Mb", server: 38.91.101.62, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|19.83Mb", server: 167.88.61.2, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: "|11.71Mb 3", server: 213.183.53.222, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
-  - {name: "| 7.04Mb", server: 37.120.192.158, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: "|28.28Mb", server: 85.208.108.21, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|47.57Mb", server: 85.208.108.20, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "| 8.83Mb", server: 85.208.108.21, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: "|46.71Mb", server: 85.208.108.20, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: "|18.59Mb 2", server: 217.30.10.63, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
-  - {name: "|46.87Mb", server: 85.208.108.60, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: "| 6.17Mb", server: 185.4.65.6, port: 21247, type: ss, cipher: aes-256-cfb, password: vDS9G2p, udp: true}
-  - {name: "|17.35Mb", server: 167.88.61.50, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "|16.76Mb", server: 167.88.61.2, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: "|18.05Mb", server: 167.88.61.2, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: "|18.87Mb", server: 149.202.82.172, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: "| 0.88Mb", server: 213.183.63.218, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: "|48.08Mb", server: 85.208.108.60, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: "|46.93Mb", server: 85.208.108.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "|46.54Mb 2", server: 85.208.108.21, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: "| 8.14Mb", server: 217.30.10.63, port: 9053, type: ss, cipher: aes-256-cfb, password: SBM7R883jBmnqe6C, udp: true}
-  - {name: "|16.49Mb", server: 167.88.61.50, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "|20.91Mb", server: 167.88.61.2, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: "| 7.86Mb", server: 169.197.141.187, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "| 7.95Mb", server: 213.183.53.202, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: "| 1.87Mb", server: 213.183.63.218, port: 9032, type: ss, cipher: aes-256-cfb, password: UWZQeLRWnkqgkseq, udp: true}
-  - {name: "| 9.27Mb", server: 213.183.53.208, port: 9025, type: ss, cipher: aes-256-cfb, password: XPtzA9sCug3SPR4c, udp: true}
-  - {name: "|30.01Mb", server: 85.208.108.21, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
-  - {name: "|47.35Mb", server: 85.208.108.59, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: "|45.19Mb", server: 85.208.108.59, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "| 8.44Mb", server: 217.30.10.63, port: 9027, type: ss, cipher: aes-256-cfb, password: EXN3S3eQpjE7EJu8, udp: true}
-  - {name: "| 8.77Mb", server: 217.30.10.63, port: 9093, type: ss, cipher: aes-256-cfb, password: wfLC2y7rzZyCmuyt, udp: true}
-  - {name: "|16.85Mb", server: 167.88.61.50, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "|11.60Mb", server: 38.91.101.62, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: "| 4.77Mb", server: 169.197.141.187, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: "| 4.47Mb", server: 213.183.63.218, port: 9098, type: ss, cipher: aes-256-cfb, password: aLpQtfEZe445QyHk, udp: true}
-  - {name: "|47.88Mb", server: 85.208.108.94, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "|35.74Mb", server: 85.208.108.18, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: "|46.42Mb", server: 85.208.108.59, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: "| 8.57Mb", server: 185.126.116.119, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: "|92.84Mb", server: w11.udpgw.com, port: 443, type: trojan, password: f64e69c0-e7b7-11ec-ab81-1239d0255272, sni: w11.udpgw.com, skip-cert-verify: true, udp: true}
-  - {name: "| 8.26Mb", server: 213.183.53.222, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
-  - {name: "|36.70Mb", server: 85.208.108.21, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: "|23.13Mb", server: 38.68.135.19, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "|23.46Mb", server: 167.88.61.50, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: "|11.53Mb", server: 38.91.101.62, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: "| 1.84Mb", server: 213.183.59.206, port: 9038, type: ss, cipher: aes-256-cfb, password: gYCYXfkUQEs2TaJQ, udp: true}
-  - {name: "| 0.93Mb", server: 213.183.59.206, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: "|45.22Mb", server: 185.167.116.253, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
-  - {name: "|45.80Mb", server: 85.208.108.21, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "|45.42Mb", server: 85.208.108.60, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|16.27Mb", server: 164.92.107.59, port: 1645, type: ss, cipher: chacha20-ietf-poly1305, password: 3f411e87-3e93-4f23-bc22-263a748bc8c5, udp: true}
-  - {name: "| 7.43Mb", server: v1.ssrsub.com, port: 8443, type: vmess, uuid: 57229afb-d4e4-426e-bfdc-18fc1f3267fd, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /api/v3/download.getFile, ws-headers: {Host: v1.ssrsub.com}, udp: true}
-  - {name: "|47.41Mb", server: 85.208.108.94, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: "| 1.33Mb", server: tw-tb-b.zc20200426.club, port: 39998, type: vmess, uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: "| 4.08Mb", server: v2cross.com.04.v2ce.com, port: 443, type: trojan, password: vGWCNNfBHwSY6m6M, sni: v2cross.com.04.v2ce.com, skip-cert-verify: true, udp: true}
-  - {name: "|40.83Mb", server: 85.208.108.18, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|38.36Mb", server: s1.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s1.hazz.win, skip-cert-verify: true, udp: true}
-  - {name: _CN_中国->🇰🇷_KR_韩国, server: 180.163.62.91, port: 10065, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "|10.36Mb", server: 217.30.10.63, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: "| 7.34Mb", server: 169.197.141.187, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: 德国(youtube阿伟科技), server: vde2.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vde2.0bad.com}, udp: true}
-  - {name: "|11.95Mb 2", server: 213.183.53.221, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
-  - {name: "| 7.76Mb", server: 37.120.192.158, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
-  - {name: 德国(youtube阿伟科技) 2, server: vde1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vde1.0bad.com}, udp: true}
-  - {name: "|45.66Mb", server: 85.208.108.21, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
-  - {name: "|47.12Mb", server: 85.208.108.21, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: Relay_🇺🇸US-🇺🇸US_20, server: us2.asasas.top, port: 18117, type: vmess, uuid: 80efa71b-a164-3057-bdfd-ed28521256fe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: us2.asasas.top}, udp: true}
-  - {name: CN_37 TG@peekfun, server: 14.29.124.168, port: 25210, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_83 TG@peekfun, server: 14.29.124.168, port: 25219, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "| 4.54Mb", server: 185.167.116.24, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
-  - {name: "| 6.14Mb", server: 169.197.141.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: "|43.54Mb", server: 85.208.108.59, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: Relay_🇨🇳CN |12.28Mb, server: scloud51.jafiyun.life, port: 22051, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: scloud51.jafiyun.life, skip-cert-verify: true, udp: true}
-  - {name: 美国(youtube阿伟科技), server: ifffffffuuuuuuus.qiqicdn2.cf, port: 443, type: vmess, uuid: 5a36cce4-0527-4d36-bf4a-6c215ef9c524, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /5a36cce4-0527-4d36-bf4a-6c215ef9c524-vmess, ws-headers: {Host: ifffffffuuuuuuus.qiqicdn2.cf}, udp: true}
-  - {name: "|19.53Mb", server: 185.167.116.24, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
-  - {name: "|17.17Mb", server: 31.192.232.172, port: 14204, type: vmess, uuid: 57337e80-fcb6-4af9-ecd2-793c78000e51, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 31.192.232.172}, udp: true}
-  - {name: 欧洲(欢迎订阅Youtube破解资源君) 6, server: jgwld3.gaox.ml, port: 443, type: trojan, password: 71b55a84-3fac-4458-abff-eaad79219c91, sni: jgwld3.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: Relay_🇨🇳CN | 3.14Mb, server: scloud29.jafiyun.life, port: 22029, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: scloud29.jafiyun.life, skip-cert-verify: true, udp: true}
-  - {name: 美国(youtube阿伟科技) 2, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us02.yiyodns.xyz, skip-cert-verify: true, udp: true}
-  - {name: "| 6.06Mb", server: 185.167.116.24, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
-  - {name: "|11.77Mb", server: 185.167.116.24, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
-  - {name: NONE, server: scloud58.jafiyun.life, port: 22058, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: scloud58.jafiyun.life, skip-cert-verify: true, udp: true}
-  - {name: "|35.29Mb", server: sgg.2046.gq, port: 4443, type: trojan, password: 794871c6-022b-4498-b816-296e8a581d86, sni: sgg.2046.gq, skip-cert-verify: true, udp: true}
-  - {name: 美国(欢迎订阅Youtube破解资源君) 5, server: jgwcc2.gaox.ml, port: 443, type: trojan, password: 9c822f05-cfdc-479a-9534-60f3d4127435, sni: jgwcc2.gaox.ml, skip-cert-verify: true, udp: true}
-  - {name: "|10.76Mb", server: scloud53.jafiyun.life, port: 22053, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: scloud53.jafiyun.life, skip-cert-verify: true, udp: true}
+  - {name: Relay_ |37.23Mb, server: jp06.jafiyun.life, port: 21233, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: jp06.jafiyun.life, skip-cert-verify: true, udp: true}
+  - {name: "| 3.41Mb", server: 169.197.141.187, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "|40.30Mb"
-      - CN_262
-      - "|10.33Mb"
-      - "|17.09Mb"
-      - 美国(欢迎订阅Youtube破解资源君) 30
-      - CN_255
+      - CN_244 |10.30Mb
       - Relay_🇨🇳CN-🇹🇼TW_34 |38.98Mb
-      - "|40.66Mb"
-      - "|46.98Mb"
-      - "|23.38Mb"
-      - "|45.49Mb"
-      - "|21.25Mb"
-      - "| 3.12Mb"
-      - "|37.54Mb"
-      - "| 3.26Mb"
-      - "|47.59Mb"
-      - "| 3.16Mb"
-      - _JP_日本
-      - "|20.47Mb"
-      - "|34.11Mb"
-      - "|36.45Mb"
-      - "|21.37Mb"
-      - "|43.41Mb"
-      - "|37.12Mb"
+      - CN_255
+      - CN_229
+      - Relay_ | 1.78Mb
+      - _油管：全网最强白嫖
+      - Relay_🇨🇳CN | 3.14Mb
+      - CN_256 |24.30Mb
+      - CN_84 TG@peekfun
+      - _油管：全网最强白嫖 2
+      - _CN_中国->🇰🇷_KR_韩国
+      - _油管：全网最强白嫖 3
+      - CN_37 TG@peekfun
+      - CN_38 | 7.02Mb
+      - CN_40 | 1.19Mb
       - "| 3.98Mb"
-      - "|47.60Mb"
-      - "|18.49Mb"
-      - "|11.40Mb"
-      - "|19.43Mb"
       - CN_72 TG@peekfun
-      - "|47.39Mb"
-      - "|44.66Mb"
-      - "|12.60Mb"
-      - "|32.23Mb"
-      - "|24.37Mb"
-      - "|33.98Mb"
-      - "|13.18Mb"
-      - "|16.17Mb"
-      - "|18.79Mb"
-      - "|19.49Mb"
-      - "|46.69Mb"
-      - "| 8.85Mb"
-      - "|41.15Mb"
-      - "|46.23Mb"
-      - "|10.48Mb"
-      - "|17.62Mb"
-      - "|46.70Mb"
+      - "|19.53Mb"
+      - ZZ |12.85Mb
+      - "|40.30Mb"
+      - "|46.98Mb"
+      - Relay_ |11.66Mb
+      - LT | 1.78Mb
+      - SG | 5.40Mb
+      - ZZ |11.62Mb
       - "|45.99Mb"
-      - "|45.47Mb"
-      - "|11.02Mb"
-      - "|32.06Mb"
-      - "|47.44Mb"
-      - "|45.90Mb"
-      - "|45.13Mb"
-      - "|46.02Mb"
-      - "|45.49Mb 2"
-      - "|183.30Mb"
-      - "|11.82Mb"
-      - "| 9.33Mb"
-      - "|46.11Mb"
-      - "|36.69Mb"
-      - "| 8.32Mb"
-      - "| 7.05Mb"
-      - "|41.77Mb"
-      - "|46.95Mb"
-      - "|49.59Mb"
-      - "|14.78Mb"
-      - "|38.49Mb"
-      - "|13.68Mb"
-      - "|15.68Mb"
-      - "|18.59Mb"
-      - "| 7.19Mb"
-      - "|33.55Mb"
       - "|44.91Mb"
-      - "|13.71Mb"
-      - "|44.33Mb"
+      - "|43.97Mb"
+      - "|11.93Mb"
+      - "|19.28Mb"
+      - "|48.85Mb"
+      - LT |12.78Mb
+      - Pool_🇳🇱NL |13.66Mb
+      - US |15.31Mb
+      - US |24.81Mb
+      - "|46.69Mb"
+      - "|46.02Mb"
+      - "|15.68Mb"
+      - "|33.55Mb"
       - "|47.21Mb"
-      - "|11.42Mb"
+      - "|27.36Mb"
+      - "|35.86Mb"
+      - "|46.63Mb"
+      - "|44.61Mb"
+      - "|42.29Mb"
+      - "|46.19Mb"
+      - "|46.54Mb"
+      - NL |14.34Mb
+      - CN_54 TG@peekfun
+      - "|44.33Mb"
+      - "|30.28Mb"
+      - "|21.30Mb"
+      - "|10.62Mb"
+      - "|12.80Mb"
+      - "|10.59Mb"
+      - "|17.22Mb"
+      - US |16.91Mb
+      - US | 8.75Mb
+      - "|13.71Mb"
       - "|16.37Mb"
       - "|19.80Mb"
-      - "| 2.77Mb"
       - "|12.58Mb"
-      - "|30.28Mb"
-      - "|45.99Mb 2"
-      - "|202.34Mb"
-      - "|11.73Mb"
-      - "| 9.65Mb"
-      - "|30.94Mb"
-      - "|27.36Mb"
-      - "|46.92Mb"
-      - "|14.69Mb"
-      - "|26.98Mb"
-      - "|14.97Mb"
-      - "|23.58Mb"
-      - "|31.75Mb"
-      - "|44.23Mb"
-      - "|29.60Mb"
-      - "|46.66Mb"
-      - "| 3.05Mb"
-      - _油管：全网最强白嫖
-      - "|44.86Mb"
-      - "|43.14Mb"
-      - "|43.97Mb"
-      - "|40.66Mb 2"
-      - "|46.47Mb"
-      - "|11.18Mb"
-      - _油管：全网最强白嫖 2
-      - "|44.80Mb"
-      - "|17.27Mb"
-      - "|23.01Mb"
-      - "|11.93Mb"
-      - "|30.05Mb"
-      - "|46.72Mb"
-      - "|22.91Mb"
-      - "|46.07Mb"
-      - "|45.51Mb"
-      - "| 9.97Mb"
-      - "|15.81Mb"
-      - "|21.30Mb"
-      - "|45.44Mb"
-      - "|47.03Mb"
-      - "|44.75Mb"
-      - "|35.86Mb"
-      - "| 8.03Mb"
-      - "|21.64Mb"
-      - "|16.08Mb"
-      - "|42.81Mb"
-      - "|305.39Mb"
-      - "| 2.79Mb"
-      - "|25.05Mb"
-      - CN_243 |23.81Mb
-      - "| 6.45Mb"
-      - "|41.24Mb"
-      - "|46.96Mb"
-      - "|35.66Mb"
-      - "|47.34Mb"
-      - "|45.06Mb"
-      - "|36.06Mb"
-      - "|45.01Mb"
-      - "|16.06Mb"
-      - "|14.25Mb"
-      - "|12.27Mb"
-      - "| 3.92Mb"
-      - "|11.80Mb"
-      - "|45.55Mb"
-      - "|47.68Mb"
-      - "|35.37Mb"
-      - "|46.47Mb 2"
-      - "|18.32Mb"
-      - "|16.13Mb"
-      - "| 3.36Mb"
-      - "|36.34Mb"
-      - "|46.12Mb"
-      - "|39.09Mb"
-      - "| 3.63Mb"
-      - "|46.53Mb"
-      - "|46.99Mb"
-      - "|46.63Mb"
-      - "|47.08Mb"
-      - "|10.62Mb"
-      - "| 4.35Mb"
-      - "|42.08Mb"
-      - "|44.61Mb"
-      - "|19.28Mb"
-      - "|11.20Mb"
-      - "|11.91Mb"
-      - "|48.85Mb"
-      - "|41.87Mb"
-      - "|38.47Mb"
-      - "|34.36Mb"
-      - "|46.39Mb"
-      - "|44.78Mb"
-      - "|45.27Mb"
-      - "|11.23Mb"
-      - "|15.65Mb"
-      - "|24.16Mb"
-      - "|19.94Mb"
-      - "| 2.81Mb"
-      - _油管：全网最强白嫖 3
-      - 日本(youtube阿伟科技)
-      - "|34.64Mb"
-      - "|43.23Mb"
-      - "|47.84Mb"
-      - "|45.20Mb"
-      - "|47.33Mb"
-      - "|61.04Mb"
-      - "|75.61Mb"
-      - "| 9.85Mb"
-      - "|12.80Mb"
-      - "| 9.18Mb"
-      - "|47.58Mb"
-      - "|42.42Mb"
-      - "|44.97Mb"
-      - "| 8.11Mb"
-      - "|12.49Mb"
-      - "|314.81Mb"
-      - "|11.95Mb"
-      - "|15.17Mb"
-      - "|11.94Mb"
-      - "|15.08Mb"
-      - "|16.94Mb"
-      - "|20.72Mb"
-      - "| 3.06Mb"
       - "| 6.39Mb"
-      - Relay_🇺🇸US-🇺🇸US_23
-      - "|11.26Mb"
-      - "|41.58Mb"
-      - "|46.24Mb"
-      - "|11.56Mb"
-      - "|13.40Mb"
-      - "|17.47Mb"
-      - "|11.88Mb"
-      - "|24.25Mb"
-      - "| 8.22Mb"
-      - 日本（欢迎订阅Youtube元亨利贞）
-      - "|31.91Mb"
-      - "|36.07Mb"
-      - "|46.77Mb"
-      - "|45.23Mb"
-      - "|30.71Mb"
-      - "| 8.17Mb"
-      - "|11.34Mb"
-      - "|11.75Mb"
-      - "|12.46Mb"
-      - "|11.88Mb 2"
-      - "|11.61Mb"
-      - "|16.87Mb"
-      - "| 3.01Mb"
-      - "| 4.22Mb"
-      - "|11.01Mb"
-      - "| 3.49Mb"
-      - "| 7.96Mb"
-      - "|41.69Mb"
-      - "|42.62Mb"
-      - "|33.28Mb"
-      - "|46.66Mb 2"
-      - "|37.23Mb"
-      - "|45.59Mb"
-      - "|46.28Mb"
-      - "|10.52Mb"
-      - "| 7.77Mb"
-      - "|10.59Mb"
-      - "|17.60Mb"
-      - "|20.68Mb"
-      - "| 8.32Mb 2"
-      - "|16.39Mb"
-      - "|16.77Mb"
-      - "|11.35Mb"
-      - "| 3.41Mb"
-      - "| 4.39Mb"
-      - "|41.44Mb"
-      - "|35.91Mb"
-      - "|46.02Mb 2"
-      - "|32.33Mb"
-      - "|47.02Mb"
-      - "|41.34Mb"
-      - "| 6.62Mb"
-      - "| 9.32Mb"
-      - "|19.31Mb"
-      - "|19.80Mb 2"
-      - "|17.22Mb"
-      - "|14.40Mb"
-      - "|12.37Mb"
-      - "| 9.88Mb"
-      - "|24.26Mb"
       - "| 3.24Mb"
-      - "|48.63Mb"
-      - "|47.21Mb 2"
-      - "|47.00Mb"
-      - "|269.68Mb"
-      - "|12.77Mb"
-      - "|11.65Mb"
-      - "|12.13Mb"
-      - "| 1.96Mb"
-      - "|46.41Mb"
-      - "|42.29Mb"
-      - "|44.20Mb"
-      - "|43.18Mb"
-      - "|45.00Mb"
-      - "| 7.94Mb"
-      - "|193.93Mb"
-      - "|11.97Mb"
-      - "|17.70Mb"
-      - "|20.08Mb"
-      - "|16.03Mb"
-      - "| 2.52Mb"
-      - "|47.29Mb"
-      - "| 1.63Mb"
-      - "| 2.68Mb"
-      - "|35.18Mb"
-      - "|44.87Mb"
-      - "|46.35Mb"
-      - "|35.66Mb 2"
-      - "|47.86Mb"
-      - "|47.07Mb"
-      - "|14.64Mb"
-      - "|13.24Mb"
-      - "| 5.62Mb"
-      - "|19.98Mb"
-      - "|19.16Mb"
-      - "|34.43Mb"
-      - "|46.49Mb"
-      - "|47.18Mb"
-      - "|45.93Mb"
-      - "|29.64Mb"
-      - "| 6.96Mb"
-      - "|23.58Mb 2"
-      - "|11.93Mb 2"
-      - "|11.71Mb"
-      - "|97.58Mb"
-      - "| 4.38Mb"
-      - "|11.65Mb 2"
-      - "|46.19Mb"
-      - "|45.58Mb"
-      - "|12.28Mb"
-      - "| 8.39Mb"
-      - "|10.33Mb 2"
-      - "|17.22Mb 2"
-      - "| 9.34Mb"
-      - "|25.31Mb"
-      - "|46.54Mb"
-      - "| 9.56Mb"
-      - "| 7.37Mb"
-      - "|11.71Mb 2"
-      - "|11.78Mb"
-      - "| 9.84Mb"
-      - "|13.05Mb"
-      - "|16.57Mb"
-      - "|40.62Mb"
-      - "|20.36Mb"
-      - "|39.21Mb"
-      - "|36.09Mb"
-      - "|39.06Mb"
-      - "|46.77Mb 2"
-      - "|45.34Mb"
-      - "| 7.10Mb"
-      - "|12.44Mb"
-      - "|10.35Mb"
-      - "|12.40Mb"
-      - "|17.60Mb 2"
-      - "|11.24Mb"
-      - "|11.75Mb 2"
-      - "|11.96Mb"
-      - "|17.01Mb"
-      - "|19.83Mb"
-      - "|11.71Mb 3"
-      - "| 7.04Mb"
-      - "|28.28Mb"
-      - "|47.57Mb"
-      - "| 8.83Mb"
-      - "|46.71Mb"
-      - "|18.59Mb 2"
-      - "|46.87Mb"
-      - "| 6.17Mb"
-      - "|17.35Mb"
-      - "|16.76Mb"
-      - "|18.05Mb"
-      - "|18.87Mb"
-      - "| 0.88Mb"
-      - "|48.08Mb"
-      - "|46.93Mb"
-      - "|46.54Mb 2"
-      - "| 8.14Mb"
-      - "|16.49Mb"
-      - "|20.91Mb"
-      - "| 7.86Mb"
-      - "| 7.95Mb"
-      - "| 1.87Mb"
-      - "| 9.27Mb"
-      - "|30.01Mb"
-      - "|47.35Mb"
-      - "|45.19Mb"
-      - "| 8.44Mb"
-      - "| 8.77Mb"
-      - "|16.85Mb"
-      - "|11.60Mb"
-      - "| 4.77Mb"
-      - "| 4.47Mb"
-      - "|47.88Mb"
-      - "|35.74Mb"
-      - "|46.42Mb"
-      - "| 8.57Mb"
-      - "|92.84Mb"
-      - "| 8.26Mb"
-      - "|36.70Mb"
-      - "|23.13Mb"
-      - "|23.46Mb"
-      - "|11.53Mb"
-      - "| 1.84Mb"
-      - "| 0.93Mb"
-      - "|45.22Mb"
-      - "|45.80Mb"
-      - "|45.42Mb"
-      - "|16.27Mb"
-      - "| 7.43Mb"
-      - "|47.41Mb"
-      - "| 1.33Mb"
-      - "| 4.08Mb"
-      - "|40.83Mb"
-      - "|38.36Mb"
-      - _CN_中国->🇰🇷_KR_韩国
-      - "|10.36Mb"
-      - "| 7.34Mb"
-      - 德国(youtube阿伟科技)
-      - "|11.95Mb 2"
-      - "| 7.76Mb"
-      - 德国(youtube阿伟科技) 2
-      - "|45.66Mb"
-      - "|47.12Mb"
-      - Relay_🇺🇸US-🇺🇸US_20
-      - CN_37 TG@peekfun
-      - CN_83 TG@peekfun
-      - "| 4.54Mb"
-      - "| 6.14Mb"
-      - "|43.54Mb"
-      - Relay_🇨🇳CN |12.28Mb
-      - 美国(youtube阿伟科技)
-      - "|19.53Mb"
-      - "|17.17Mb"
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - Relay_🇨🇳CN | 3.14Mb
-      - 美国(youtube阿伟科技) 2
-      - "| 6.06Mb"
-      - "|11.77Mb"
-      - NONE
-      - "|35.29Mb"
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - "|10.76Mb"
+      - Relay_ |37.23Mb
+      - "| 3.41Mb"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - "|40.30Mb"
-      - CN_262
-      - "|10.33Mb"
-      - "|17.09Mb"
-      - 美国(欢迎订阅Youtube破解资源君) 30
-      - CN_255
+      - CN_244 |10.30Mb
       - Relay_🇨🇳CN-🇹🇼TW_34 |38.98Mb
-      - "|40.66Mb"
-      - "|46.98Mb"
-      - "|23.38Mb"
-      - "|45.49Mb"
-      - "|21.25Mb"
-      - "| 3.12Mb"
-      - "|37.54Mb"
-      - "| 3.26Mb"
-      - "|47.59Mb"
-      - "| 3.16Mb"
-      - _JP_日本
-      - "|20.47Mb"
-      - "|34.11Mb"
-      - "|36.45Mb"
-      - "|21.37Mb"
-      - "|43.41Mb"
-      - "|37.12Mb"
+      - CN_255
+      - CN_229
+      - Relay_ | 1.78Mb
+      - _油管：全网最强白嫖
+      - Relay_🇨🇳CN | 3.14Mb
+      - CN_256 |24.30Mb
+      - CN_84 TG@peekfun
+      - _油管：全网最强白嫖 2
+      - _CN_中国->🇰🇷_KR_韩国
+      - _油管：全网最强白嫖 3
+      - CN_37 TG@peekfun
+      - CN_38 | 7.02Mb
+      - CN_40 | 1.19Mb
       - "| 3.98Mb"
-      - "|47.60Mb"
-      - "|18.49Mb"
-      - "|11.40Mb"
-      - "|19.43Mb"
       - CN_72 TG@peekfun
-      - "|47.39Mb"
-      - "|44.66Mb"
-      - "|12.60Mb"
-      - "|32.23Mb"
-      - "|24.37Mb"
-      - "|33.98Mb"
-      - "|13.18Mb"
-      - "|16.17Mb"
-      - "|18.79Mb"
-      - "|19.49Mb"
-      - "|46.69Mb"
-      - "| 8.85Mb"
-      - "|41.15Mb"
-      - "|46.23Mb"
-      - "|10.48Mb"
-      - "|17.62Mb"
-      - "|46.70Mb"
+      - "|19.53Mb"
+      - ZZ |12.85Mb
+      - "|40.30Mb"
+      - "|46.98Mb"
+      - Relay_ |11.66Mb
+      - LT | 1.78Mb
+      - SG | 5.40Mb
+      - ZZ |11.62Mb
       - "|45.99Mb"
-      - "|45.47Mb"
-      - "|11.02Mb"
-      - "|32.06Mb"
-      - "|47.44Mb"
-      - "|45.90Mb"
-      - "|45.13Mb"
-      - "|46.02Mb"
-      - "|45.49Mb 2"
-      - "|183.30Mb"
-      - "|11.82Mb"
-      - "| 9.33Mb"
-      - "|46.11Mb"
-      - "|36.69Mb"
-      - "| 8.32Mb"
-      - "| 7.05Mb"
-      - "|41.77Mb"
-      - "|46.95Mb"
-      - "|49.59Mb"
-      - "|14.78Mb"
-      - "|38.49Mb"
-      - "|13.68Mb"
-      - "|15.68Mb"
-      - "|18.59Mb"
-      - "| 7.19Mb"
-      - "|33.55Mb"
       - "|44.91Mb"
-      - "|13.71Mb"
-      - "|44.33Mb"
+      - "|43.97Mb"
+      - "|11.93Mb"
+      - "|19.28Mb"
+      - "|48.85Mb"
+      - LT |12.78Mb
+      - Pool_🇳🇱NL |13.66Mb
+      - US |15.31Mb
+      - US |24.81Mb
+      - "|46.69Mb"
+      - "|46.02Mb"
+      - "|15.68Mb"
+      - "|33.55Mb"
       - "|47.21Mb"
-      - "|11.42Mb"
+      - "|27.36Mb"
+      - "|35.86Mb"
+      - "|46.63Mb"
+      - "|44.61Mb"
+      - "|42.29Mb"
+      - "|46.19Mb"
+      - "|46.54Mb"
+      - NL |14.34Mb
+      - CN_54 TG@peekfun
+      - "|44.33Mb"
+      - "|30.28Mb"
+      - "|21.30Mb"
+      - "|10.62Mb"
+      - "|12.80Mb"
+      - "|10.59Mb"
+      - "|17.22Mb"
+      - US |16.91Mb
+      - US | 8.75Mb
+      - "|13.71Mb"
       - "|16.37Mb"
       - "|19.80Mb"
-      - "| 2.77Mb"
       - "|12.58Mb"
-      - "|30.28Mb"
-      - "|45.99Mb 2"
-      - "|202.34Mb"
-      - "|11.73Mb"
-      - "| 9.65Mb"
-      - "|30.94Mb"
-      - "|27.36Mb"
-      - "|46.92Mb"
-      - "|14.69Mb"
-      - "|26.98Mb"
-      - "|14.97Mb"
-      - "|23.58Mb"
-      - "|31.75Mb"
-      - "|44.23Mb"
-      - "|29.60Mb"
-      - "|46.66Mb"
-      - "| 3.05Mb"
-      - _油管：全网最强白嫖
-      - "|44.86Mb"
-      - "|43.14Mb"
-      - "|43.97Mb"
-      - "|40.66Mb 2"
-      - "|46.47Mb"
-      - "|11.18Mb"
-      - _油管：全网最强白嫖 2
-      - "|44.80Mb"
-      - "|17.27Mb"
-      - "|23.01Mb"
-      - "|11.93Mb"
-      - "|30.05Mb"
-      - "|46.72Mb"
-      - "|22.91Mb"
-      - "|46.07Mb"
-      - "|45.51Mb"
-      - "| 9.97Mb"
-      - "|15.81Mb"
-      - "|21.30Mb"
-      - "|45.44Mb"
-      - "|47.03Mb"
-      - "|44.75Mb"
-      - "|35.86Mb"
-      - "| 8.03Mb"
-      - "|21.64Mb"
-      - "|16.08Mb"
-      - "|42.81Mb"
-      - "|305.39Mb"
-      - "| 2.79Mb"
-      - "|25.05Mb"
-      - CN_243 |23.81Mb
-      - "| 6.45Mb"
-      - "|41.24Mb"
-      - "|46.96Mb"
-      - "|35.66Mb"
-      - "|47.34Mb"
-      - "|45.06Mb"
-      - "|36.06Mb"
-      - "|45.01Mb"
-      - "|16.06Mb"
-      - "|14.25Mb"
-      - "|12.27Mb"
-      - "| 3.92Mb"
-      - "|11.80Mb"
-      - "|45.55Mb"
-      - "|47.68Mb"
-      - "|35.37Mb"
-      - "|46.47Mb 2"
-      - "|18.32Mb"
-      - "|16.13Mb"
-      - "| 3.36Mb"
-      - "|36.34Mb"
-      - "|46.12Mb"
-      - "|39.09Mb"
-      - "| 3.63Mb"
-      - "|46.53Mb"
-      - "|46.99Mb"
-      - "|46.63Mb"
-      - "|47.08Mb"
-      - "|10.62Mb"
-      - "| 4.35Mb"
-      - "|42.08Mb"
-      - "|44.61Mb"
-      - "|19.28Mb"
-      - "|11.20Mb"
-      - "|11.91Mb"
-      - "|48.85Mb"
-      - "|41.87Mb"
-      - "|38.47Mb"
-      - "|34.36Mb"
-      - "|46.39Mb"
-      - "|44.78Mb"
-      - "|45.27Mb"
-      - "|11.23Mb"
-      - "|15.65Mb"
-      - "|24.16Mb"
-      - "|19.94Mb"
-      - "| 2.81Mb"
-      - _油管：全网最强白嫖 3
-      - 日本(youtube阿伟科技)
-      - "|34.64Mb"
-      - "|43.23Mb"
-      - "|47.84Mb"
-      - "|45.20Mb"
-      - "|47.33Mb"
-      - "|61.04Mb"
-      - "|75.61Mb"
-      - "| 9.85Mb"
-      - "|12.80Mb"
-      - "| 9.18Mb"
-      - "|47.58Mb"
-      - "|42.42Mb"
-      - "|44.97Mb"
-      - "| 8.11Mb"
-      - "|12.49Mb"
-      - "|314.81Mb"
-      - "|11.95Mb"
-      - "|15.17Mb"
-      - "|11.94Mb"
-      - "|15.08Mb"
-      - "|16.94Mb"
-      - "|20.72Mb"
-      - "| 3.06Mb"
       - "| 6.39Mb"
-      - Relay_🇺🇸US-🇺🇸US_23
-      - "|11.26Mb"
-      - "|41.58Mb"
-      - "|46.24Mb"
-      - "|11.56Mb"
-      - "|13.40Mb"
-      - "|17.47Mb"
-      - "|11.88Mb"
-      - "|24.25Mb"
-      - "| 8.22Mb"
-      - 日本（欢迎订阅Youtube元亨利贞）
-      - "|31.91Mb"
-      - "|36.07Mb"
-      - "|46.77Mb"
-      - "|45.23Mb"
-      - "|30.71Mb"
-      - "| 8.17Mb"
-      - "|11.34Mb"
-      - "|11.75Mb"
-      - "|12.46Mb"
-      - "|11.88Mb 2"
-      - "|11.61Mb"
-      - "|16.87Mb"
-      - "| 3.01Mb"
-      - "| 4.22Mb"
-      - "|11.01Mb"
-      - "| 3.49Mb"
-      - "| 7.96Mb"
-      - "|41.69Mb"
-      - "|42.62Mb"
-      - "|33.28Mb"
-      - "|46.66Mb 2"
-      - "|37.23Mb"
-      - "|45.59Mb"
-      - "|46.28Mb"
-      - "|10.52Mb"
-      - "| 7.77Mb"
-      - "|10.59Mb"
-      - "|17.60Mb"
-      - "|20.68Mb"
-      - "| 8.32Mb 2"
-      - "|16.39Mb"
-      - "|16.77Mb"
-      - "|11.35Mb"
-      - "| 3.41Mb"
-      - "| 4.39Mb"
-      - "|41.44Mb"
-      - "|35.91Mb"
-      - "|46.02Mb 2"
-      - "|32.33Mb"
-      - "|47.02Mb"
-      - "|41.34Mb"
-      - "| 6.62Mb"
-      - "| 9.32Mb"
-      - "|19.31Mb"
-      - "|19.80Mb 2"
-      - "|17.22Mb"
-      - "|14.40Mb"
-      - "|12.37Mb"
-      - "| 9.88Mb"
-      - "|24.26Mb"
       - "| 3.24Mb"
-      - "|48.63Mb"
-      - "|47.21Mb 2"
-      - "|47.00Mb"
-      - "|269.68Mb"
-      - "|12.77Mb"
-      - "|11.65Mb"
-      - "|12.13Mb"
-      - "| 1.96Mb"
-      - "|46.41Mb"
-      - "|42.29Mb"
-      - "|44.20Mb"
-      - "|43.18Mb"
-      - "|45.00Mb"
-      - "| 7.94Mb"
-      - "|193.93Mb"
-      - "|11.97Mb"
-      - "|17.70Mb"
-      - "|20.08Mb"
-      - "|16.03Mb"
-      - "| 2.52Mb"
-      - "|47.29Mb"
-      - "| 1.63Mb"
-      - "| 2.68Mb"
-      - "|35.18Mb"
-      - "|44.87Mb"
-      - "|46.35Mb"
-      - "|35.66Mb 2"
-      - "|47.86Mb"
-      - "|47.07Mb"
-      - "|14.64Mb"
-      - "|13.24Mb"
-      - "| 5.62Mb"
-      - "|19.98Mb"
-      - "|19.16Mb"
-      - "|34.43Mb"
-      - "|46.49Mb"
-      - "|47.18Mb"
-      - "|45.93Mb"
-      - "|29.64Mb"
-      - "| 6.96Mb"
-      - "|23.58Mb 2"
-      - "|11.93Mb 2"
-      - "|11.71Mb"
-      - "|97.58Mb"
-      - "| 4.38Mb"
-      - "|11.65Mb 2"
-      - "|46.19Mb"
-      - "|45.58Mb"
-      - "|12.28Mb"
-      - "| 8.39Mb"
-      - "|10.33Mb 2"
-      - "|17.22Mb 2"
-      - "| 9.34Mb"
-      - "|25.31Mb"
-      - "|46.54Mb"
-      - "| 9.56Mb"
-      - "| 7.37Mb"
-      - "|11.71Mb 2"
-      - "|11.78Mb"
-      - "| 9.84Mb"
-      - "|13.05Mb"
-      - "|16.57Mb"
-      - "|40.62Mb"
-      - "|20.36Mb"
-      - "|39.21Mb"
-      - "|36.09Mb"
-      - "|39.06Mb"
-      - "|46.77Mb 2"
-      - "|45.34Mb"
-      - "| 7.10Mb"
-      - "|12.44Mb"
-      - "|10.35Mb"
-      - "|12.40Mb"
-      - "|17.60Mb 2"
-      - "|11.24Mb"
-      - "|11.75Mb 2"
-      - "|11.96Mb"
-      - "|17.01Mb"
-      - "|19.83Mb"
-      - "|11.71Mb 3"
-      - "| 7.04Mb"
-      - "|28.28Mb"
-      - "|47.57Mb"
-      - "| 8.83Mb"
-      - "|46.71Mb"
-      - "|18.59Mb 2"
-      - "|46.87Mb"
-      - "| 6.17Mb"
-      - "|17.35Mb"
-      - "|16.76Mb"
-      - "|18.05Mb"
-      - "|18.87Mb"
-      - "| 0.88Mb"
-      - "|48.08Mb"
-      - "|46.93Mb"
-      - "|46.54Mb 2"
-      - "| 8.14Mb"
-      - "|16.49Mb"
-      - "|20.91Mb"
-      - "| 7.86Mb"
-      - "| 7.95Mb"
-      - "| 1.87Mb"
-      - "| 9.27Mb"
-      - "|30.01Mb"
-      - "|47.35Mb"
-      - "|45.19Mb"
-      - "| 8.44Mb"
-      - "| 8.77Mb"
-      - "|16.85Mb"
-      - "|11.60Mb"
-      - "| 4.77Mb"
-      - "| 4.47Mb"
-      - "|47.88Mb"
-      - "|35.74Mb"
-      - "|46.42Mb"
-      - "| 8.57Mb"
-      - "|92.84Mb"
-      - "| 8.26Mb"
-      - "|36.70Mb"
-      - "|23.13Mb"
-      - "|23.46Mb"
-      - "|11.53Mb"
-      - "| 1.84Mb"
-      - "| 0.93Mb"
-      - "|45.22Mb"
-      - "|45.80Mb"
-      - "|45.42Mb"
-      - "|16.27Mb"
-      - "| 7.43Mb"
-      - "|47.41Mb"
-      - "| 1.33Mb"
-      - "| 4.08Mb"
-      - "|40.83Mb"
-      - "|38.36Mb"
-      - _CN_中国->🇰🇷_KR_韩国
-      - "|10.36Mb"
-      - "| 7.34Mb"
-      - 德国(youtube阿伟科技)
-      - "|11.95Mb 2"
-      - "| 7.76Mb"
-      - 德国(youtube阿伟科技) 2
-      - "|45.66Mb"
-      - "|47.12Mb"
-      - Relay_🇺🇸US-🇺🇸US_20
-      - CN_37 TG@peekfun
-      - CN_83 TG@peekfun
-      - "| 4.54Mb"
-      - "| 6.14Mb"
-      - "|43.54Mb"
-      - Relay_🇨🇳CN |12.28Mb
-      - 美国(youtube阿伟科技)
-      - "|19.53Mb"
-      - "|17.17Mb"
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - Relay_🇨🇳CN | 3.14Mb
-      - 美国(youtube阿伟科技) 2
-      - "| 6.06Mb"
-      - "|11.77Mb"
-      - NONE
-      - "|35.29Mb"
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - "|10.76Mb"
+      - Relay_ |37.23Mb
+      - "| 3.41Mb"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "|40.30Mb"
-      - CN_262
-      - "|10.33Mb"
-      - "|17.09Mb"
-      - 美国(欢迎订阅Youtube破解资源君) 30
-      - CN_255
+      - CN_244 |10.30Mb
       - Relay_🇨🇳CN-🇹🇼TW_34 |38.98Mb
-      - "|40.66Mb"
-      - "|46.98Mb"
-      - "|23.38Mb"
-      - "|45.49Mb"
-      - "|21.25Mb"
-      - "| 3.12Mb"
-      - "|37.54Mb"
-      - "| 3.26Mb"
-      - "|47.59Mb"
-      - "| 3.16Mb"
-      - _JP_日本
-      - "|20.47Mb"
-      - "|34.11Mb"
-      - "|36.45Mb"
-      - "|21.37Mb"
-      - "|43.41Mb"
-      - "|37.12Mb"
+      - CN_255
+      - CN_229
+      - Relay_ | 1.78Mb
+      - _油管：全网最强白嫖
+      - Relay_🇨🇳CN | 3.14Mb
+      - CN_256 |24.30Mb
+      - CN_84 TG@peekfun
+      - _油管：全网最强白嫖 2
+      - _CN_中国->🇰🇷_KR_韩国
+      - _油管：全网最强白嫖 3
+      - CN_37 TG@peekfun
+      - CN_38 | 7.02Mb
+      - CN_40 | 1.19Mb
       - "| 3.98Mb"
-      - "|47.60Mb"
-      - "|18.49Mb"
-      - "|11.40Mb"
-      - "|19.43Mb"
       - CN_72 TG@peekfun
-      - "|47.39Mb"
-      - "|44.66Mb"
-      - "|12.60Mb"
-      - "|32.23Mb"
-      - "|24.37Mb"
-      - "|33.98Mb"
-      - "|13.18Mb"
-      - "|16.17Mb"
-      - "|18.79Mb"
-      - "|19.49Mb"
-      - "|46.69Mb"
-      - "| 8.85Mb"
-      - "|41.15Mb"
-      - "|46.23Mb"
-      - "|10.48Mb"
-      - "|17.62Mb"
-      - "|46.70Mb"
+      - "|19.53Mb"
+      - ZZ |12.85Mb
+      - "|40.30Mb"
+      - "|46.98Mb"
+      - Relay_ |11.66Mb
+      - LT | 1.78Mb
+      - SG | 5.40Mb
+      - ZZ |11.62Mb
       - "|45.99Mb"
-      - "|45.47Mb"
-      - "|11.02Mb"
-      - "|32.06Mb"
-      - "|47.44Mb"
-      - "|45.90Mb"
-      - "|45.13Mb"
-      - "|46.02Mb"
-      - "|45.49Mb 2"
-      - "|183.30Mb"
-      - "|11.82Mb"
-      - "| 9.33Mb"
-      - "|46.11Mb"
-      - "|36.69Mb"
-      - "| 8.32Mb"
-      - "| 7.05Mb"
-      - "|41.77Mb"
-      - "|46.95Mb"
-      - "|49.59Mb"
-      - "|14.78Mb"
-      - "|38.49Mb"
-      - "|13.68Mb"
-      - "|15.68Mb"
-      - "|18.59Mb"
-      - "| 7.19Mb"
-      - "|33.55Mb"
       - "|44.91Mb"
-      - "|13.71Mb"
-      - "|44.33Mb"
+      - "|43.97Mb"
+      - "|11.93Mb"
+      - "|19.28Mb"
+      - "|48.85Mb"
+      - LT |12.78Mb
+      - Pool_🇳🇱NL |13.66Mb
+      - US |15.31Mb
+      - US |24.81Mb
+      - "|46.69Mb"
+      - "|46.02Mb"
+      - "|15.68Mb"
+      - "|33.55Mb"
       - "|47.21Mb"
-      - "|11.42Mb"
+      - "|27.36Mb"
+      - "|35.86Mb"
+      - "|46.63Mb"
+      - "|44.61Mb"
+      - "|42.29Mb"
+      - "|46.19Mb"
+      - "|46.54Mb"
+      - NL |14.34Mb
+      - CN_54 TG@peekfun
+      - "|44.33Mb"
+      - "|30.28Mb"
+      - "|21.30Mb"
+      - "|10.62Mb"
+      - "|12.80Mb"
+      - "|10.59Mb"
+      - "|17.22Mb"
+      - US |16.91Mb
+      - US | 8.75Mb
+      - "|13.71Mb"
       - "|16.37Mb"
       - "|19.80Mb"
-      - "| 2.77Mb"
       - "|12.58Mb"
-      - "|30.28Mb"
-      - "|45.99Mb 2"
-      - "|202.34Mb"
-      - "|11.73Mb"
-      - "| 9.65Mb"
-      - "|30.94Mb"
-      - "|27.36Mb"
-      - "|46.92Mb"
-      - "|14.69Mb"
-      - "|26.98Mb"
-      - "|14.97Mb"
-      - "|23.58Mb"
-      - "|31.75Mb"
-      - "|44.23Mb"
-      - "|29.60Mb"
-      - "|46.66Mb"
-      - "| 3.05Mb"
-      - _油管：全网最强白嫖
-      - "|44.86Mb"
-      - "|43.14Mb"
-      - "|43.97Mb"
-      - "|40.66Mb 2"
-      - "|46.47Mb"
-      - "|11.18Mb"
-      - _油管：全网最强白嫖 2
-      - "|44.80Mb"
-      - "|17.27Mb"
-      - "|23.01Mb"
-      - "|11.93Mb"
-      - "|30.05Mb"
-      - "|46.72Mb"
-      - "|22.91Mb"
-      - "|46.07Mb"
-      - "|45.51Mb"
-      - "| 9.97Mb"
-      - "|15.81Mb"
-      - "|21.30Mb"
-      - "|45.44Mb"
-      - "|47.03Mb"
-      - "|44.75Mb"
-      - "|35.86Mb"
-      - "| 8.03Mb"
-      - "|21.64Mb"
-      - "|16.08Mb"
-      - "|42.81Mb"
-      - "|305.39Mb"
-      - "| 2.79Mb"
-      - "|25.05Mb"
-      - CN_243 |23.81Mb
-      - "| 6.45Mb"
-      - "|41.24Mb"
-      - "|46.96Mb"
-      - "|35.66Mb"
-      - "|47.34Mb"
-      - "|45.06Mb"
-      - "|36.06Mb"
-      - "|45.01Mb"
-      - "|16.06Mb"
-      - "|14.25Mb"
-      - "|12.27Mb"
-      - "| 3.92Mb"
-      - "|11.80Mb"
-      - "|45.55Mb"
-      - "|47.68Mb"
-      - "|35.37Mb"
-      - "|46.47Mb 2"
-      - "|18.32Mb"
-      - "|16.13Mb"
-      - "| 3.36Mb"
-      - "|36.34Mb"
-      - "|46.12Mb"
-      - "|39.09Mb"
-      - "| 3.63Mb"
-      - "|46.53Mb"
-      - "|46.99Mb"
-      - "|46.63Mb"
-      - "|47.08Mb"
-      - "|10.62Mb"
-      - "| 4.35Mb"
-      - "|42.08Mb"
-      - "|44.61Mb"
-      - "|19.28Mb"
-      - "|11.20Mb"
-      - "|11.91Mb"
-      - "|48.85Mb"
-      - "|41.87Mb"
-      - "|38.47Mb"
-      - "|34.36Mb"
-      - "|46.39Mb"
-      - "|44.78Mb"
-      - "|45.27Mb"
-      - "|11.23Mb"
-      - "|15.65Mb"
-      - "|24.16Mb"
-      - "|19.94Mb"
-      - "| 2.81Mb"
-      - _油管：全网最强白嫖 3
-      - 日本(youtube阿伟科技)
-      - "|34.64Mb"
-      - "|43.23Mb"
-      - "|47.84Mb"
-      - "|45.20Mb"
-      - "|47.33Mb"
-      - "|61.04Mb"
-      - "|75.61Mb"
-      - "| 9.85Mb"
-      - "|12.80Mb"
-      - "| 9.18Mb"
-      - "|47.58Mb"
-      - "|42.42Mb"
-      - "|44.97Mb"
-      - "| 8.11Mb"
-      - "|12.49Mb"
-      - "|314.81Mb"
-      - "|11.95Mb"
-      - "|15.17Mb"
-      - "|11.94Mb"
-      - "|15.08Mb"
-      - "|16.94Mb"
-      - "|20.72Mb"
-      - "| 3.06Mb"
       - "| 6.39Mb"
-      - Relay_🇺🇸US-🇺🇸US_23
-      - "|11.26Mb"
-      - "|41.58Mb"
-      - "|46.24Mb"
-      - "|11.56Mb"
-      - "|13.40Mb"
-      - "|17.47Mb"
-      - "|11.88Mb"
-      - "|24.25Mb"
-      - "| 8.22Mb"
-      - 日本（欢迎订阅Youtube元亨利贞）
-      - "|31.91Mb"
-      - "|36.07Mb"
-      - "|46.77Mb"
-      - "|45.23Mb"
-      - "|30.71Mb"
-      - "| 8.17Mb"
-      - "|11.34Mb"
-      - "|11.75Mb"
-      - "|12.46Mb"
-      - "|11.88Mb 2"
-      - "|11.61Mb"
-      - "|16.87Mb"
-      - "| 3.01Mb"
-      - "| 4.22Mb"
-      - "|11.01Mb"
-      - "| 3.49Mb"
-      - "| 7.96Mb"
-      - "|41.69Mb"
-      - "|42.62Mb"
-      - "|33.28Mb"
-      - "|46.66Mb 2"
-      - "|37.23Mb"
-      - "|45.59Mb"
-      - "|46.28Mb"
-      - "|10.52Mb"
-      - "| 7.77Mb"
-      - "|10.59Mb"
-      - "|17.60Mb"
-      - "|20.68Mb"
-      - "| 8.32Mb 2"
-      - "|16.39Mb"
-      - "|16.77Mb"
-      - "|11.35Mb"
-      - "| 3.41Mb"
-      - "| 4.39Mb"
-      - "|41.44Mb"
-      - "|35.91Mb"
-      - "|46.02Mb 2"
-      - "|32.33Mb"
-      - "|47.02Mb"
-      - "|41.34Mb"
-      - "| 6.62Mb"
-      - "| 9.32Mb"
-      - "|19.31Mb"
-      - "|19.80Mb 2"
-      - "|17.22Mb"
-      - "|14.40Mb"
-      - "|12.37Mb"
-      - "| 9.88Mb"
-      - "|24.26Mb"
       - "| 3.24Mb"
-      - "|48.63Mb"
-      - "|47.21Mb 2"
-      - "|47.00Mb"
-      - "|269.68Mb"
-      - "|12.77Mb"
-      - "|11.65Mb"
-      - "|12.13Mb"
-      - "| 1.96Mb"
-      - "|46.41Mb"
-      - "|42.29Mb"
-      - "|44.20Mb"
-      - "|43.18Mb"
-      - "|45.00Mb"
-      - "| 7.94Mb"
-      - "|193.93Mb"
-      - "|11.97Mb"
-      - "|17.70Mb"
-      - "|20.08Mb"
-      - "|16.03Mb"
-      - "| 2.52Mb"
-      - "|47.29Mb"
-      - "| 1.63Mb"
-      - "| 2.68Mb"
-      - "|35.18Mb"
-      - "|44.87Mb"
-      - "|46.35Mb"
-      - "|35.66Mb 2"
-      - "|47.86Mb"
-      - "|47.07Mb"
-      - "|14.64Mb"
-      - "|13.24Mb"
-      - "| 5.62Mb"
-      - "|19.98Mb"
-      - "|19.16Mb"
-      - "|34.43Mb"
-      - "|46.49Mb"
-      - "|47.18Mb"
-      - "|45.93Mb"
-      - "|29.64Mb"
-      - "| 6.96Mb"
-      - "|23.58Mb 2"
-      - "|11.93Mb 2"
-      - "|11.71Mb"
-      - "|97.58Mb"
-      - "| 4.38Mb"
-      - "|11.65Mb 2"
-      - "|46.19Mb"
-      - "|45.58Mb"
-      - "|12.28Mb"
-      - "| 8.39Mb"
-      - "|10.33Mb 2"
-      - "|17.22Mb 2"
-      - "| 9.34Mb"
-      - "|25.31Mb"
-      - "|46.54Mb"
-      - "| 9.56Mb"
-      - "| 7.37Mb"
-      - "|11.71Mb 2"
-      - "|11.78Mb"
-      - "| 9.84Mb"
-      - "|13.05Mb"
-      - "|16.57Mb"
-      - "|40.62Mb"
-      - "|20.36Mb"
-      - "|39.21Mb"
-      - "|36.09Mb"
-      - "|39.06Mb"
-      - "|46.77Mb 2"
-      - "|45.34Mb"
-      - "| 7.10Mb"
-      - "|12.44Mb"
-      - "|10.35Mb"
-      - "|12.40Mb"
-      - "|17.60Mb 2"
-      - "|11.24Mb"
-      - "|11.75Mb 2"
-      - "|11.96Mb"
-      - "|17.01Mb"
-      - "|19.83Mb"
-      - "|11.71Mb 3"
-      - "| 7.04Mb"
-      - "|28.28Mb"
-      - "|47.57Mb"
-      - "| 8.83Mb"
-      - "|46.71Mb"
-      - "|18.59Mb 2"
-      - "|46.87Mb"
-      - "| 6.17Mb"
-      - "|17.35Mb"
-      - "|16.76Mb"
-      - "|18.05Mb"
-      - "|18.87Mb"
-      - "| 0.88Mb"
-      - "|48.08Mb"
-      - "|46.93Mb"
-      - "|46.54Mb 2"
-      - "| 8.14Mb"
-      - "|16.49Mb"
-      - "|20.91Mb"
-      - "| 7.86Mb"
-      - "| 7.95Mb"
-      - "| 1.87Mb"
-      - "| 9.27Mb"
-      - "|30.01Mb"
-      - "|47.35Mb"
-      - "|45.19Mb"
-      - "| 8.44Mb"
-      - "| 8.77Mb"
-      - "|16.85Mb"
-      - "|11.60Mb"
-      - "| 4.77Mb"
-      - "| 4.47Mb"
-      - "|47.88Mb"
-      - "|35.74Mb"
-      - "|46.42Mb"
-      - "| 8.57Mb"
-      - "|92.84Mb"
-      - "| 8.26Mb"
-      - "|36.70Mb"
-      - "|23.13Mb"
-      - "|23.46Mb"
-      - "|11.53Mb"
-      - "| 1.84Mb"
-      - "| 0.93Mb"
-      - "|45.22Mb"
-      - "|45.80Mb"
-      - "|45.42Mb"
-      - "|16.27Mb"
-      - "| 7.43Mb"
-      - "|47.41Mb"
-      - "| 1.33Mb"
-      - "| 4.08Mb"
-      - "|40.83Mb"
-      - "|38.36Mb"
-      - _CN_中国->🇰🇷_KR_韩国
-      - "|10.36Mb"
-      - "| 7.34Mb"
-      - 德国(youtube阿伟科技)
-      - "|11.95Mb 2"
-      - "| 7.76Mb"
-      - 德国(youtube阿伟科技) 2
-      - "|45.66Mb"
-      - "|47.12Mb"
-      - Relay_🇺🇸US-🇺🇸US_20
-      - CN_37 TG@peekfun
-      - CN_83 TG@peekfun
-      - "| 4.54Mb"
-      - "| 6.14Mb"
-      - "|43.54Mb"
-      - Relay_🇨🇳CN |12.28Mb
-      - 美国(youtube阿伟科技)
-      - "|19.53Mb"
-      - "|17.17Mb"
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - Relay_🇨🇳CN | 3.14Mb
-      - 美国(youtube阿伟科技) 2
-      - "| 6.06Mb"
-      - "|11.77Mb"
-      - NONE
-      - "|35.29Mb"
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - "|10.76Mb"
+      - Relay_ |37.23Mb
+      - "| 3.41Mb"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -1752,434 +304,72 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "|40.30Mb"
-      - CN_262
-      - "|10.33Mb"
-      - "|17.09Mb"
-      - 美国(欢迎订阅Youtube破解资源君) 30
-      - CN_255
+      - CN_244 |10.30Mb
       - Relay_🇨🇳CN-🇹🇼TW_34 |38.98Mb
-      - "|40.66Mb"
-      - "|46.98Mb"
-      - "|23.38Mb"
-      - "|45.49Mb"
-      - "|21.25Mb"
-      - "| 3.12Mb"
-      - "|37.54Mb"
-      - "| 3.26Mb"
-      - "|47.59Mb"
-      - "| 3.16Mb"
-      - _JP_日本
-      - "|20.47Mb"
-      - "|34.11Mb"
-      - "|36.45Mb"
-      - "|21.37Mb"
-      - "|43.41Mb"
-      - "|37.12Mb"
+      - CN_255
+      - CN_229
+      - Relay_ | 1.78Mb
+      - _油管：全网最强白嫖
+      - Relay_🇨🇳CN | 3.14Mb
+      - CN_256 |24.30Mb
+      - CN_84 TG@peekfun
+      - _油管：全网最强白嫖 2
+      - _CN_中国->🇰🇷_KR_韩国
+      - _油管：全网最强白嫖 3
+      - CN_37 TG@peekfun
+      - CN_38 | 7.02Mb
+      - CN_40 | 1.19Mb
       - "| 3.98Mb"
-      - "|47.60Mb"
-      - "|18.49Mb"
-      - "|11.40Mb"
-      - "|19.43Mb"
       - CN_72 TG@peekfun
-      - "|47.39Mb"
-      - "|44.66Mb"
-      - "|12.60Mb"
-      - "|32.23Mb"
-      - "|24.37Mb"
-      - "|33.98Mb"
-      - "|13.18Mb"
-      - "|16.17Mb"
-      - "|18.79Mb"
-      - "|19.49Mb"
-      - "|46.69Mb"
-      - "| 8.85Mb"
-      - "|41.15Mb"
-      - "|46.23Mb"
-      - "|10.48Mb"
-      - "|17.62Mb"
-      - "|46.70Mb"
+      - "|19.53Mb"
+      - ZZ |12.85Mb
+      - "|40.30Mb"
+      - "|46.98Mb"
+      - Relay_ |11.66Mb
+      - LT | 1.78Mb
+      - SG | 5.40Mb
+      - ZZ |11.62Mb
       - "|45.99Mb"
-      - "|45.47Mb"
-      - "|11.02Mb"
-      - "|32.06Mb"
-      - "|47.44Mb"
-      - "|45.90Mb"
-      - "|45.13Mb"
-      - "|46.02Mb"
-      - "|45.49Mb 2"
-      - "|183.30Mb"
-      - "|11.82Mb"
-      - "| 9.33Mb"
-      - "|46.11Mb"
-      - "|36.69Mb"
-      - "| 8.32Mb"
-      - "| 7.05Mb"
-      - "|41.77Mb"
-      - "|46.95Mb"
-      - "|49.59Mb"
-      - "|14.78Mb"
-      - "|38.49Mb"
-      - "|13.68Mb"
-      - "|15.68Mb"
-      - "|18.59Mb"
-      - "| 7.19Mb"
-      - "|33.55Mb"
       - "|44.91Mb"
-      - "|13.71Mb"
-      - "|44.33Mb"
+      - "|43.97Mb"
+      - "|11.93Mb"
+      - "|19.28Mb"
+      - "|48.85Mb"
+      - LT |12.78Mb
+      - Pool_🇳🇱NL |13.66Mb
+      - US |15.31Mb
+      - US |24.81Mb
+      - "|46.69Mb"
+      - "|46.02Mb"
+      - "|15.68Mb"
+      - "|33.55Mb"
       - "|47.21Mb"
-      - "|11.42Mb"
+      - "|27.36Mb"
+      - "|35.86Mb"
+      - "|46.63Mb"
+      - "|44.61Mb"
+      - "|42.29Mb"
+      - "|46.19Mb"
+      - "|46.54Mb"
+      - NL |14.34Mb
+      - CN_54 TG@peekfun
+      - "|44.33Mb"
+      - "|30.28Mb"
+      - "|21.30Mb"
+      - "|10.62Mb"
+      - "|12.80Mb"
+      - "|10.59Mb"
+      - "|17.22Mb"
+      - US |16.91Mb
+      - US | 8.75Mb
+      - "|13.71Mb"
       - "|16.37Mb"
       - "|19.80Mb"
-      - "| 2.77Mb"
       - "|12.58Mb"
-      - "|30.28Mb"
-      - "|45.99Mb 2"
-      - "|202.34Mb"
-      - "|11.73Mb"
-      - "| 9.65Mb"
-      - "|30.94Mb"
-      - "|27.36Mb"
-      - "|46.92Mb"
-      - "|14.69Mb"
-      - "|26.98Mb"
-      - "|14.97Mb"
-      - "|23.58Mb"
-      - "|31.75Mb"
-      - "|44.23Mb"
-      - "|29.60Mb"
-      - "|46.66Mb"
-      - "| 3.05Mb"
-      - _油管：全网最强白嫖
-      - "|44.86Mb"
-      - "|43.14Mb"
-      - "|43.97Mb"
-      - "|40.66Mb 2"
-      - "|46.47Mb"
-      - "|11.18Mb"
-      - _油管：全网最强白嫖 2
-      - "|44.80Mb"
-      - "|17.27Mb"
-      - "|23.01Mb"
-      - "|11.93Mb"
-      - "|30.05Mb"
-      - "|46.72Mb"
-      - "|22.91Mb"
-      - "|46.07Mb"
-      - "|45.51Mb"
-      - "| 9.97Mb"
-      - "|15.81Mb"
-      - "|21.30Mb"
-      - "|45.44Mb"
-      - "|47.03Mb"
-      - "|44.75Mb"
-      - "|35.86Mb"
-      - "| 8.03Mb"
-      - "|21.64Mb"
-      - "|16.08Mb"
-      - "|42.81Mb"
-      - "|305.39Mb"
-      - "| 2.79Mb"
-      - "|25.05Mb"
-      - CN_243 |23.81Mb
-      - "| 6.45Mb"
-      - "|41.24Mb"
-      - "|46.96Mb"
-      - "|35.66Mb"
-      - "|47.34Mb"
-      - "|45.06Mb"
-      - "|36.06Mb"
-      - "|45.01Mb"
-      - "|16.06Mb"
-      - "|14.25Mb"
-      - "|12.27Mb"
-      - "| 3.92Mb"
-      - "|11.80Mb"
-      - "|45.55Mb"
-      - "|47.68Mb"
-      - "|35.37Mb"
-      - "|46.47Mb 2"
-      - "|18.32Mb"
-      - "|16.13Mb"
-      - "| 3.36Mb"
-      - "|36.34Mb"
-      - "|46.12Mb"
-      - "|39.09Mb"
-      - "| 3.63Mb"
-      - "|46.53Mb"
-      - "|46.99Mb"
-      - "|46.63Mb"
-      - "|47.08Mb"
-      - "|10.62Mb"
-      - "| 4.35Mb"
-      - "|42.08Mb"
-      - "|44.61Mb"
-      - "|19.28Mb"
-      - "|11.20Mb"
-      - "|11.91Mb"
-      - "|48.85Mb"
-      - "|41.87Mb"
-      - "|38.47Mb"
-      - "|34.36Mb"
-      - "|46.39Mb"
-      - "|44.78Mb"
-      - "|45.27Mb"
-      - "|11.23Mb"
-      - "|15.65Mb"
-      - "|24.16Mb"
-      - "|19.94Mb"
-      - "| 2.81Mb"
-      - _油管：全网最强白嫖 3
-      - 日本(youtube阿伟科技)
-      - "|34.64Mb"
-      - "|43.23Mb"
-      - "|47.84Mb"
-      - "|45.20Mb"
-      - "|47.33Mb"
-      - "|61.04Mb"
-      - "|75.61Mb"
-      - "| 9.85Mb"
-      - "|12.80Mb"
-      - "| 9.18Mb"
-      - "|47.58Mb"
-      - "|42.42Mb"
-      - "|44.97Mb"
-      - "| 8.11Mb"
-      - "|12.49Mb"
-      - "|314.81Mb"
-      - "|11.95Mb"
-      - "|15.17Mb"
-      - "|11.94Mb"
-      - "|15.08Mb"
-      - "|16.94Mb"
-      - "|20.72Mb"
-      - "| 3.06Mb"
       - "| 6.39Mb"
-      - Relay_🇺🇸US-🇺🇸US_23
-      - "|11.26Mb"
-      - "|41.58Mb"
-      - "|46.24Mb"
-      - "|11.56Mb"
-      - "|13.40Mb"
-      - "|17.47Mb"
-      - "|11.88Mb"
-      - "|24.25Mb"
-      - "| 8.22Mb"
-      - 日本（欢迎订阅Youtube元亨利贞）
-      - "|31.91Mb"
-      - "|36.07Mb"
-      - "|46.77Mb"
-      - "|45.23Mb"
-      - "|30.71Mb"
-      - "| 8.17Mb"
-      - "|11.34Mb"
-      - "|11.75Mb"
-      - "|12.46Mb"
-      - "|11.88Mb 2"
-      - "|11.61Mb"
-      - "|16.87Mb"
-      - "| 3.01Mb"
-      - "| 4.22Mb"
-      - "|11.01Mb"
-      - "| 3.49Mb"
-      - "| 7.96Mb"
-      - "|41.69Mb"
-      - "|42.62Mb"
-      - "|33.28Mb"
-      - "|46.66Mb 2"
-      - "|37.23Mb"
-      - "|45.59Mb"
-      - "|46.28Mb"
-      - "|10.52Mb"
-      - "| 7.77Mb"
-      - "|10.59Mb"
-      - "|17.60Mb"
-      - "|20.68Mb"
-      - "| 8.32Mb 2"
-      - "|16.39Mb"
-      - "|16.77Mb"
-      - "|11.35Mb"
-      - "| 3.41Mb"
-      - "| 4.39Mb"
-      - "|41.44Mb"
-      - "|35.91Mb"
-      - "|46.02Mb 2"
-      - "|32.33Mb"
-      - "|47.02Mb"
-      - "|41.34Mb"
-      - "| 6.62Mb"
-      - "| 9.32Mb"
-      - "|19.31Mb"
-      - "|19.80Mb 2"
-      - "|17.22Mb"
-      - "|14.40Mb"
-      - "|12.37Mb"
-      - "| 9.88Mb"
-      - "|24.26Mb"
       - "| 3.24Mb"
-      - "|48.63Mb"
-      - "|47.21Mb 2"
-      - "|47.00Mb"
-      - "|269.68Mb"
-      - "|12.77Mb"
-      - "|11.65Mb"
-      - "|12.13Mb"
-      - "| 1.96Mb"
-      - "|46.41Mb"
-      - "|42.29Mb"
-      - "|44.20Mb"
-      - "|43.18Mb"
-      - "|45.00Mb"
-      - "| 7.94Mb"
-      - "|193.93Mb"
-      - "|11.97Mb"
-      - "|17.70Mb"
-      - "|20.08Mb"
-      - "|16.03Mb"
-      - "| 2.52Mb"
-      - "|47.29Mb"
-      - "| 1.63Mb"
-      - "| 2.68Mb"
-      - "|35.18Mb"
-      - "|44.87Mb"
-      - "|46.35Mb"
-      - "|35.66Mb 2"
-      - "|47.86Mb"
-      - "|47.07Mb"
-      - "|14.64Mb"
-      - "|13.24Mb"
-      - "| 5.62Mb"
-      - "|19.98Mb"
-      - "|19.16Mb"
-      - "|34.43Mb"
-      - "|46.49Mb"
-      - "|47.18Mb"
-      - "|45.93Mb"
-      - "|29.64Mb"
-      - "| 6.96Mb"
-      - "|23.58Mb 2"
-      - "|11.93Mb 2"
-      - "|11.71Mb"
-      - "|97.58Mb"
-      - "| 4.38Mb"
-      - "|11.65Mb 2"
-      - "|46.19Mb"
-      - "|45.58Mb"
-      - "|12.28Mb"
-      - "| 8.39Mb"
-      - "|10.33Mb 2"
-      - "|17.22Mb 2"
-      - "| 9.34Mb"
-      - "|25.31Mb"
-      - "|46.54Mb"
-      - "| 9.56Mb"
-      - "| 7.37Mb"
-      - "|11.71Mb 2"
-      - "|11.78Mb"
-      - "| 9.84Mb"
-      - "|13.05Mb"
-      - "|16.57Mb"
-      - "|40.62Mb"
-      - "|20.36Mb"
-      - "|39.21Mb"
-      - "|36.09Mb"
-      - "|39.06Mb"
-      - "|46.77Mb 2"
-      - "|45.34Mb"
-      - "| 7.10Mb"
-      - "|12.44Mb"
-      - "|10.35Mb"
-      - "|12.40Mb"
-      - "|17.60Mb 2"
-      - "|11.24Mb"
-      - "|11.75Mb 2"
-      - "|11.96Mb"
-      - "|17.01Mb"
-      - "|19.83Mb"
-      - "|11.71Mb 3"
-      - "| 7.04Mb"
-      - "|28.28Mb"
-      - "|47.57Mb"
-      - "| 8.83Mb"
-      - "|46.71Mb"
-      - "|18.59Mb 2"
-      - "|46.87Mb"
-      - "| 6.17Mb"
-      - "|17.35Mb"
-      - "|16.76Mb"
-      - "|18.05Mb"
-      - "|18.87Mb"
-      - "| 0.88Mb"
-      - "|48.08Mb"
-      - "|46.93Mb"
-      - "|46.54Mb 2"
-      - "| 8.14Mb"
-      - "|16.49Mb"
-      - "|20.91Mb"
-      - "| 7.86Mb"
-      - "| 7.95Mb"
-      - "| 1.87Mb"
-      - "| 9.27Mb"
-      - "|30.01Mb"
-      - "|47.35Mb"
-      - "|45.19Mb"
-      - "| 8.44Mb"
-      - "| 8.77Mb"
-      - "|16.85Mb"
-      - "|11.60Mb"
-      - "| 4.77Mb"
-      - "| 4.47Mb"
-      - "|47.88Mb"
-      - "|35.74Mb"
-      - "|46.42Mb"
-      - "| 8.57Mb"
-      - "|92.84Mb"
-      - "| 8.26Mb"
-      - "|36.70Mb"
-      - "|23.13Mb"
-      - "|23.46Mb"
-      - "|11.53Mb"
-      - "| 1.84Mb"
-      - "| 0.93Mb"
-      - "|45.22Mb"
-      - "|45.80Mb"
-      - "|45.42Mb"
-      - "|16.27Mb"
-      - "| 7.43Mb"
-      - "|47.41Mb"
-      - "| 1.33Mb"
-      - "| 4.08Mb"
-      - "|40.83Mb"
-      - "|38.36Mb"
-      - _CN_中国->🇰🇷_KR_韩国
-      - "|10.36Mb"
-      - "| 7.34Mb"
-      - 德国(youtube阿伟科技)
-      - "|11.95Mb 2"
-      - "| 7.76Mb"
-      - 德国(youtube阿伟科技) 2
-      - "|45.66Mb"
-      - "|47.12Mb"
-      - Relay_🇺🇸US-🇺🇸US_20
-      - CN_37 TG@peekfun
-      - CN_83 TG@peekfun
-      - "| 4.54Mb"
-      - "| 6.14Mb"
-      - "|43.54Mb"
-      - Relay_🇨🇳CN |12.28Mb
-      - 美国(youtube阿伟科技)
-      - "|19.53Mb"
-      - "|17.17Mb"
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - Relay_🇨🇳CN | 3.14Mb
-      - 美国(youtube阿伟科技) 2
-      - "| 6.06Mb"
-      - "|11.77Mb"
-      - NONE
-      - "|35.29Mb"
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - "|10.76Mb"
+      - Relay_ |37.23Mb
+      - "| 3.41Mb"
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -2190,1301 +380,215 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - "|40.30Mb"
-      - CN_262
-      - "|10.33Mb"
-      - "|17.09Mb"
-      - 美国(欢迎订阅Youtube破解资源君) 30
-      - CN_255
+      - CN_244 |10.30Mb
       - Relay_🇨🇳CN-🇹🇼TW_34 |38.98Mb
-      - "|40.66Mb"
-      - "|46.98Mb"
-      - "|23.38Mb"
-      - "|45.49Mb"
-      - "|21.25Mb"
-      - "| 3.12Mb"
-      - "|37.54Mb"
-      - "| 3.26Mb"
-      - "|47.59Mb"
-      - "| 3.16Mb"
-      - _JP_日本
-      - "|20.47Mb"
-      - "|34.11Mb"
-      - "|36.45Mb"
-      - "|21.37Mb"
-      - "|43.41Mb"
-      - "|37.12Mb"
+      - CN_255
+      - CN_229
+      - Relay_ | 1.78Mb
+      - _油管：全网最强白嫖
+      - Relay_🇨🇳CN | 3.14Mb
+      - CN_256 |24.30Mb
+      - CN_84 TG@peekfun
+      - _油管：全网最强白嫖 2
+      - _CN_中国->🇰🇷_KR_韩国
+      - _油管：全网最强白嫖 3
+      - CN_37 TG@peekfun
+      - CN_38 | 7.02Mb
+      - CN_40 | 1.19Mb
       - "| 3.98Mb"
-      - "|47.60Mb"
-      - "|18.49Mb"
-      - "|11.40Mb"
-      - "|19.43Mb"
       - CN_72 TG@peekfun
-      - "|47.39Mb"
-      - "|44.66Mb"
-      - "|12.60Mb"
-      - "|32.23Mb"
-      - "|24.37Mb"
-      - "|33.98Mb"
-      - "|13.18Mb"
-      - "|16.17Mb"
-      - "|18.79Mb"
-      - "|19.49Mb"
-      - "|46.69Mb"
-      - "| 8.85Mb"
-      - "|41.15Mb"
-      - "|46.23Mb"
-      - "|10.48Mb"
-      - "|17.62Mb"
-      - "|46.70Mb"
+      - "|19.53Mb"
+      - ZZ |12.85Mb
+      - "|40.30Mb"
+      - "|46.98Mb"
+      - Relay_ |11.66Mb
+      - LT | 1.78Mb
+      - SG | 5.40Mb
+      - ZZ |11.62Mb
       - "|45.99Mb"
-      - "|45.47Mb"
-      - "|11.02Mb"
-      - "|32.06Mb"
-      - "|47.44Mb"
-      - "|45.90Mb"
-      - "|45.13Mb"
-      - "|46.02Mb"
-      - "|45.49Mb 2"
-      - "|183.30Mb"
-      - "|11.82Mb"
-      - "| 9.33Mb"
-      - "|46.11Mb"
-      - "|36.69Mb"
-      - "| 8.32Mb"
-      - "| 7.05Mb"
-      - "|41.77Mb"
-      - "|46.95Mb"
-      - "|49.59Mb"
-      - "|14.78Mb"
-      - "|38.49Mb"
-      - "|13.68Mb"
-      - "|15.68Mb"
-      - "|18.59Mb"
-      - "| 7.19Mb"
-      - "|33.55Mb"
       - "|44.91Mb"
-      - "|13.71Mb"
-      - "|44.33Mb"
+      - "|43.97Mb"
+      - "|11.93Mb"
+      - "|19.28Mb"
+      - "|48.85Mb"
+      - LT |12.78Mb
+      - Pool_🇳🇱NL |13.66Mb
+      - US |15.31Mb
+      - US |24.81Mb
+      - "|46.69Mb"
+      - "|46.02Mb"
+      - "|15.68Mb"
+      - "|33.55Mb"
       - "|47.21Mb"
-      - "|11.42Mb"
+      - "|27.36Mb"
+      - "|35.86Mb"
+      - "|46.63Mb"
+      - "|44.61Mb"
+      - "|42.29Mb"
+      - "|46.19Mb"
+      - "|46.54Mb"
+      - NL |14.34Mb
+      - CN_54 TG@peekfun
+      - "|44.33Mb"
+      - "|30.28Mb"
+      - "|21.30Mb"
+      - "|10.62Mb"
+      - "|12.80Mb"
+      - "|10.59Mb"
+      - "|17.22Mb"
+      - US |16.91Mb
+      - US | 8.75Mb
+      - "|13.71Mb"
       - "|16.37Mb"
       - "|19.80Mb"
-      - "| 2.77Mb"
       - "|12.58Mb"
-      - "|30.28Mb"
-      - "|45.99Mb 2"
-      - "|202.34Mb"
-      - "|11.73Mb"
-      - "| 9.65Mb"
-      - "|30.94Mb"
-      - "|27.36Mb"
-      - "|46.92Mb"
-      - "|14.69Mb"
-      - "|26.98Mb"
-      - "|14.97Mb"
-      - "|23.58Mb"
-      - "|31.75Mb"
-      - "|44.23Mb"
-      - "|29.60Mb"
-      - "|46.66Mb"
-      - "| 3.05Mb"
-      - _油管：全网最强白嫖
-      - "|44.86Mb"
-      - "|43.14Mb"
-      - "|43.97Mb"
-      - "|40.66Mb 2"
-      - "|46.47Mb"
-      - "|11.18Mb"
-      - _油管：全网最强白嫖 2
-      - "|44.80Mb"
-      - "|17.27Mb"
-      - "|23.01Mb"
-      - "|11.93Mb"
-      - "|30.05Mb"
-      - "|46.72Mb"
-      - "|22.91Mb"
-      - "|46.07Mb"
-      - "|45.51Mb"
-      - "| 9.97Mb"
-      - "|15.81Mb"
-      - "|21.30Mb"
-      - "|45.44Mb"
-      - "|47.03Mb"
-      - "|44.75Mb"
-      - "|35.86Mb"
-      - "| 8.03Mb"
-      - "|21.64Mb"
-      - "|16.08Mb"
-      - "|42.81Mb"
-      - "|305.39Mb"
-      - "| 2.79Mb"
-      - "|25.05Mb"
-      - CN_243 |23.81Mb
-      - "| 6.45Mb"
-      - "|41.24Mb"
-      - "|46.96Mb"
-      - "|35.66Mb"
-      - "|47.34Mb"
-      - "|45.06Mb"
-      - "|36.06Mb"
-      - "|45.01Mb"
-      - "|16.06Mb"
-      - "|14.25Mb"
-      - "|12.27Mb"
-      - "| 3.92Mb"
-      - "|11.80Mb"
-      - "|45.55Mb"
-      - "|47.68Mb"
-      - "|35.37Mb"
-      - "|46.47Mb 2"
-      - "|18.32Mb"
-      - "|16.13Mb"
-      - "| 3.36Mb"
-      - "|36.34Mb"
-      - "|46.12Mb"
-      - "|39.09Mb"
-      - "| 3.63Mb"
-      - "|46.53Mb"
-      - "|46.99Mb"
-      - "|46.63Mb"
-      - "|47.08Mb"
-      - "|10.62Mb"
-      - "| 4.35Mb"
-      - "|42.08Mb"
-      - "|44.61Mb"
-      - "|19.28Mb"
-      - "|11.20Mb"
-      - "|11.91Mb"
-      - "|48.85Mb"
-      - "|41.87Mb"
-      - "|38.47Mb"
-      - "|34.36Mb"
-      - "|46.39Mb"
-      - "|44.78Mb"
-      - "|45.27Mb"
-      - "|11.23Mb"
-      - "|15.65Mb"
-      - "|24.16Mb"
-      - "|19.94Mb"
-      - "| 2.81Mb"
-      - _油管：全网最强白嫖 3
-      - 日本(youtube阿伟科技)
-      - "|34.64Mb"
-      - "|43.23Mb"
-      - "|47.84Mb"
-      - "|45.20Mb"
-      - "|47.33Mb"
-      - "|61.04Mb"
-      - "|75.61Mb"
-      - "| 9.85Mb"
-      - "|12.80Mb"
-      - "| 9.18Mb"
-      - "|47.58Mb"
-      - "|42.42Mb"
-      - "|44.97Mb"
-      - "| 8.11Mb"
-      - "|12.49Mb"
-      - "|314.81Mb"
-      - "|11.95Mb"
-      - "|15.17Mb"
-      - "|11.94Mb"
-      - "|15.08Mb"
-      - "|16.94Mb"
-      - "|20.72Mb"
-      - "| 3.06Mb"
       - "| 6.39Mb"
-      - Relay_🇺🇸US-🇺🇸US_23
-      - "|11.26Mb"
-      - "|41.58Mb"
-      - "|46.24Mb"
-      - "|11.56Mb"
-      - "|13.40Mb"
-      - "|17.47Mb"
-      - "|11.88Mb"
-      - "|24.25Mb"
-      - "| 8.22Mb"
-      - 日本（欢迎订阅Youtube元亨利贞）
-      - "|31.91Mb"
-      - "|36.07Mb"
-      - "|46.77Mb"
-      - "|45.23Mb"
-      - "|30.71Mb"
-      - "| 8.17Mb"
-      - "|11.34Mb"
-      - "|11.75Mb"
-      - "|12.46Mb"
-      - "|11.88Mb 2"
-      - "|11.61Mb"
-      - "|16.87Mb"
-      - "| 3.01Mb"
-      - "| 4.22Mb"
-      - "|11.01Mb"
-      - "| 3.49Mb"
-      - "| 7.96Mb"
-      - "|41.69Mb"
-      - "|42.62Mb"
-      - "|33.28Mb"
-      - "|46.66Mb 2"
-      - "|37.23Mb"
-      - "|45.59Mb"
-      - "|46.28Mb"
-      - "|10.52Mb"
-      - "| 7.77Mb"
-      - "|10.59Mb"
-      - "|17.60Mb"
-      - "|20.68Mb"
-      - "| 8.32Mb 2"
-      - "|16.39Mb"
-      - "|16.77Mb"
-      - "|11.35Mb"
-      - "| 3.41Mb"
-      - "| 4.39Mb"
-      - "|41.44Mb"
-      - "|35.91Mb"
-      - "|46.02Mb 2"
-      - "|32.33Mb"
-      - "|47.02Mb"
-      - "|41.34Mb"
-      - "| 6.62Mb"
-      - "| 9.32Mb"
-      - "|19.31Mb"
-      - "|19.80Mb 2"
-      - "|17.22Mb"
-      - "|14.40Mb"
-      - "|12.37Mb"
-      - "| 9.88Mb"
-      - "|24.26Mb"
       - "| 3.24Mb"
-      - "|48.63Mb"
-      - "|47.21Mb 2"
-      - "|47.00Mb"
-      - "|269.68Mb"
-      - "|12.77Mb"
-      - "|11.65Mb"
-      - "|12.13Mb"
-      - "| 1.96Mb"
-      - "|46.41Mb"
-      - "|42.29Mb"
-      - "|44.20Mb"
-      - "|43.18Mb"
-      - "|45.00Mb"
-      - "| 7.94Mb"
-      - "|193.93Mb"
-      - "|11.97Mb"
-      - "|17.70Mb"
-      - "|20.08Mb"
-      - "|16.03Mb"
-      - "| 2.52Mb"
-      - "|47.29Mb"
-      - "| 1.63Mb"
-      - "| 2.68Mb"
-      - "|35.18Mb"
-      - "|44.87Mb"
-      - "|46.35Mb"
-      - "|35.66Mb 2"
-      - "|47.86Mb"
-      - "|47.07Mb"
-      - "|14.64Mb"
-      - "|13.24Mb"
-      - "| 5.62Mb"
-      - "|19.98Mb"
-      - "|19.16Mb"
-      - "|34.43Mb"
-      - "|46.49Mb"
-      - "|47.18Mb"
-      - "|45.93Mb"
-      - "|29.64Mb"
-      - "| 6.96Mb"
-      - "|23.58Mb 2"
-      - "|11.93Mb 2"
-      - "|11.71Mb"
-      - "|97.58Mb"
-      - "| 4.38Mb"
-      - "|11.65Mb 2"
-      - "|46.19Mb"
-      - "|45.58Mb"
-      - "|12.28Mb"
-      - "| 8.39Mb"
-      - "|10.33Mb 2"
-      - "|17.22Mb 2"
-      - "| 9.34Mb"
-      - "|25.31Mb"
-      - "|46.54Mb"
-      - "| 9.56Mb"
-      - "| 7.37Mb"
-      - "|11.71Mb 2"
-      - "|11.78Mb"
-      - "| 9.84Mb"
-      - "|13.05Mb"
-      - "|16.57Mb"
-      - "|40.62Mb"
-      - "|20.36Mb"
-      - "|39.21Mb"
-      - "|36.09Mb"
-      - "|39.06Mb"
-      - "|46.77Mb 2"
-      - "|45.34Mb"
-      - "| 7.10Mb"
-      - "|12.44Mb"
-      - "|10.35Mb"
-      - "|12.40Mb"
-      - "|17.60Mb 2"
-      - "|11.24Mb"
-      - "|11.75Mb 2"
-      - "|11.96Mb"
-      - "|17.01Mb"
-      - "|19.83Mb"
-      - "|11.71Mb 3"
-      - "| 7.04Mb"
-      - "|28.28Mb"
-      - "|47.57Mb"
-      - "| 8.83Mb"
-      - "|46.71Mb"
-      - "|18.59Mb 2"
-      - "|46.87Mb"
-      - "| 6.17Mb"
-      - "|17.35Mb"
-      - "|16.76Mb"
-      - "|18.05Mb"
-      - "|18.87Mb"
-      - "| 0.88Mb"
-      - "|48.08Mb"
-      - "|46.93Mb"
-      - "|46.54Mb 2"
-      - "| 8.14Mb"
-      - "|16.49Mb"
-      - "|20.91Mb"
-      - "| 7.86Mb"
-      - "| 7.95Mb"
-      - "| 1.87Mb"
-      - "| 9.27Mb"
-      - "|30.01Mb"
-      - "|47.35Mb"
-      - "|45.19Mb"
-      - "| 8.44Mb"
-      - "| 8.77Mb"
-      - "|16.85Mb"
-      - "|11.60Mb"
-      - "| 4.77Mb"
-      - "| 4.47Mb"
-      - "|47.88Mb"
-      - "|35.74Mb"
-      - "|46.42Mb"
-      - "| 8.57Mb"
-      - "|92.84Mb"
-      - "| 8.26Mb"
-      - "|36.70Mb"
-      - "|23.13Mb"
-      - "|23.46Mb"
-      - "|11.53Mb"
-      - "| 1.84Mb"
-      - "| 0.93Mb"
-      - "|45.22Mb"
-      - "|45.80Mb"
-      - "|45.42Mb"
-      - "|16.27Mb"
-      - "| 7.43Mb"
-      - "|47.41Mb"
-      - "| 1.33Mb"
-      - "| 4.08Mb"
-      - "|40.83Mb"
-      - "|38.36Mb"
-      - _CN_中国->🇰🇷_KR_韩国
-      - "|10.36Mb"
-      - "| 7.34Mb"
-      - 德国(youtube阿伟科技)
-      - "|11.95Mb 2"
-      - "| 7.76Mb"
-      - 德国(youtube阿伟科技) 2
-      - "|45.66Mb"
-      - "|47.12Mb"
-      - Relay_🇺🇸US-🇺🇸US_20
-      - CN_37 TG@peekfun
-      - CN_83 TG@peekfun
-      - "| 4.54Mb"
-      - "| 6.14Mb"
-      - "|43.54Mb"
-      - Relay_🇨🇳CN |12.28Mb
-      - 美国(youtube阿伟科技)
-      - "|19.53Mb"
-      - "|17.17Mb"
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - Relay_🇨🇳CN | 3.14Mb
-      - 美国(youtube阿伟科技) 2
-      - "| 6.06Mb"
-      - "|11.77Mb"
-      - NONE
-      - "|35.29Mb"
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - "|10.76Mb"
+      - Relay_ |37.23Mb
+      - "| 3.41Mb"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - "|40.30Mb"
-      - CN_262
-      - "|10.33Mb"
-      - "|17.09Mb"
-      - 美国(欢迎订阅Youtube破解资源君) 30
-      - CN_255
+      - CN_244 |10.30Mb
       - Relay_🇨🇳CN-🇹🇼TW_34 |38.98Mb
-      - "|40.66Mb"
-      - "|46.98Mb"
-      - "|23.38Mb"
-      - "|45.49Mb"
-      - "|21.25Mb"
-      - "| 3.12Mb"
-      - "|37.54Mb"
-      - "| 3.26Mb"
-      - "|47.59Mb"
-      - "| 3.16Mb"
-      - _JP_日本
-      - "|20.47Mb"
-      - "|34.11Mb"
-      - "|36.45Mb"
-      - "|21.37Mb"
-      - "|43.41Mb"
-      - "|37.12Mb"
+      - CN_255
+      - CN_229
+      - Relay_ | 1.78Mb
+      - _油管：全网最强白嫖
+      - Relay_🇨🇳CN | 3.14Mb
+      - CN_256 |24.30Mb
+      - CN_84 TG@peekfun
+      - _油管：全网最强白嫖 2
+      - _CN_中国->🇰🇷_KR_韩国
+      - _油管：全网最强白嫖 3
+      - CN_37 TG@peekfun
+      - CN_38 | 7.02Mb
+      - CN_40 | 1.19Mb
       - "| 3.98Mb"
-      - "|47.60Mb"
-      - "|18.49Mb"
-      - "|11.40Mb"
-      - "|19.43Mb"
       - CN_72 TG@peekfun
-      - "|47.39Mb"
-      - "|44.66Mb"
-      - "|12.60Mb"
-      - "|32.23Mb"
-      - "|24.37Mb"
-      - "|33.98Mb"
-      - "|13.18Mb"
-      - "|16.17Mb"
-      - "|18.79Mb"
-      - "|19.49Mb"
-      - "|46.69Mb"
-      - "| 8.85Mb"
-      - "|41.15Mb"
-      - "|46.23Mb"
-      - "|10.48Mb"
-      - "|17.62Mb"
-      - "|46.70Mb"
+      - "|19.53Mb"
+      - ZZ |12.85Mb
+      - "|40.30Mb"
+      - "|46.98Mb"
+      - Relay_ |11.66Mb
+      - LT | 1.78Mb
+      - SG | 5.40Mb
+      - ZZ |11.62Mb
       - "|45.99Mb"
-      - "|45.47Mb"
-      - "|11.02Mb"
-      - "|32.06Mb"
-      - "|47.44Mb"
-      - "|45.90Mb"
-      - "|45.13Mb"
-      - "|46.02Mb"
-      - "|45.49Mb 2"
-      - "|183.30Mb"
-      - "|11.82Mb"
-      - "| 9.33Mb"
-      - "|46.11Mb"
-      - "|36.69Mb"
-      - "| 8.32Mb"
-      - "| 7.05Mb"
-      - "|41.77Mb"
-      - "|46.95Mb"
-      - "|49.59Mb"
-      - "|14.78Mb"
-      - "|38.49Mb"
-      - "|13.68Mb"
-      - "|15.68Mb"
-      - "|18.59Mb"
-      - "| 7.19Mb"
-      - "|33.55Mb"
       - "|44.91Mb"
-      - "|13.71Mb"
-      - "|44.33Mb"
+      - "|43.97Mb"
+      - "|11.93Mb"
+      - "|19.28Mb"
+      - "|48.85Mb"
+      - LT |12.78Mb
+      - Pool_🇳🇱NL |13.66Mb
+      - US |15.31Mb
+      - US |24.81Mb
+      - "|46.69Mb"
+      - "|46.02Mb"
+      - "|15.68Mb"
+      - "|33.55Mb"
       - "|47.21Mb"
-      - "|11.42Mb"
+      - "|27.36Mb"
+      - "|35.86Mb"
+      - "|46.63Mb"
+      - "|44.61Mb"
+      - "|42.29Mb"
+      - "|46.19Mb"
+      - "|46.54Mb"
+      - NL |14.34Mb
+      - CN_54 TG@peekfun
+      - "|44.33Mb"
+      - "|30.28Mb"
+      - "|21.30Mb"
+      - "|10.62Mb"
+      - "|12.80Mb"
+      - "|10.59Mb"
+      - "|17.22Mb"
+      - US |16.91Mb
+      - US | 8.75Mb
+      - "|13.71Mb"
       - "|16.37Mb"
       - "|19.80Mb"
-      - "| 2.77Mb"
       - "|12.58Mb"
-      - "|30.28Mb"
-      - "|45.99Mb 2"
-      - "|202.34Mb"
-      - "|11.73Mb"
-      - "| 9.65Mb"
-      - "|30.94Mb"
-      - "|27.36Mb"
-      - "|46.92Mb"
-      - "|14.69Mb"
-      - "|26.98Mb"
-      - "|14.97Mb"
-      - "|23.58Mb"
-      - "|31.75Mb"
-      - "|44.23Mb"
-      - "|29.60Mb"
-      - "|46.66Mb"
-      - "| 3.05Mb"
-      - _油管：全网最强白嫖
-      - "|44.86Mb"
-      - "|43.14Mb"
-      - "|43.97Mb"
-      - "|40.66Mb 2"
-      - "|46.47Mb"
-      - "|11.18Mb"
-      - _油管：全网最强白嫖 2
-      - "|44.80Mb"
-      - "|17.27Mb"
-      - "|23.01Mb"
-      - "|11.93Mb"
-      - "|30.05Mb"
-      - "|46.72Mb"
-      - "|22.91Mb"
-      - "|46.07Mb"
-      - "|45.51Mb"
-      - "| 9.97Mb"
-      - "|15.81Mb"
-      - "|21.30Mb"
-      - "|45.44Mb"
-      - "|47.03Mb"
-      - "|44.75Mb"
-      - "|35.86Mb"
-      - "| 8.03Mb"
-      - "|21.64Mb"
-      - "|16.08Mb"
-      - "|42.81Mb"
-      - "|305.39Mb"
-      - "| 2.79Mb"
-      - "|25.05Mb"
-      - CN_243 |23.81Mb
-      - "| 6.45Mb"
-      - "|41.24Mb"
-      - "|46.96Mb"
-      - "|35.66Mb"
-      - "|47.34Mb"
-      - "|45.06Mb"
-      - "|36.06Mb"
-      - "|45.01Mb"
-      - "|16.06Mb"
-      - "|14.25Mb"
-      - "|12.27Mb"
-      - "| 3.92Mb"
-      - "|11.80Mb"
-      - "|45.55Mb"
-      - "|47.68Mb"
-      - "|35.37Mb"
-      - "|46.47Mb 2"
-      - "|18.32Mb"
-      - "|16.13Mb"
-      - "| 3.36Mb"
-      - "|36.34Mb"
-      - "|46.12Mb"
-      - "|39.09Mb"
-      - "| 3.63Mb"
-      - "|46.53Mb"
-      - "|46.99Mb"
-      - "|46.63Mb"
-      - "|47.08Mb"
-      - "|10.62Mb"
-      - "| 4.35Mb"
-      - "|42.08Mb"
-      - "|44.61Mb"
-      - "|19.28Mb"
-      - "|11.20Mb"
-      - "|11.91Mb"
-      - "|48.85Mb"
-      - "|41.87Mb"
-      - "|38.47Mb"
-      - "|34.36Mb"
-      - "|46.39Mb"
-      - "|44.78Mb"
-      - "|45.27Mb"
-      - "|11.23Mb"
-      - "|15.65Mb"
-      - "|24.16Mb"
-      - "|19.94Mb"
-      - "| 2.81Mb"
-      - _油管：全网最强白嫖 3
-      - 日本(youtube阿伟科技)
-      - "|34.64Mb"
-      - "|43.23Mb"
-      - "|47.84Mb"
-      - "|45.20Mb"
-      - "|47.33Mb"
-      - "|61.04Mb"
-      - "|75.61Mb"
-      - "| 9.85Mb"
-      - "|12.80Mb"
-      - "| 9.18Mb"
-      - "|47.58Mb"
-      - "|42.42Mb"
-      - "|44.97Mb"
-      - "| 8.11Mb"
-      - "|12.49Mb"
-      - "|314.81Mb"
-      - "|11.95Mb"
-      - "|15.17Mb"
-      - "|11.94Mb"
-      - "|15.08Mb"
-      - "|16.94Mb"
-      - "|20.72Mb"
-      - "| 3.06Mb"
       - "| 6.39Mb"
-      - Relay_🇺🇸US-🇺🇸US_23
-      - "|11.26Mb"
-      - "|41.58Mb"
-      - "|46.24Mb"
-      - "|11.56Mb"
-      - "|13.40Mb"
-      - "|17.47Mb"
-      - "|11.88Mb"
-      - "|24.25Mb"
-      - "| 8.22Mb"
-      - 日本（欢迎订阅Youtube元亨利贞）
-      - "|31.91Mb"
-      - "|36.07Mb"
-      - "|46.77Mb"
-      - "|45.23Mb"
-      - "|30.71Mb"
-      - "| 8.17Mb"
-      - "|11.34Mb"
-      - "|11.75Mb"
-      - "|12.46Mb"
-      - "|11.88Mb 2"
-      - "|11.61Mb"
-      - "|16.87Mb"
-      - "| 3.01Mb"
-      - "| 4.22Mb"
-      - "|11.01Mb"
-      - "| 3.49Mb"
-      - "| 7.96Mb"
-      - "|41.69Mb"
-      - "|42.62Mb"
-      - "|33.28Mb"
-      - "|46.66Mb 2"
-      - "|37.23Mb"
-      - "|45.59Mb"
-      - "|46.28Mb"
-      - "|10.52Mb"
-      - "| 7.77Mb"
-      - "|10.59Mb"
-      - "|17.60Mb"
-      - "|20.68Mb"
-      - "| 8.32Mb 2"
-      - "|16.39Mb"
-      - "|16.77Mb"
-      - "|11.35Mb"
-      - "| 3.41Mb"
-      - "| 4.39Mb"
-      - "|41.44Mb"
-      - "|35.91Mb"
-      - "|46.02Mb 2"
-      - "|32.33Mb"
-      - "|47.02Mb"
-      - "|41.34Mb"
-      - "| 6.62Mb"
-      - "| 9.32Mb"
-      - "|19.31Mb"
-      - "|19.80Mb 2"
-      - "|17.22Mb"
-      - "|14.40Mb"
-      - "|12.37Mb"
-      - "| 9.88Mb"
-      - "|24.26Mb"
       - "| 3.24Mb"
-      - "|48.63Mb"
-      - "|47.21Mb 2"
-      - "|47.00Mb"
-      - "|269.68Mb"
-      - "|12.77Mb"
-      - "|11.65Mb"
-      - "|12.13Mb"
-      - "| 1.96Mb"
-      - "|46.41Mb"
-      - "|42.29Mb"
-      - "|44.20Mb"
-      - "|43.18Mb"
-      - "|45.00Mb"
-      - "| 7.94Mb"
-      - "|193.93Mb"
-      - "|11.97Mb"
-      - "|17.70Mb"
-      - "|20.08Mb"
-      - "|16.03Mb"
-      - "| 2.52Mb"
-      - "|47.29Mb"
-      - "| 1.63Mb"
-      - "| 2.68Mb"
-      - "|35.18Mb"
-      - "|44.87Mb"
-      - "|46.35Mb"
-      - "|35.66Mb 2"
-      - "|47.86Mb"
-      - "|47.07Mb"
-      - "|14.64Mb"
-      - "|13.24Mb"
-      - "| 5.62Mb"
-      - "|19.98Mb"
-      - "|19.16Mb"
-      - "|34.43Mb"
-      - "|46.49Mb"
-      - "|47.18Mb"
-      - "|45.93Mb"
-      - "|29.64Mb"
-      - "| 6.96Mb"
-      - "|23.58Mb 2"
-      - "|11.93Mb 2"
-      - "|11.71Mb"
-      - "|97.58Mb"
-      - "| 4.38Mb"
-      - "|11.65Mb 2"
-      - "|46.19Mb"
-      - "|45.58Mb"
-      - "|12.28Mb"
-      - "| 8.39Mb"
-      - "|10.33Mb 2"
-      - "|17.22Mb 2"
-      - "| 9.34Mb"
-      - "|25.31Mb"
-      - "|46.54Mb"
-      - "| 9.56Mb"
-      - "| 7.37Mb"
-      - "|11.71Mb 2"
-      - "|11.78Mb"
-      - "| 9.84Mb"
-      - "|13.05Mb"
-      - "|16.57Mb"
-      - "|40.62Mb"
-      - "|20.36Mb"
-      - "|39.21Mb"
-      - "|36.09Mb"
-      - "|39.06Mb"
-      - "|46.77Mb 2"
-      - "|45.34Mb"
-      - "| 7.10Mb"
-      - "|12.44Mb"
-      - "|10.35Mb"
-      - "|12.40Mb"
-      - "|17.60Mb 2"
-      - "|11.24Mb"
-      - "|11.75Mb 2"
-      - "|11.96Mb"
-      - "|17.01Mb"
-      - "|19.83Mb"
-      - "|11.71Mb 3"
-      - "| 7.04Mb"
-      - "|28.28Mb"
-      - "|47.57Mb"
-      - "| 8.83Mb"
-      - "|46.71Mb"
-      - "|18.59Mb 2"
-      - "|46.87Mb"
-      - "| 6.17Mb"
-      - "|17.35Mb"
-      - "|16.76Mb"
-      - "|18.05Mb"
-      - "|18.87Mb"
-      - "| 0.88Mb"
-      - "|48.08Mb"
-      - "|46.93Mb"
-      - "|46.54Mb 2"
-      - "| 8.14Mb"
-      - "|16.49Mb"
-      - "|20.91Mb"
-      - "| 7.86Mb"
-      - "| 7.95Mb"
-      - "| 1.87Mb"
-      - "| 9.27Mb"
-      - "|30.01Mb"
-      - "|47.35Mb"
-      - "|45.19Mb"
-      - "| 8.44Mb"
-      - "| 8.77Mb"
-      - "|16.85Mb"
-      - "|11.60Mb"
-      - "| 4.77Mb"
-      - "| 4.47Mb"
-      - "|47.88Mb"
-      - "|35.74Mb"
-      - "|46.42Mb"
-      - "| 8.57Mb"
-      - "|92.84Mb"
-      - "| 8.26Mb"
-      - "|36.70Mb"
-      - "|23.13Mb"
-      - "|23.46Mb"
-      - "|11.53Mb"
-      - "| 1.84Mb"
-      - "| 0.93Mb"
-      - "|45.22Mb"
-      - "|45.80Mb"
-      - "|45.42Mb"
-      - "|16.27Mb"
-      - "| 7.43Mb"
-      - "|47.41Mb"
-      - "| 1.33Mb"
-      - "| 4.08Mb"
-      - "|40.83Mb"
-      - "|38.36Mb"
-      - _CN_中国->🇰🇷_KR_韩国
-      - "|10.36Mb"
-      - "| 7.34Mb"
-      - 德国(youtube阿伟科技)
-      - "|11.95Mb 2"
-      - "| 7.76Mb"
-      - 德国(youtube阿伟科技) 2
-      - "|45.66Mb"
-      - "|47.12Mb"
-      - Relay_🇺🇸US-🇺🇸US_20
-      - CN_37 TG@peekfun
-      - CN_83 TG@peekfun
-      - "| 4.54Mb"
-      - "| 6.14Mb"
-      - "|43.54Mb"
-      - Relay_🇨🇳CN |12.28Mb
-      - 美国(youtube阿伟科技)
-      - "|19.53Mb"
-      - "|17.17Mb"
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - Relay_🇨🇳CN | 3.14Mb
-      - 美国(youtube阿伟科技) 2
-      - "| 6.06Mb"
-      - "|11.77Mb"
-      - NONE
-      - "|35.29Mb"
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - "|10.76Mb"
+      - Relay_ |37.23Mb
+      - "| 3.41Mb"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "|40.30Mb"
-      - CN_262
-      - "|10.33Mb"
-      - "|17.09Mb"
-      - 美国(欢迎订阅Youtube破解资源君) 30
-      - CN_255
+      - CN_244 |10.30Mb
       - Relay_🇨🇳CN-🇹🇼TW_34 |38.98Mb
-      - "|40.66Mb"
-      - "|46.98Mb"
-      - "|23.38Mb"
-      - "|45.49Mb"
-      - "|21.25Mb"
-      - "| 3.12Mb"
-      - "|37.54Mb"
-      - "| 3.26Mb"
-      - "|47.59Mb"
-      - "| 3.16Mb"
-      - _JP_日本
-      - "|20.47Mb"
-      - "|34.11Mb"
-      - "|36.45Mb"
-      - "|21.37Mb"
-      - "|43.41Mb"
-      - "|37.12Mb"
+      - CN_255
+      - CN_229
+      - Relay_ | 1.78Mb
+      - _油管：全网最强白嫖
+      - Relay_🇨🇳CN | 3.14Mb
+      - CN_256 |24.30Mb
+      - CN_84 TG@peekfun
+      - _油管：全网最强白嫖 2
+      - _CN_中国->🇰🇷_KR_韩国
+      - _油管：全网最强白嫖 3
+      - CN_37 TG@peekfun
+      - CN_38 | 7.02Mb
+      - CN_40 | 1.19Mb
       - "| 3.98Mb"
-      - "|47.60Mb"
-      - "|18.49Mb"
-      - "|11.40Mb"
-      - "|19.43Mb"
       - CN_72 TG@peekfun
-      - "|47.39Mb"
-      - "|44.66Mb"
-      - "|12.60Mb"
-      - "|32.23Mb"
-      - "|24.37Mb"
-      - "|33.98Mb"
-      - "|13.18Mb"
-      - "|16.17Mb"
-      - "|18.79Mb"
-      - "|19.49Mb"
-      - "|46.69Mb"
-      - "| 8.85Mb"
-      - "|41.15Mb"
-      - "|46.23Mb"
-      - "|10.48Mb"
-      - "|17.62Mb"
-      - "|46.70Mb"
+      - "|19.53Mb"
+      - ZZ |12.85Mb
+      - "|40.30Mb"
+      - "|46.98Mb"
+      - Relay_ |11.66Mb
+      - LT | 1.78Mb
+      - SG | 5.40Mb
+      - ZZ |11.62Mb
       - "|45.99Mb"
-      - "|45.47Mb"
-      - "|11.02Mb"
-      - "|32.06Mb"
-      - "|47.44Mb"
-      - "|45.90Mb"
-      - "|45.13Mb"
-      - "|46.02Mb"
-      - "|45.49Mb 2"
-      - "|183.30Mb"
-      - "|11.82Mb"
-      - "| 9.33Mb"
-      - "|46.11Mb"
-      - "|36.69Mb"
-      - "| 8.32Mb"
-      - "| 7.05Mb"
-      - "|41.77Mb"
-      - "|46.95Mb"
-      - "|49.59Mb"
-      - "|14.78Mb"
-      - "|38.49Mb"
-      - "|13.68Mb"
-      - "|15.68Mb"
-      - "|18.59Mb"
-      - "| 7.19Mb"
-      - "|33.55Mb"
       - "|44.91Mb"
-      - "|13.71Mb"
-      - "|44.33Mb"
+      - "|43.97Mb"
+      - "|11.93Mb"
+      - "|19.28Mb"
+      - "|48.85Mb"
+      - LT |12.78Mb
+      - Pool_🇳🇱NL |13.66Mb
+      - US |15.31Mb
+      - US |24.81Mb
+      - "|46.69Mb"
+      - "|46.02Mb"
+      - "|15.68Mb"
+      - "|33.55Mb"
       - "|47.21Mb"
-      - "|11.42Mb"
+      - "|27.36Mb"
+      - "|35.86Mb"
+      - "|46.63Mb"
+      - "|44.61Mb"
+      - "|42.29Mb"
+      - "|46.19Mb"
+      - "|46.54Mb"
+      - NL |14.34Mb
+      - CN_54 TG@peekfun
+      - "|44.33Mb"
+      - "|30.28Mb"
+      - "|21.30Mb"
+      - "|10.62Mb"
+      - "|12.80Mb"
+      - "|10.59Mb"
+      - "|17.22Mb"
+      - US |16.91Mb
+      - US | 8.75Mb
+      - "|13.71Mb"
       - "|16.37Mb"
       - "|19.80Mb"
-      - "| 2.77Mb"
       - "|12.58Mb"
-      - "|30.28Mb"
-      - "|45.99Mb 2"
-      - "|202.34Mb"
-      - "|11.73Mb"
-      - "| 9.65Mb"
-      - "|30.94Mb"
-      - "|27.36Mb"
-      - "|46.92Mb"
-      - "|14.69Mb"
-      - "|26.98Mb"
-      - "|14.97Mb"
-      - "|23.58Mb"
-      - "|31.75Mb"
-      - "|44.23Mb"
-      - "|29.60Mb"
-      - "|46.66Mb"
-      - "| 3.05Mb"
-      - _油管：全网最强白嫖
-      - "|44.86Mb"
-      - "|43.14Mb"
-      - "|43.97Mb"
-      - "|40.66Mb 2"
-      - "|46.47Mb"
-      - "|11.18Mb"
-      - _油管：全网最强白嫖 2
-      - "|44.80Mb"
-      - "|17.27Mb"
-      - "|23.01Mb"
-      - "|11.93Mb"
-      - "|30.05Mb"
-      - "|46.72Mb"
-      - "|22.91Mb"
-      - "|46.07Mb"
-      - "|45.51Mb"
-      - "| 9.97Mb"
-      - "|15.81Mb"
-      - "|21.30Mb"
-      - "|45.44Mb"
-      - "|47.03Mb"
-      - "|44.75Mb"
-      - "|35.86Mb"
-      - "| 8.03Mb"
-      - "|21.64Mb"
-      - "|16.08Mb"
-      - "|42.81Mb"
-      - "|305.39Mb"
-      - "| 2.79Mb"
-      - "|25.05Mb"
-      - CN_243 |23.81Mb
-      - "| 6.45Mb"
-      - "|41.24Mb"
-      - "|46.96Mb"
-      - "|35.66Mb"
-      - "|47.34Mb"
-      - "|45.06Mb"
-      - "|36.06Mb"
-      - "|45.01Mb"
-      - "|16.06Mb"
-      - "|14.25Mb"
-      - "|12.27Mb"
-      - "| 3.92Mb"
-      - "|11.80Mb"
-      - "|45.55Mb"
-      - "|47.68Mb"
-      - "|35.37Mb"
-      - "|46.47Mb 2"
-      - "|18.32Mb"
-      - "|16.13Mb"
-      - "| 3.36Mb"
-      - "|36.34Mb"
-      - "|46.12Mb"
-      - "|39.09Mb"
-      - "| 3.63Mb"
-      - "|46.53Mb"
-      - "|46.99Mb"
-      - "|46.63Mb"
-      - "|47.08Mb"
-      - "|10.62Mb"
-      - "| 4.35Mb"
-      - "|42.08Mb"
-      - "|44.61Mb"
-      - "|19.28Mb"
-      - "|11.20Mb"
-      - "|11.91Mb"
-      - "|48.85Mb"
-      - "|41.87Mb"
-      - "|38.47Mb"
-      - "|34.36Mb"
-      - "|46.39Mb"
-      - "|44.78Mb"
-      - "|45.27Mb"
-      - "|11.23Mb"
-      - "|15.65Mb"
-      - "|24.16Mb"
-      - "|19.94Mb"
-      - "| 2.81Mb"
-      - _油管：全网最强白嫖 3
-      - 日本(youtube阿伟科技)
-      - "|34.64Mb"
-      - "|43.23Mb"
-      - "|47.84Mb"
-      - "|45.20Mb"
-      - "|47.33Mb"
-      - "|61.04Mb"
-      - "|75.61Mb"
-      - "| 9.85Mb"
-      - "|12.80Mb"
-      - "| 9.18Mb"
-      - "|47.58Mb"
-      - "|42.42Mb"
-      - "|44.97Mb"
-      - "| 8.11Mb"
-      - "|12.49Mb"
-      - "|314.81Mb"
-      - "|11.95Mb"
-      - "|15.17Mb"
-      - "|11.94Mb"
-      - "|15.08Mb"
-      - "|16.94Mb"
-      - "|20.72Mb"
-      - "| 3.06Mb"
       - "| 6.39Mb"
-      - Relay_🇺🇸US-🇺🇸US_23
-      - "|11.26Mb"
-      - "|41.58Mb"
-      - "|46.24Mb"
-      - "|11.56Mb"
-      - "|13.40Mb"
-      - "|17.47Mb"
-      - "|11.88Mb"
-      - "|24.25Mb"
-      - "| 8.22Mb"
-      - 日本（欢迎订阅Youtube元亨利贞）
-      - "|31.91Mb"
-      - "|36.07Mb"
-      - "|46.77Mb"
-      - "|45.23Mb"
-      - "|30.71Mb"
-      - "| 8.17Mb"
-      - "|11.34Mb"
-      - "|11.75Mb"
-      - "|12.46Mb"
-      - "|11.88Mb 2"
-      - "|11.61Mb"
-      - "|16.87Mb"
-      - "| 3.01Mb"
-      - "| 4.22Mb"
-      - "|11.01Mb"
-      - "| 3.49Mb"
-      - "| 7.96Mb"
-      - "|41.69Mb"
-      - "|42.62Mb"
-      - "|33.28Mb"
-      - "|46.66Mb 2"
-      - "|37.23Mb"
-      - "|45.59Mb"
-      - "|46.28Mb"
-      - "|10.52Mb"
-      - "| 7.77Mb"
-      - "|10.59Mb"
-      - "|17.60Mb"
-      - "|20.68Mb"
-      - "| 8.32Mb 2"
-      - "|16.39Mb"
-      - "|16.77Mb"
-      - "|11.35Mb"
-      - "| 3.41Mb"
-      - "| 4.39Mb"
-      - "|41.44Mb"
-      - "|35.91Mb"
-      - "|46.02Mb 2"
-      - "|32.33Mb"
-      - "|47.02Mb"
-      - "|41.34Mb"
-      - "| 6.62Mb"
-      - "| 9.32Mb"
-      - "|19.31Mb"
-      - "|19.80Mb 2"
-      - "|17.22Mb"
-      - "|14.40Mb"
-      - "|12.37Mb"
-      - "| 9.88Mb"
-      - "|24.26Mb"
       - "| 3.24Mb"
-      - "|48.63Mb"
-      - "|47.21Mb 2"
-      - "|47.00Mb"
-      - "|269.68Mb"
-      - "|12.77Mb"
-      - "|11.65Mb"
-      - "|12.13Mb"
-      - "| 1.96Mb"
-      - "|46.41Mb"
-      - "|42.29Mb"
-      - "|44.20Mb"
-      - "|43.18Mb"
-      - "|45.00Mb"
-      - "| 7.94Mb"
-      - "|193.93Mb"
-      - "|11.97Mb"
-      - "|17.70Mb"
-      - "|20.08Mb"
-      - "|16.03Mb"
-      - "| 2.52Mb"
-      - "|47.29Mb"
-      - "| 1.63Mb"
-      - "| 2.68Mb"
-      - "|35.18Mb"
-      - "|44.87Mb"
-      - "|46.35Mb"
-      - "|35.66Mb 2"
-      - "|47.86Mb"
-      - "|47.07Mb"
-      - "|14.64Mb"
-      - "|13.24Mb"
-      - "| 5.62Mb"
-      - "|19.98Mb"
-      - "|19.16Mb"
-      - "|34.43Mb"
-      - "|46.49Mb"
-      - "|47.18Mb"
-      - "|45.93Mb"
-      - "|29.64Mb"
-      - "| 6.96Mb"
-      - "|23.58Mb 2"
-      - "|11.93Mb 2"
-      - "|11.71Mb"
-      - "|97.58Mb"
-      - "| 4.38Mb"
-      - "|11.65Mb 2"
-      - "|46.19Mb"
-      - "|45.58Mb"
-      - "|12.28Mb"
-      - "| 8.39Mb"
-      - "|10.33Mb 2"
-      - "|17.22Mb 2"
-      - "| 9.34Mb"
-      - "|25.31Mb"
-      - "|46.54Mb"
-      - "| 9.56Mb"
-      - "| 7.37Mb"
-      - "|11.71Mb 2"
-      - "|11.78Mb"
-      - "| 9.84Mb"
-      - "|13.05Mb"
-      - "|16.57Mb"
-      - "|40.62Mb"
-      - "|20.36Mb"
-      - "|39.21Mb"
-      - "|36.09Mb"
-      - "|39.06Mb"
-      - "|46.77Mb 2"
-      - "|45.34Mb"
-      - "| 7.10Mb"
-      - "|12.44Mb"
-      - "|10.35Mb"
-      - "|12.40Mb"
-      - "|17.60Mb 2"
-      - "|11.24Mb"
-      - "|11.75Mb 2"
-      - "|11.96Mb"
-      - "|17.01Mb"
-      - "|19.83Mb"
-      - "|11.71Mb 3"
-      - "| 7.04Mb"
-      - "|28.28Mb"
-      - "|47.57Mb"
-      - "| 8.83Mb"
-      - "|46.71Mb"
-      - "|18.59Mb 2"
-      - "|46.87Mb"
-      - "| 6.17Mb"
-      - "|17.35Mb"
-      - "|16.76Mb"
-      - "|18.05Mb"
-      - "|18.87Mb"
-      - "| 0.88Mb"
-      - "|48.08Mb"
-      - "|46.93Mb"
-      - "|46.54Mb 2"
-      - "| 8.14Mb"
-      - "|16.49Mb"
-      - "|20.91Mb"
-      - "| 7.86Mb"
-      - "| 7.95Mb"
-      - "| 1.87Mb"
-      - "| 9.27Mb"
-      - "|30.01Mb"
-      - "|47.35Mb"
-      - "|45.19Mb"
-      - "| 8.44Mb"
-      - "| 8.77Mb"
-      - "|16.85Mb"
-      - "|11.60Mb"
-      - "| 4.77Mb"
-      - "| 4.47Mb"
-      - "|47.88Mb"
-      - "|35.74Mb"
-      - "|46.42Mb"
-      - "| 8.57Mb"
-      - "|92.84Mb"
-      - "| 8.26Mb"
-      - "|36.70Mb"
-      - "|23.13Mb"
-      - "|23.46Mb"
-      - "|11.53Mb"
-      - "| 1.84Mb"
-      - "| 0.93Mb"
-      - "|45.22Mb"
-      - "|45.80Mb"
-      - "|45.42Mb"
-      - "|16.27Mb"
-      - "| 7.43Mb"
-      - "|47.41Mb"
-      - "| 1.33Mb"
-      - "| 4.08Mb"
-      - "|40.83Mb"
-      - "|38.36Mb"
-      - _CN_中国->🇰🇷_KR_韩国
-      - "|10.36Mb"
-      - "| 7.34Mb"
-      - 德国(youtube阿伟科技)
-      - "|11.95Mb 2"
-      - "| 7.76Mb"
-      - 德国(youtube阿伟科技) 2
-      - "|45.66Mb"
-      - "|47.12Mb"
-      - Relay_🇺🇸US-🇺🇸US_20
-      - CN_37 TG@peekfun
-      - CN_83 TG@peekfun
-      - "| 4.54Mb"
-      - "| 6.14Mb"
-      - "|43.54Mb"
-      - Relay_🇨🇳CN |12.28Mb
-      - 美国(youtube阿伟科技)
-      - "|19.53Mb"
-      - "|17.17Mb"
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - Relay_🇨🇳CN | 3.14Mb
-      - 美国(youtube阿伟科技) 2
-      - "| 6.06Mb"
-      - "|11.77Mb"
-      - NONE
-      - "|35.29Mb"
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - "|10.76Mb"
+      - Relay_ |37.23Mb
+      - "| 3.41Mb"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -3500,434 +604,72 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "|40.30Mb"
-      - CN_262
-      - "|10.33Mb"
-      - "|17.09Mb"
-      - 美国(欢迎订阅Youtube破解资源君) 30
-      - CN_255
+      - CN_244 |10.30Mb
       - Relay_🇨🇳CN-🇹🇼TW_34 |38.98Mb
-      - "|40.66Mb"
-      - "|46.98Mb"
-      - "|23.38Mb"
-      - "|45.49Mb"
-      - "|21.25Mb"
-      - "| 3.12Mb"
-      - "|37.54Mb"
-      - "| 3.26Mb"
-      - "|47.59Mb"
-      - "| 3.16Mb"
-      - _JP_日本
-      - "|20.47Mb"
-      - "|34.11Mb"
-      - "|36.45Mb"
-      - "|21.37Mb"
-      - "|43.41Mb"
-      - "|37.12Mb"
+      - CN_255
+      - CN_229
+      - Relay_ | 1.78Mb
+      - _油管：全网最强白嫖
+      - Relay_🇨🇳CN | 3.14Mb
+      - CN_256 |24.30Mb
+      - CN_84 TG@peekfun
+      - _油管：全网最强白嫖 2
+      - _CN_中国->🇰🇷_KR_韩国
+      - _油管：全网最强白嫖 3
+      - CN_37 TG@peekfun
+      - CN_38 | 7.02Mb
+      - CN_40 | 1.19Mb
       - "| 3.98Mb"
-      - "|47.60Mb"
-      - "|18.49Mb"
-      - "|11.40Mb"
-      - "|19.43Mb"
       - CN_72 TG@peekfun
-      - "|47.39Mb"
-      - "|44.66Mb"
-      - "|12.60Mb"
-      - "|32.23Mb"
-      - "|24.37Mb"
-      - "|33.98Mb"
-      - "|13.18Mb"
-      - "|16.17Mb"
-      - "|18.79Mb"
-      - "|19.49Mb"
-      - "|46.69Mb"
-      - "| 8.85Mb"
-      - "|41.15Mb"
-      - "|46.23Mb"
-      - "|10.48Mb"
-      - "|17.62Mb"
-      - "|46.70Mb"
+      - "|19.53Mb"
+      - ZZ |12.85Mb
+      - "|40.30Mb"
+      - "|46.98Mb"
+      - Relay_ |11.66Mb
+      - LT | 1.78Mb
+      - SG | 5.40Mb
+      - ZZ |11.62Mb
       - "|45.99Mb"
-      - "|45.47Mb"
-      - "|11.02Mb"
-      - "|32.06Mb"
-      - "|47.44Mb"
-      - "|45.90Mb"
-      - "|45.13Mb"
-      - "|46.02Mb"
-      - "|45.49Mb 2"
-      - "|183.30Mb"
-      - "|11.82Mb"
-      - "| 9.33Mb"
-      - "|46.11Mb"
-      - "|36.69Mb"
-      - "| 8.32Mb"
-      - "| 7.05Mb"
-      - "|41.77Mb"
-      - "|46.95Mb"
-      - "|49.59Mb"
-      - "|14.78Mb"
-      - "|38.49Mb"
-      - "|13.68Mb"
-      - "|15.68Mb"
-      - "|18.59Mb"
-      - "| 7.19Mb"
-      - "|33.55Mb"
       - "|44.91Mb"
-      - "|13.71Mb"
-      - "|44.33Mb"
+      - "|43.97Mb"
+      - "|11.93Mb"
+      - "|19.28Mb"
+      - "|48.85Mb"
+      - LT |12.78Mb
+      - Pool_🇳🇱NL |13.66Mb
+      - US |15.31Mb
+      - US |24.81Mb
+      - "|46.69Mb"
+      - "|46.02Mb"
+      - "|15.68Mb"
+      - "|33.55Mb"
       - "|47.21Mb"
-      - "|11.42Mb"
+      - "|27.36Mb"
+      - "|35.86Mb"
+      - "|46.63Mb"
+      - "|44.61Mb"
+      - "|42.29Mb"
+      - "|46.19Mb"
+      - "|46.54Mb"
+      - NL |14.34Mb
+      - CN_54 TG@peekfun
+      - "|44.33Mb"
+      - "|30.28Mb"
+      - "|21.30Mb"
+      - "|10.62Mb"
+      - "|12.80Mb"
+      - "|10.59Mb"
+      - "|17.22Mb"
+      - US |16.91Mb
+      - US | 8.75Mb
+      - "|13.71Mb"
       - "|16.37Mb"
       - "|19.80Mb"
-      - "| 2.77Mb"
       - "|12.58Mb"
-      - "|30.28Mb"
-      - "|45.99Mb 2"
-      - "|202.34Mb"
-      - "|11.73Mb"
-      - "| 9.65Mb"
-      - "|30.94Mb"
-      - "|27.36Mb"
-      - "|46.92Mb"
-      - "|14.69Mb"
-      - "|26.98Mb"
-      - "|14.97Mb"
-      - "|23.58Mb"
-      - "|31.75Mb"
-      - "|44.23Mb"
-      - "|29.60Mb"
-      - "|46.66Mb"
-      - "| 3.05Mb"
-      - _油管：全网最强白嫖
-      - "|44.86Mb"
-      - "|43.14Mb"
-      - "|43.97Mb"
-      - "|40.66Mb 2"
-      - "|46.47Mb"
-      - "|11.18Mb"
-      - _油管：全网最强白嫖 2
-      - "|44.80Mb"
-      - "|17.27Mb"
-      - "|23.01Mb"
-      - "|11.93Mb"
-      - "|30.05Mb"
-      - "|46.72Mb"
-      - "|22.91Mb"
-      - "|46.07Mb"
-      - "|45.51Mb"
-      - "| 9.97Mb"
-      - "|15.81Mb"
-      - "|21.30Mb"
-      - "|45.44Mb"
-      - "|47.03Mb"
-      - "|44.75Mb"
-      - "|35.86Mb"
-      - "| 8.03Mb"
-      - "|21.64Mb"
-      - "|16.08Mb"
-      - "|42.81Mb"
-      - "|305.39Mb"
-      - "| 2.79Mb"
-      - "|25.05Mb"
-      - CN_243 |23.81Mb
-      - "| 6.45Mb"
-      - "|41.24Mb"
-      - "|46.96Mb"
-      - "|35.66Mb"
-      - "|47.34Mb"
-      - "|45.06Mb"
-      - "|36.06Mb"
-      - "|45.01Mb"
-      - "|16.06Mb"
-      - "|14.25Mb"
-      - "|12.27Mb"
-      - "| 3.92Mb"
-      - "|11.80Mb"
-      - "|45.55Mb"
-      - "|47.68Mb"
-      - "|35.37Mb"
-      - "|46.47Mb 2"
-      - "|18.32Mb"
-      - "|16.13Mb"
-      - "| 3.36Mb"
-      - "|36.34Mb"
-      - "|46.12Mb"
-      - "|39.09Mb"
-      - "| 3.63Mb"
-      - "|46.53Mb"
-      - "|46.99Mb"
-      - "|46.63Mb"
-      - "|47.08Mb"
-      - "|10.62Mb"
-      - "| 4.35Mb"
-      - "|42.08Mb"
-      - "|44.61Mb"
-      - "|19.28Mb"
-      - "|11.20Mb"
-      - "|11.91Mb"
-      - "|48.85Mb"
-      - "|41.87Mb"
-      - "|38.47Mb"
-      - "|34.36Mb"
-      - "|46.39Mb"
-      - "|44.78Mb"
-      - "|45.27Mb"
-      - "|11.23Mb"
-      - "|15.65Mb"
-      - "|24.16Mb"
-      - "|19.94Mb"
-      - "| 2.81Mb"
-      - _油管：全网最强白嫖 3
-      - 日本(youtube阿伟科技)
-      - "|34.64Mb"
-      - "|43.23Mb"
-      - "|47.84Mb"
-      - "|45.20Mb"
-      - "|47.33Mb"
-      - "|61.04Mb"
-      - "|75.61Mb"
-      - "| 9.85Mb"
-      - "|12.80Mb"
-      - "| 9.18Mb"
-      - "|47.58Mb"
-      - "|42.42Mb"
-      - "|44.97Mb"
-      - "| 8.11Mb"
-      - "|12.49Mb"
-      - "|314.81Mb"
-      - "|11.95Mb"
-      - "|15.17Mb"
-      - "|11.94Mb"
-      - "|15.08Mb"
-      - "|16.94Mb"
-      - "|20.72Mb"
-      - "| 3.06Mb"
       - "| 6.39Mb"
-      - Relay_🇺🇸US-🇺🇸US_23
-      - "|11.26Mb"
-      - "|41.58Mb"
-      - "|46.24Mb"
-      - "|11.56Mb"
-      - "|13.40Mb"
-      - "|17.47Mb"
-      - "|11.88Mb"
-      - "|24.25Mb"
-      - "| 8.22Mb"
-      - 日本（欢迎订阅Youtube元亨利贞）
-      - "|31.91Mb"
-      - "|36.07Mb"
-      - "|46.77Mb"
-      - "|45.23Mb"
-      - "|30.71Mb"
-      - "| 8.17Mb"
-      - "|11.34Mb"
-      - "|11.75Mb"
-      - "|12.46Mb"
-      - "|11.88Mb 2"
-      - "|11.61Mb"
-      - "|16.87Mb"
-      - "| 3.01Mb"
-      - "| 4.22Mb"
-      - "|11.01Mb"
-      - "| 3.49Mb"
-      - "| 7.96Mb"
-      - "|41.69Mb"
-      - "|42.62Mb"
-      - "|33.28Mb"
-      - "|46.66Mb 2"
-      - "|37.23Mb"
-      - "|45.59Mb"
-      - "|46.28Mb"
-      - "|10.52Mb"
-      - "| 7.77Mb"
-      - "|10.59Mb"
-      - "|17.60Mb"
-      - "|20.68Mb"
-      - "| 8.32Mb 2"
-      - "|16.39Mb"
-      - "|16.77Mb"
-      - "|11.35Mb"
-      - "| 3.41Mb"
-      - "| 4.39Mb"
-      - "|41.44Mb"
-      - "|35.91Mb"
-      - "|46.02Mb 2"
-      - "|32.33Mb"
-      - "|47.02Mb"
-      - "|41.34Mb"
-      - "| 6.62Mb"
-      - "| 9.32Mb"
-      - "|19.31Mb"
-      - "|19.80Mb 2"
-      - "|17.22Mb"
-      - "|14.40Mb"
-      - "|12.37Mb"
-      - "| 9.88Mb"
-      - "|24.26Mb"
       - "| 3.24Mb"
-      - "|48.63Mb"
-      - "|47.21Mb 2"
-      - "|47.00Mb"
-      - "|269.68Mb"
-      - "|12.77Mb"
-      - "|11.65Mb"
-      - "|12.13Mb"
-      - "| 1.96Mb"
-      - "|46.41Mb"
-      - "|42.29Mb"
-      - "|44.20Mb"
-      - "|43.18Mb"
-      - "|45.00Mb"
-      - "| 7.94Mb"
-      - "|193.93Mb"
-      - "|11.97Mb"
-      - "|17.70Mb"
-      - "|20.08Mb"
-      - "|16.03Mb"
-      - "| 2.52Mb"
-      - "|47.29Mb"
-      - "| 1.63Mb"
-      - "| 2.68Mb"
-      - "|35.18Mb"
-      - "|44.87Mb"
-      - "|46.35Mb"
-      - "|35.66Mb 2"
-      - "|47.86Mb"
-      - "|47.07Mb"
-      - "|14.64Mb"
-      - "|13.24Mb"
-      - "| 5.62Mb"
-      - "|19.98Mb"
-      - "|19.16Mb"
-      - "|34.43Mb"
-      - "|46.49Mb"
-      - "|47.18Mb"
-      - "|45.93Mb"
-      - "|29.64Mb"
-      - "| 6.96Mb"
-      - "|23.58Mb 2"
-      - "|11.93Mb 2"
-      - "|11.71Mb"
-      - "|97.58Mb"
-      - "| 4.38Mb"
-      - "|11.65Mb 2"
-      - "|46.19Mb"
-      - "|45.58Mb"
-      - "|12.28Mb"
-      - "| 8.39Mb"
-      - "|10.33Mb 2"
-      - "|17.22Mb 2"
-      - "| 9.34Mb"
-      - "|25.31Mb"
-      - "|46.54Mb"
-      - "| 9.56Mb"
-      - "| 7.37Mb"
-      - "|11.71Mb 2"
-      - "|11.78Mb"
-      - "| 9.84Mb"
-      - "|13.05Mb"
-      - "|16.57Mb"
-      - "|40.62Mb"
-      - "|20.36Mb"
-      - "|39.21Mb"
-      - "|36.09Mb"
-      - "|39.06Mb"
-      - "|46.77Mb 2"
-      - "|45.34Mb"
-      - "| 7.10Mb"
-      - "|12.44Mb"
-      - "|10.35Mb"
-      - "|12.40Mb"
-      - "|17.60Mb 2"
-      - "|11.24Mb"
-      - "|11.75Mb 2"
-      - "|11.96Mb"
-      - "|17.01Mb"
-      - "|19.83Mb"
-      - "|11.71Mb 3"
-      - "| 7.04Mb"
-      - "|28.28Mb"
-      - "|47.57Mb"
-      - "| 8.83Mb"
-      - "|46.71Mb"
-      - "|18.59Mb 2"
-      - "|46.87Mb"
-      - "| 6.17Mb"
-      - "|17.35Mb"
-      - "|16.76Mb"
-      - "|18.05Mb"
-      - "|18.87Mb"
-      - "| 0.88Mb"
-      - "|48.08Mb"
-      - "|46.93Mb"
-      - "|46.54Mb 2"
-      - "| 8.14Mb"
-      - "|16.49Mb"
-      - "|20.91Mb"
-      - "| 7.86Mb"
-      - "| 7.95Mb"
-      - "| 1.87Mb"
-      - "| 9.27Mb"
-      - "|30.01Mb"
-      - "|47.35Mb"
-      - "|45.19Mb"
-      - "| 8.44Mb"
-      - "| 8.77Mb"
-      - "|16.85Mb"
-      - "|11.60Mb"
-      - "| 4.77Mb"
-      - "| 4.47Mb"
-      - "|47.88Mb"
-      - "|35.74Mb"
-      - "|46.42Mb"
-      - "| 8.57Mb"
-      - "|92.84Mb"
-      - "| 8.26Mb"
-      - "|36.70Mb"
-      - "|23.13Mb"
-      - "|23.46Mb"
-      - "|11.53Mb"
-      - "| 1.84Mb"
-      - "| 0.93Mb"
-      - "|45.22Mb"
-      - "|45.80Mb"
-      - "|45.42Mb"
-      - "|16.27Mb"
-      - "| 7.43Mb"
-      - "|47.41Mb"
-      - "| 1.33Mb"
-      - "| 4.08Mb"
-      - "|40.83Mb"
-      - "|38.36Mb"
-      - _CN_中国->🇰🇷_KR_韩国
-      - "|10.36Mb"
-      - "| 7.34Mb"
-      - 德国(youtube阿伟科技)
-      - "|11.95Mb 2"
-      - "| 7.76Mb"
-      - 德国(youtube阿伟科技) 2
-      - "|45.66Mb"
-      - "|47.12Mb"
-      - Relay_🇺🇸US-🇺🇸US_20
-      - CN_37 TG@peekfun
-      - CN_83 TG@peekfun
-      - "| 4.54Mb"
-      - "| 6.14Mb"
-      - "|43.54Mb"
-      - Relay_🇨🇳CN |12.28Mb
-      - 美国(youtube阿伟科技)
-      - "|19.53Mb"
-      - "|17.17Mb"
-      - 欧洲(欢迎订阅Youtube破解资源君) 6
-      - Relay_🇨🇳CN | 3.14Mb
-      - 美国(youtube阿伟科技) 2
-      - "| 6.06Mb"
-      - "|11.77Mb"
-      - NONE
-      - "|35.29Mb"
-      - 美国(欢迎订阅Youtube破解资源君) 5
-      - "|10.76Mb"
+      - Relay_ |37.23Mb
+      - "| 3.41Mb"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
