@@ -5,287 +5,367 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: CN_244 |10.30Mb, server: 14.29.124.168, port: 25254, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Relay_🇨🇳CN-🇹🇼TW_34 |38.98Mb, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
-  - {name: CN_255, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_229, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Relay_ | 1.78Mb, server: cm.spacez.cloud, port: 30002, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
-  - {name: _油管：全网最强白嫖, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: Relay_🇨🇳CN | 3.14Mb, server: scloud29.jafiyun.life, port: 22029, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: scloud29.jafiyun.life, skip-cert-verify: true, udp: true}
-  - {name: CN_256 |24.30Mb, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_84 TG@peekfun, server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _油管：全网最强白嫖 2, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: _CN_中国->🇰🇷_KR_韩国, server: 180.163.62.91, port: 10065, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: _油管：全网最强白嫖 3, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
-  - {name: CN_37 TG@peekfun, server: 14.29.124.168, port: 25210, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_38 | 7.02Mb, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_40 | 1.19Mb, server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "| 3.98Mb", server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: CN_72 TG@peekfun, server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "|19.53Mb", server: 185.167.116.24, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
+  - {name: CN_242 |24.15Mb, server: 14.29.124.168, port: 25229, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: Relay_🇨🇳CN-🇹🇼TW_34 |38.98Mb, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
+  - {name: CN_243 |23.81Mb, server: 14.29.124.168, port: 25261, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_256 |24.30Mb, server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "|46.63Mb", server: 85.208.108.21, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "|46.19Mb", server: 85.208.108.21, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 美国-节点更新 bit.ly/36b6iJh 2, server: ruvds.testx.eu.org, port: 443, type: vmess, uuid: 0e7036c1-6de1-4a83-ef4f-e0d56c67fa10, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: "/vmess-share/?ed=2048", ws-headers: {Host: ruvds.testx.eu.org}, udp: true}
+  - {name: CN_244 |10.30Mb, server: 14.29.124.168, port: 25254, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "|15.68Mb", server: 167.88.61.50, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: _油管：全网最强白嫖, server: 117.28.242.156, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: "| 3.98Mb", server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 10, server: fhcarm2.gaox.ml, port: 443, type: trojan, password: f39bd244-f5fe-415c-8b98-a1e5250bf178, sni: fhcarm2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: CN_40 | 1.19Mb, server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_240 |24.34Mb, server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_229, server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "|21.30Mb", server: 85.208.108.94, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CN_38 TG@peekfun, server: 14.29.124.168, port: 25218, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: _油管：全网最强白嫖 2, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: "|44.33Mb", server: 85.208.108.94, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: CN_248 |24.22Mb, server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "|30.28Mb", server: 85.208.108.60, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: _油管：全网最强白嫖 3, server: sxqxj.cn, port: 2164, type: vmess, uuid: aba50dd4-5484-3b05-b14a-4661caf862d5, alterId: 4, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /ws, ws-headers: {Host: sxqxj.cn}, udp: true}
+  - {name: CN_38 | 7.02Mb, server: 14.29.124.168, port: 25283, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: ZZ |12.85Mb, server: 134.195.196.231, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: CN_54 TG@peekfun, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "|16.37Mb", server: 167.88.61.50, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: CN_262, server: 14.29.124.168, port: 25226, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_259 |24.37Mb, server: 14.29.124.168, port: 25251, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_81 TG@peekfun, server: 14.29.124.168, port: 25231, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_87 TG@peekfun, server: 14.29.124.168, port: 25268, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_226, server: 14.29.124.168, port: 25284, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: 德国(youtube阿伟科技), server: vde1.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vde1.0bad.com}, udp: true}
+  - {name: _JP_日本, server: 85.208.108.90, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: CN_32 TG@peekfun, server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "|19.53Mb", server: 185.167.116.24, port: 9020, type: ss, cipher: aes-256-cfb, password: BNmAXXxAHYpTRdzu, udp: true}
   - {name: "|40.30Mb", server: 85.208.108.60, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "|35.86Mb", server: 85.208.108.18, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: "|44.61Mb", server: 85.208.108.20, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: "|46.54Mb", server: 85.208.108.18, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: 日本（欢迎订阅Youtube元亨利贞）, server: 150.230.4.136, port: 11151, type: vmess, uuid: 18ef8b86-5dfe-48a9-b4e4-b5f595f7e555, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: 美国(youtube阿伟科技), server: 144.91.109.71, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: V8stXKscUpkN, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_20, server: us2.asasas.top, port: 18117, type: vmess, uuid: 80efa71b-a164-3057-bdfd-ed28521256fe, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: us2.asasas.top}, udp: true}
+  - {name: 美国(youtube阿伟科技) 2, server: tj-us02.yiyodns.xyz, port: 443, type: trojan, password: 7dafe71e-2be6-302f-bdfc-e6319a3299bc, sni: tj-us02.yiyodns.xyz, skip-cert-verify: true, udp: true}
+  - {name: CN_45 TG@peekfun, server: 180.163.62.91, port: 10065, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_255 |24.54Mb, server: 14.29.124.168, port: 25272, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "|10.62Mb", server: 217.30.10.63, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
+  - {name: "|45.99Mb", server: 85.208.108.18, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "|48.85Mb", server: 85.208.108.59, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "|33.55Mb", server: 85.208.108.59, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 30, server: us02.gogogoo.cyou, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /go, ws-headers: {Host: us02.gogogoo.cyou}, udp: true}
+  - {name: CN_209, server: 14.29.124.168, port: 25207, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "|17.22Mb", server: 167.88.61.50, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: CN_77 TG@peekfun, server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: "|46.98Mb", server: 85.208.108.59, port: 8000, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: Relay_ |11.66Mb, server: jp05.jafiyun.life, port: 21232, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: jp05.jafiyun.life, skip-cert-verify: true, udp: true}
-  - {name: LT | 1.78Mb, server: 213.183.53.179, port: 9041, type: ss, cipher: aes-256-cfb, password: U6qnYRhfyDmn8sgn, udp: true}
+  - {name: "|19.28Mb", server: 85.208.108.94, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: 美国(欢迎订阅Youtube破解资源君) 12, server: lsj02.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, sni: lsj02.wangxd.life, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US-🇺🇸US_23, server: vus4.0bad.com, port: 443, type: vmess, uuid: 927094d3-d678-4763-8591-e240d0bcae87, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /chat, ws-headers: {Host: vus4.0bad.com}, udp: true}
+  - {name: CN_255, server: 14.29.124.168, port: 25287, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
   - {name: SG | 5.40Mb, server: 194.124.35.40, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: ZZ |11.62Mb, server: 134.195.196.231, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: "|45.99Mb", server: 85.208.108.18, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: "|44.91Mb", server: 85.208.108.94, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: "|43.97Mb", server: 85.208.108.21, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
   - {name: "|11.93Mb", server: 193.108.117.75, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|19.28Mb", server: 85.208.108.94, port: 7306, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|48.85Mb", server: 85.208.108.59, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: LT |12.78Mb, server: 213.183.53.222, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
   - {name: Pool_🇳🇱NL |13.66Mb, server: 85.208.108.21, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
-  - {name: US |15.31Mb, server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: US |24.81Mb, server: 38.114.114.69, port: 6697, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
-  - {name: "|46.69Mb", server: 85.208.108.18, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
-  - {name: "|46.02Mb", server: 85.208.108.18, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
-  - {name: "|15.68Mb", server: 167.88.61.50, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
-  - {name: "|33.55Mb", server: 85.208.108.59, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: "|47.21Mb", server: 85.208.108.94, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
   - {name: "|27.36Mb", server: 85.208.108.20, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|35.86Mb", server: 85.208.108.18, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
-  - {name: "|46.63Mb", server: 85.208.108.21, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
-  - {name: "|44.61Mb", server: 85.208.108.20, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
   - {name: "|42.29Mb", server: 85.208.108.60, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|46.19Mb", server: 85.208.108.21, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: "|46.54Mb", server: 85.208.108.18, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
-  - {name: NL |14.34Mb, server: 185.246.155.35, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: CN_54 TG@peekfun, server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "|44.33Mb", server: 85.208.108.94, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: "|30.28Mb", server: 85.208.108.60, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|21.30Mb", server: 85.208.108.94, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "|10.62Mb", server: 217.30.10.63, port: 9045, type: ss, cipher: aes-256-cfb, password: Lp27rqyJq72bZsqX, udp: true}
-  - {name: "|12.80Mb", server: 134.195.196.227, port: 5500, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
-  - {name: "|10.59Mb", server: 217.30.10.63, port: 9018, type: ss, cipher: aes-256-cfb, password: fG2artUmHfNT2cX7, udp: true}
-  - {name: "|17.22Mb", server: 167.88.61.50, port: 5601, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: US |16.91Mb, server: 172.99.190.149, port: 3389, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
   - {name: US | 8.75Mb, server: 142.202.48.34, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
-  - {name: "|13.71Mb", server: 217.30.10.63, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
-  - {name: "|16.37Mb", server: 167.88.61.50, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
   - {name: "|19.80Mb", server: 167.88.61.2, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: "|12.58Mb", server: 134.195.196.231, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
   - {name: "| 6.39Mb", server: 169.197.141.187, port: 5600, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
-  - {name: "| 3.24Mb", server: 169.197.141.187, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
-  - {name: Relay_ |37.23Mb, server: jp06.jafiyun.life, port: 21233, type: trojan, password: 63d7b7bb-e526-3ea5-a61f-9da6df645da0, sni: jp06.jafiyun.life, skip-cert-verify: true, udp: true}
   - {name: "| 3.41Mb", server: 169.197.141.187, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: CN_227, server: 14.29.124.168, port: 25215, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: CN_158 | 0.05Mb, server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "|44.91Mb", server: 85.208.108.94, port: 8009, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: LT |12.78Mb, server: 213.183.53.222, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: "| 3.24Mb", server: 169.197.141.187, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "|46.69Mb", server: 85.208.108.18, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: "|46.02Mb", server: 85.208.108.18, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: 欧洲(欢迎订阅Youtube破解资源君) 7, server: jgwld2.gaox.ml, port: 443, type: trojan, password: d7fd8aaa-4581-4281-80aa-4b63e5e1f157, sni: jgwld2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: US |15.31Mb, server: 172.99.190.149, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "|13.71Mb", server: 217.30.10.63, port: 9014, type: ss, cipher: aes-256-cfb, password: KnJGad3FqTvjqbaX, udp: true}
+  - {name: 韩国(欢迎订阅Youtube破解资源君), server: kr05.wangxd.life, port: 3052, type: trojan, password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e, sni: kr05.wangxd.life, skip-cert-verify: true, udp: true}
+  - {name: CN_86 TG@peekfun, server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_244 |10.30Mb
-      - Relay_🇨🇳CN-🇹🇼TW_34 |38.98Mb
-      - CN_255
-      - CN_229
-      - Relay_ | 1.78Mb
-      - _油管：全网最强白嫖
-      - Relay_🇨🇳CN | 3.14Mb
-      - CN_256 |24.30Mb
-      - CN_84 TG@peekfun
-      - _油管：全网最强白嫖 2
-      - _CN_中国->🇰🇷_KR_韩国
-      - _油管：全网最强白嫖 3
-      - CN_37 TG@peekfun
-      - CN_38 | 7.02Mb
-      - CN_40 | 1.19Mb
-      - "| 3.98Mb"
       - CN_72 TG@peekfun
-      - "|19.53Mb"
+      - CN_242 |24.15Mb
+      - Relay_🇨🇳CN-🇹🇼TW_34 |38.98Mb
+      - CN_243 |23.81Mb
+      - CN_256 |24.30Mb
+      - "|46.63Mb"
+      - "|46.19Mb"
+      - 美国-节点更新 bit.ly/36b6iJh 2
+      - CN_244 |10.30Mb
+      - "|15.68Mb"
+      - _油管：全网最强白嫖
+      - "| 3.98Mb"
+      - 美国(欢迎订阅Youtube破解资源君) 10
+      - CN_40 | 1.19Mb
+      - CN_240 |24.34Mb
+      - CN_229
+      - "|21.30Mb"
+      - CN_38 TG@peekfun
+      - _油管：全网最强白嫖 2
+      - "|44.33Mb"
+      - CN_248 |24.22Mb
+      - "|30.28Mb"
+      - _油管：全网最强白嫖 3
+      - CN_38 | 7.02Mb
       - ZZ |12.85Mb
+      - CN_54 TG@peekfun
+      - "|16.37Mb"
+      - CN_262
+      - CN_259 |24.37Mb
+      - CN_81 TG@peekfun
+      - CN_87 TG@peekfun
+      - CN_226
+      - 德国(youtube阿伟科技)
+      - _JP_日本
+      - CN_32 TG@peekfun
+      - "|19.53Mb"
       - "|40.30Mb"
+      - "|35.86Mb"
+      - "|44.61Mb"
+      - "|46.54Mb"
+      - 日本（欢迎订阅Youtube元亨利贞）
+      - 美国(youtube阿伟科技)
+      - Relay_🇺🇸US-🇺🇸US_20
+      - 美国(youtube阿伟科技) 2
+      - CN_45 TG@peekfun
+      - CN_255 |24.54Mb
+      - "|10.62Mb"
+      - "|45.99Mb"
+      - "|48.85Mb"
+      - "|33.55Mb"
+      - 美国(欢迎订阅Youtube破解资源君) 30
+      - CN_209
+      - "|17.22Mb"
+      - CN_77 TG@peekfun
       - "|46.98Mb"
-      - Relay_ |11.66Mb
-      - LT | 1.78Mb
+      - "|19.28Mb"
+      - 美国(欢迎订阅Youtube破解资源君) 12
+      - Relay_🇺🇸US-🇺🇸US_23
+      - CN_255
       - SG | 5.40Mb
       - ZZ |11.62Mb
-      - "|45.99Mb"
-      - "|44.91Mb"
       - "|43.97Mb"
       - "|11.93Mb"
-      - "|19.28Mb"
-      - "|48.85Mb"
-      - LT |12.78Mb
       - Pool_🇳🇱NL |13.66Mb
-      - US |15.31Mb
       - US |24.81Mb
-      - "|46.69Mb"
-      - "|46.02Mb"
-      - "|15.68Mb"
-      - "|33.55Mb"
       - "|47.21Mb"
       - "|27.36Mb"
-      - "|35.86Mb"
-      - "|46.63Mb"
-      - "|44.61Mb"
       - "|42.29Mb"
-      - "|46.19Mb"
-      - "|46.54Mb"
-      - NL |14.34Mb
-      - CN_54 TG@peekfun
-      - "|44.33Mb"
-      - "|30.28Mb"
-      - "|21.30Mb"
-      - "|10.62Mb"
-      - "|12.80Mb"
-      - "|10.59Mb"
-      - "|17.22Mb"
       - US |16.91Mb
       - US | 8.75Mb
-      - "|13.71Mb"
-      - "|16.37Mb"
       - "|19.80Mb"
       - "|12.58Mb"
       - "| 6.39Mb"
-      - "| 3.24Mb"
-      - Relay_ |37.23Mb
       - "| 3.41Mb"
+      - CN_227
+      - CN_158 | 0.05Mb
+      - "|44.91Mb"
+      - LT |12.78Mb
+      - "| 3.24Mb"
+      - "|46.69Mb"
+      - "|46.02Mb"
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - US |15.31Mb
+      - "|13.71Mb"
+      - 韩国(欢迎订阅Youtube破解资源君)
+      - CN_86 TG@peekfun
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - CN_244 |10.30Mb
-      - Relay_🇨🇳CN-🇹🇼TW_34 |38.98Mb
-      - CN_255
-      - CN_229
-      - Relay_ | 1.78Mb
-      - _油管：全网最强白嫖
-      - Relay_🇨🇳CN | 3.14Mb
-      - CN_256 |24.30Mb
-      - CN_84 TG@peekfun
-      - _油管：全网最强白嫖 2
-      - _CN_中国->🇰🇷_KR_韩国
-      - _油管：全网最强白嫖 3
-      - CN_37 TG@peekfun
-      - CN_38 | 7.02Mb
-      - CN_40 | 1.19Mb
-      - "| 3.98Mb"
       - CN_72 TG@peekfun
-      - "|19.53Mb"
+      - CN_242 |24.15Mb
+      - Relay_🇨🇳CN-🇹🇼TW_34 |38.98Mb
+      - CN_243 |23.81Mb
+      - CN_256 |24.30Mb
+      - "|46.63Mb"
+      - "|46.19Mb"
+      - 美国-节点更新 bit.ly/36b6iJh 2
+      - CN_244 |10.30Mb
+      - "|15.68Mb"
+      - _油管：全网最强白嫖
+      - "| 3.98Mb"
+      - 美国(欢迎订阅Youtube破解资源君) 10
+      - CN_40 | 1.19Mb
+      - CN_240 |24.34Mb
+      - CN_229
+      - "|21.30Mb"
+      - CN_38 TG@peekfun
+      - _油管：全网最强白嫖 2
+      - "|44.33Mb"
+      - CN_248 |24.22Mb
+      - "|30.28Mb"
+      - _油管：全网最强白嫖 3
+      - CN_38 | 7.02Mb
       - ZZ |12.85Mb
+      - CN_54 TG@peekfun
+      - "|16.37Mb"
+      - CN_262
+      - CN_259 |24.37Mb
+      - CN_81 TG@peekfun
+      - CN_87 TG@peekfun
+      - CN_226
+      - 德国(youtube阿伟科技)
+      - _JP_日本
+      - CN_32 TG@peekfun
+      - "|19.53Mb"
       - "|40.30Mb"
+      - "|35.86Mb"
+      - "|44.61Mb"
+      - "|46.54Mb"
+      - 日本（欢迎订阅Youtube元亨利贞）
+      - 美国(youtube阿伟科技)
+      - Relay_🇺🇸US-🇺🇸US_20
+      - 美国(youtube阿伟科技) 2
+      - CN_45 TG@peekfun
+      - CN_255 |24.54Mb
+      - "|10.62Mb"
+      - "|45.99Mb"
+      - "|48.85Mb"
+      - "|33.55Mb"
+      - 美国(欢迎订阅Youtube破解资源君) 30
+      - CN_209
+      - "|17.22Mb"
+      - CN_77 TG@peekfun
       - "|46.98Mb"
-      - Relay_ |11.66Mb
-      - LT | 1.78Mb
+      - "|19.28Mb"
+      - 美国(欢迎订阅Youtube破解资源君) 12
+      - Relay_🇺🇸US-🇺🇸US_23
+      - CN_255
       - SG | 5.40Mb
       - ZZ |11.62Mb
-      - "|45.99Mb"
-      - "|44.91Mb"
       - "|43.97Mb"
       - "|11.93Mb"
-      - "|19.28Mb"
-      - "|48.85Mb"
-      - LT |12.78Mb
       - Pool_🇳🇱NL |13.66Mb
-      - US |15.31Mb
       - US |24.81Mb
-      - "|46.69Mb"
-      - "|46.02Mb"
-      - "|15.68Mb"
-      - "|33.55Mb"
       - "|47.21Mb"
       - "|27.36Mb"
-      - "|35.86Mb"
-      - "|46.63Mb"
-      - "|44.61Mb"
       - "|42.29Mb"
-      - "|46.19Mb"
-      - "|46.54Mb"
-      - NL |14.34Mb
-      - CN_54 TG@peekfun
-      - "|44.33Mb"
-      - "|30.28Mb"
-      - "|21.30Mb"
-      - "|10.62Mb"
-      - "|12.80Mb"
-      - "|10.59Mb"
-      - "|17.22Mb"
       - US |16.91Mb
       - US | 8.75Mb
-      - "|13.71Mb"
-      - "|16.37Mb"
       - "|19.80Mb"
       - "|12.58Mb"
       - "| 6.39Mb"
-      - "| 3.24Mb"
-      - Relay_ |37.23Mb
       - "| 3.41Mb"
+      - CN_227
+      - CN_158 | 0.05Mb
+      - "|44.91Mb"
+      - LT |12.78Mb
+      - "| 3.24Mb"
+      - "|46.69Mb"
+      - "|46.02Mb"
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - US |15.31Mb
+      - "|13.71Mb"
+      - 韩国(欢迎订阅Youtube破解资源君)
+      - CN_86 TG@peekfun
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_244 |10.30Mb
-      - Relay_🇨🇳CN-🇹🇼TW_34 |38.98Mb
-      - CN_255
-      - CN_229
-      - Relay_ | 1.78Mb
-      - _油管：全网最强白嫖
-      - Relay_🇨🇳CN | 3.14Mb
-      - CN_256 |24.30Mb
-      - CN_84 TG@peekfun
-      - _油管：全网最强白嫖 2
-      - _CN_中国->🇰🇷_KR_韩国
-      - _油管：全网最强白嫖 3
-      - CN_37 TG@peekfun
-      - CN_38 | 7.02Mb
-      - CN_40 | 1.19Mb
-      - "| 3.98Mb"
       - CN_72 TG@peekfun
-      - "|19.53Mb"
+      - CN_242 |24.15Mb
+      - Relay_🇨🇳CN-🇹🇼TW_34 |38.98Mb
+      - CN_243 |23.81Mb
+      - CN_256 |24.30Mb
+      - "|46.63Mb"
+      - "|46.19Mb"
+      - 美国-节点更新 bit.ly/36b6iJh 2
+      - CN_244 |10.30Mb
+      - "|15.68Mb"
+      - _油管：全网最强白嫖
+      - "| 3.98Mb"
+      - 美国(欢迎订阅Youtube破解资源君) 10
+      - CN_40 | 1.19Mb
+      - CN_240 |24.34Mb
+      - CN_229
+      - "|21.30Mb"
+      - CN_38 TG@peekfun
+      - _油管：全网最强白嫖 2
+      - "|44.33Mb"
+      - CN_248 |24.22Mb
+      - "|30.28Mb"
+      - _油管：全网最强白嫖 3
+      - CN_38 | 7.02Mb
       - ZZ |12.85Mb
+      - CN_54 TG@peekfun
+      - "|16.37Mb"
+      - CN_262
+      - CN_259 |24.37Mb
+      - CN_81 TG@peekfun
+      - CN_87 TG@peekfun
+      - CN_226
+      - 德国(youtube阿伟科技)
+      - _JP_日本
+      - CN_32 TG@peekfun
+      - "|19.53Mb"
       - "|40.30Mb"
+      - "|35.86Mb"
+      - "|44.61Mb"
+      - "|46.54Mb"
+      - 日本（欢迎订阅Youtube元亨利贞）
+      - 美国(youtube阿伟科技)
+      - Relay_🇺🇸US-🇺🇸US_20
+      - 美国(youtube阿伟科技) 2
+      - CN_45 TG@peekfun
+      - CN_255 |24.54Mb
+      - "|10.62Mb"
+      - "|45.99Mb"
+      - "|48.85Mb"
+      - "|33.55Mb"
+      - 美国(欢迎订阅Youtube破解资源君) 30
+      - CN_209
+      - "|17.22Mb"
+      - CN_77 TG@peekfun
       - "|46.98Mb"
-      - Relay_ |11.66Mb
-      - LT | 1.78Mb
+      - "|19.28Mb"
+      - 美国(欢迎订阅Youtube破解资源君) 12
+      - Relay_🇺🇸US-🇺🇸US_23
+      - CN_255
       - SG | 5.40Mb
       - ZZ |11.62Mb
-      - "|45.99Mb"
-      - "|44.91Mb"
       - "|43.97Mb"
       - "|11.93Mb"
-      - "|19.28Mb"
-      - "|48.85Mb"
-      - LT |12.78Mb
       - Pool_🇳🇱NL |13.66Mb
-      - US |15.31Mb
       - US |24.81Mb
-      - "|46.69Mb"
-      - "|46.02Mb"
-      - "|15.68Mb"
-      - "|33.55Mb"
       - "|47.21Mb"
       - "|27.36Mb"
-      - "|35.86Mb"
-      - "|46.63Mb"
-      - "|44.61Mb"
       - "|42.29Mb"
-      - "|46.19Mb"
-      - "|46.54Mb"
-      - NL |14.34Mb
-      - CN_54 TG@peekfun
-      - "|44.33Mb"
-      - "|30.28Mb"
-      - "|21.30Mb"
-      - "|10.62Mb"
-      - "|12.80Mb"
-      - "|10.59Mb"
-      - "|17.22Mb"
       - US |16.91Mb
       - US | 8.75Mb
-      - "|13.71Mb"
-      - "|16.37Mb"
       - "|19.80Mb"
       - "|12.58Mb"
       - "| 6.39Mb"
-      - "| 3.24Mb"
-      - Relay_ |37.23Mb
       - "| 3.41Mb"
+      - CN_227
+      - CN_158 | 0.05Mb
+      - "|44.91Mb"
+      - LT |12.78Mb
+      - "| 3.24Mb"
+      - "|46.69Mb"
+      - "|46.02Mb"
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - US |15.31Mb
+      - "|13.71Mb"
+      - 韩国(欢迎订阅Youtube破解资源君)
+      - CN_86 TG@peekfun
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -304,72 +384,92 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - CN_244 |10.30Mb
-      - Relay_🇨🇳CN-🇹🇼TW_34 |38.98Mb
-      - CN_255
-      - CN_229
-      - Relay_ | 1.78Mb
-      - _油管：全网最强白嫖
-      - Relay_🇨🇳CN | 3.14Mb
-      - CN_256 |24.30Mb
-      - CN_84 TG@peekfun
-      - _油管：全网最强白嫖 2
-      - _CN_中国->🇰🇷_KR_韩国
-      - _油管：全网最强白嫖 3
-      - CN_37 TG@peekfun
-      - CN_38 | 7.02Mb
-      - CN_40 | 1.19Mb
-      - "| 3.98Mb"
       - CN_72 TG@peekfun
-      - "|19.53Mb"
+      - CN_242 |24.15Mb
+      - Relay_🇨🇳CN-🇹🇼TW_34 |38.98Mb
+      - CN_243 |23.81Mb
+      - CN_256 |24.30Mb
+      - "|46.63Mb"
+      - "|46.19Mb"
+      - 美国-节点更新 bit.ly/36b6iJh 2
+      - CN_244 |10.30Mb
+      - "|15.68Mb"
+      - _油管：全网最强白嫖
+      - "| 3.98Mb"
+      - 美国(欢迎订阅Youtube破解资源君) 10
+      - CN_40 | 1.19Mb
+      - CN_240 |24.34Mb
+      - CN_229
+      - "|21.30Mb"
+      - CN_38 TG@peekfun
+      - _油管：全网最强白嫖 2
+      - "|44.33Mb"
+      - CN_248 |24.22Mb
+      - "|30.28Mb"
+      - _油管：全网最强白嫖 3
+      - CN_38 | 7.02Mb
       - ZZ |12.85Mb
+      - CN_54 TG@peekfun
+      - "|16.37Mb"
+      - CN_262
+      - CN_259 |24.37Mb
+      - CN_81 TG@peekfun
+      - CN_87 TG@peekfun
+      - CN_226
+      - 德国(youtube阿伟科技)
+      - _JP_日本
+      - CN_32 TG@peekfun
+      - "|19.53Mb"
       - "|40.30Mb"
+      - "|35.86Mb"
+      - "|44.61Mb"
+      - "|46.54Mb"
+      - 日本（欢迎订阅Youtube元亨利贞）
+      - 美国(youtube阿伟科技)
+      - Relay_🇺🇸US-🇺🇸US_20
+      - 美国(youtube阿伟科技) 2
+      - CN_45 TG@peekfun
+      - CN_255 |24.54Mb
+      - "|10.62Mb"
+      - "|45.99Mb"
+      - "|48.85Mb"
+      - "|33.55Mb"
+      - 美国(欢迎订阅Youtube破解资源君) 30
+      - CN_209
+      - "|17.22Mb"
+      - CN_77 TG@peekfun
       - "|46.98Mb"
-      - Relay_ |11.66Mb
-      - LT | 1.78Mb
+      - "|19.28Mb"
+      - 美国(欢迎订阅Youtube破解资源君) 12
+      - Relay_🇺🇸US-🇺🇸US_23
+      - CN_255
       - SG | 5.40Mb
       - ZZ |11.62Mb
-      - "|45.99Mb"
-      - "|44.91Mb"
       - "|43.97Mb"
       - "|11.93Mb"
-      - "|19.28Mb"
-      - "|48.85Mb"
-      - LT |12.78Mb
       - Pool_🇳🇱NL |13.66Mb
-      - US |15.31Mb
       - US |24.81Mb
-      - "|46.69Mb"
-      - "|46.02Mb"
-      - "|15.68Mb"
-      - "|33.55Mb"
       - "|47.21Mb"
       - "|27.36Mb"
-      - "|35.86Mb"
-      - "|46.63Mb"
-      - "|44.61Mb"
       - "|42.29Mb"
-      - "|46.19Mb"
-      - "|46.54Mb"
-      - NL |14.34Mb
-      - CN_54 TG@peekfun
-      - "|44.33Mb"
-      - "|30.28Mb"
-      - "|21.30Mb"
-      - "|10.62Mb"
-      - "|12.80Mb"
-      - "|10.59Mb"
-      - "|17.22Mb"
       - US |16.91Mb
       - US | 8.75Mb
-      - "|13.71Mb"
-      - "|16.37Mb"
       - "|19.80Mb"
       - "|12.58Mb"
       - "| 6.39Mb"
-      - "| 3.24Mb"
-      - Relay_ |37.23Mb
       - "| 3.41Mb"
+      - CN_227
+      - CN_158 | 0.05Mb
+      - "|44.91Mb"
+      - LT |12.78Mb
+      - "| 3.24Mb"
+      - "|46.69Mb"
+      - "|46.02Mb"
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - US |15.31Mb
+      - "|13.71Mb"
+      - 韩国(欢迎订阅Youtube破解资源君)
+      - CN_86 TG@peekfun
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -380,215 +480,275 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - CN_244 |10.30Mb
-      - Relay_🇨🇳CN-🇹🇼TW_34 |38.98Mb
-      - CN_255
-      - CN_229
-      - Relay_ | 1.78Mb
-      - _油管：全网最强白嫖
-      - Relay_🇨🇳CN | 3.14Mb
-      - CN_256 |24.30Mb
-      - CN_84 TG@peekfun
-      - _油管：全网最强白嫖 2
-      - _CN_中国->🇰🇷_KR_韩国
-      - _油管：全网最强白嫖 3
-      - CN_37 TG@peekfun
-      - CN_38 | 7.02Mb
-      - CN_40 | 1.19Mb
-      - "| 3.98Mb"
       - CN_72 TG@peekfun
-      - "|19.53Mb"
+      - CN_242 |24.15Mb
+      - Relay_🇨🇳CN-🇹🇼TW_34 |38.98Mb
+      - CN_243 |23.81Mb
+      - CN_256 |24.30Mb
+      - "|46.63Mb"
+      - "|46.19Mb"
+      - 美国-节点更新 bit.ly/36b6iJh 2
+      - CN_244 |10.30Mb
+      - "|15.68Mb"
+      - _油管：全网最强白嫖
+      - "| 3.98Mb"
+      - 美国(欢迎订阅Youtube破解资源君) 10
+      - CN_40 | 1.19Mb
+      - CN_240 |24.34Mb
+      - CN_229
+      - "|21.30Mb"
+      - CN_38 TG@peekfun
+      - _油管：全网最强白嫖 2
+      - "|44.33Mb"
+      - CN_248 |24.22Mb
+      - "|30.28Mb"
+      - _油管：全网最强白嫖 3
+      - CN_38 | 7.02Mb
       - ZZ |12.85Mb
+      - CN_54 TG@peekfun
+      - "|16.37Mb"
+      - CN_262
+      - CN_259 |24.37Mb
+      - CN_81 TG@peekfun
+      - CN_87 TG@peekfun
+      - CN_226
+      - 德国(youtube阿伟科技)
+      - _JP_日本
+      - CN_32 TG@peekfun
+      - "|19.53Mb"
       - "|40.30Mb"
+      - "|35.86Mb"
+      - "|44.61Mb"
+      - "|46.54Mb"
+      - 日本（欢迎订阅Youtube元亨利贞）
+      - 美国(youtube阿伟科技)
+      - Relay_🇺🇸US-🇺🇸US_20
+      - 美国(youtube阿伟科技) 2
+      - CN_45 TG@peekfun
+      - CN_255 |24.54Mb
+      - "|10.62Mb"
+      - "|45.99Mb"
+      - "|48.85Mb"
+      - "|33.55Mb"
+      - 美国(欢迎订阅Youtube破解资源君) 30
+      - CN_209
+      - "|17.22Mb"
+      - CN_77 TG@peekfun
       - "|46.98Mb"
-      - Relay_ |11.66Mb
-      - LT | 1.78Mb
+      - "|19.28Mb"
+      - 美国(欢迎订阅Youtube破解资源君) 12
+      - Relay_🇺🇸US-🇺🇸US_23
+      - CN_255
       - SG | 5.40Mb
       - ZZ |11.62Mb
-      - "|45.99Mb"
-      - "|44.91Mb"
       - "|43.97Mb"
       - "|11.93Mb"
-      - "|19.28Mb"
-      - "|48.85Mb"
-      - LT |12.78Mb
       - Pool_🇳🇱NL |13.66Mb
-      - US |15.31Mb
       - US |24.81Mb
-      - "|46.69Mb"
-      - "|46.02Mb"
-      - "|15.68Mb"
-      - "|33.55Mb"
       - "|47.21Mb"
       - "|27.36Mb"
-      - "|35.86Mb"
-      - "|46.63Mb"
-      - "|44.61Mb"
       - "|42.29Mb"
-      - "|46.19Mb"
-      - "|46.54Mb"
-      - NL |14.34Mb
-      - CN_54 TG@peekfun
-      - "|44.33Mb"
-      - "|30.28Mb"
-      - "|21.30Mb"
-      - "|10.62Mb"
-      - "|12.80Mb"
-      - "|10.59Mb"
-      - "|17.22Mb"
       - US |16.91Mb
       - US | 8.75Mb
-      - "|13.71Mb"
-      - "|16.37Mb"
       - "|19.80Mb"
       - "|12.58Mb"
       - "| 6.39Mb"
-      - "| 3.24Mb"
-      - Relay_ |37.23Mb
       - "| 3.41Mb"
+      - CN_227
+      - CN_158 | 0.05Mb
+      - "|44.91Mb"
+      - LT |12.78Mb
+      - "| 3.24Mb"
+      - "|46.69Mb"
+      - "|46.02Mb"
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - US |15.31Mb
+      - "|13.71Mb"
+      - 韩国(欢迎订阅Youtube破解资源君)
+      - CN_86 TG@peekfun
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - CN_244 |10.30Mb
-      - Relay_🇨🇳CN-🇹🇼TW_34 |38.98Mb
-      - CN_255
-      - CN_229
-      - Relay_ | 1.78Mb
-      - _油管：全网最强白嫖
-      - Relay_🇨🇳CN | 3.14Mb
-      - CN_256 |24.30Mb
-      - CN_84 TG@peekfun
-      - _油管：全网最强白嫖 2
-      - _CN_中国->🇰🇷_KR_韩国
-      - _油管：全网最强白嫖 3
-      - CN_37 TG@peekfun
-      - CN_38 | 7.02Mb
-      - CN_40 | 1.19Mb
-      - "| 3.98Mb"
       - CN_72 TG@peekfun
-      - "|19.53Mb"
+      - CN_242 |24.15Mb
+      - Relay_🇨🇳CN-🇹🇼TW_34 |38.98Mb
+      - CN_243 |23.81Mb
+      - CN_256 |24.30Mb
+      - "|46.63Mb"
+      - "|46.19Mb"
+      - 美国-节点更新 bit.ly/36b6iJh 2
+      - CN_244 |10.30Mb
+      - "|15.68Mb"
+      - _油管：全网最强白嫖
+      - "| 3.98Mb"
+      - 美国(欢迎订阅Youtube破解资源君) 10
+      - CN_40 | 1.19Mb
+      - CN_240 |24.34Mb
+      - CN_229
+      - "|21.30Mb"
+      - CN_38 TG@peekfun
+      - _油管：全网最强白嫖 2
+      - "|44.33Mb"
+      - CN_248 |24.22Mb
+      - "|30.28Mb"
+      - _油管：全网最强白嫖 3
+      - CN_38 | 7.02Mb
       - ZZ |12.85Mb
+      - CN_54 TG@peekfun
+      - "|16.37Mb"
+      - CN_262
+      - CN_259 |24.37Mb
+      - CN_81 TG@peekfun
+      - CN_87 TG@peekfun
+      - CN_226
+      - 德国(youtube阿伟科技)
+      - _JP_日本
+      - CN_32 TG@peekfun
+      - "|19.53Mb"
       - "|40.30Mb"
+      - "|35.86Mb"
+      - "|44.61Mb"
+      - "|46.54Mb"
+      - 日本（欢迎订阅Youtube元亨利贞）
+      - 美国(youtube阿伟科技)
+      - Relay_🇺🇸US-🇺🇸US_20
+      - 美国(youtube阿伟科技) 2
+      - CN_45 TG@peekfun
+      - CN_255 |24.54Mb
+      - "|10.62Mb"
+      - "|45.99Mb"
+      - "|48.85Mb"
+      - "|33.55Mb"
+      - 美国(欢迎订阅Youtube破解资源君) 30
+      - CN_209
+      - "|17.22Mb"
+      - CN_77 TG@peekfun
       - "|46.98Mb"
-      - Relay_ |11.66Mb
-      - LT | 1.78Mb
+      - "|19.28Mb"
+      - 美国(欢迎订阅Youtube破解资源君) 12
+      - Relay_🇺🇸US-🇺🇸US_23
+      - CN_255
       - SG | 5.40Mb
       - ZZ |11.62Mb
-      - "|45.99Mb"
-      - "|44.91Mb"
       - "|43.97Mb"
       - "|11.93Mb"
-      - "|19.28Mb"
-      - "|48.85Mb"
-      - LT |12.78Mb
       - Pool_🇳🇱NL |13.66Mb
-      - US |15.31Mb
       - US |24.81Mb
-      - "|46.69Mb"
-      - "|46.02Mb"
-      - "|15.68Mb"
-      - "|33.55Mb"
       - "|47.21Mb"
       - "|27.36Mb"
-      - "|35.86Mb"
-      - "|46.63Mb"
-      - "|44.61Mb"
       - "|42.29Mb"
-      - "|46.19Mb"
-      - "|46.54Mb"
-      - NL |14.34Mb
-      - CN_54 TG@peekfun
-      - "|44.33Mb"
-      - "|30.28Mb"
-      - "|21.30Mb"
-      - "|10.62Mb"
-      - "|12.80Mb"
-      - "|10.59Mb"
-      - "|17.22Mb"
       - US |16.91Mb
       - US | 8.75Mb
-      - "|13.71Mb"
-      - "|16.37Mb"
       - "|19.80Mb"
       - "|12.58Mb"
       - "| 6.39Mb"
-      - "| 3.24Mb"
-      - Relay_ |37.23Mb
       - "| 3.41Mb"
+      - CN_227
+      - CN_158 | 0.05Mb
+      - "|44.91Mb"
+      - LT |12.78Mb
+      - "| 3.24Mb"
+      - "|46.69Mb"
+      - "|46.02Mb"
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - US |15.31Mb
+      - "|13.71Mb"
+      - 韩国(欢迎订阅Youtube破解资源君)
+      - CN_86 TG@peekfun
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_244 |10.30Mb
-      - Relay_🇨🇳CN-🇹🇼TW_34 |38.98Mb
-      - CN_255
-      - CN_229
-      - Relay_ | 1.78Mb
-      - _油管：全网最强白嫖
-      - Relay_🇨🇳CN | 3.14Mb
-      - CN_256 |24.30Mb
-      - CN_84 TG@peekfun
-      - _油管：全网最强白嫖 2
-      - _CN_中国->🇰🇷_KR_韩国
-      - _油管：全网最强白嫖 3
-      - CN_37 TG@peekfun
-      - CN_38 | 7.02Mb
-      - CN_40 | 1.19Mb
-      - "| 3.98Mb"
       - CN_72 TG@peekfun
-      - "|19.53Mb"
+      - CN_242 |24.15Mb
+      - Relay_🇨🇳CN-🇹🇼TW_34 |38.98Mb
+      - CN_243 |23.81Mb
+      - CN_256 |24.30Mb
+      - "|46.63Mb"
+      - "|46.19Mb"
+      - 美国-节点更新 bit.ly/36b6iJh 2
+      - CN_244 |10.30Mb
+      - "|15.68Mb"
+      - _油管：全网最强白嫖
+      - "| 3.98Mb"
+      - 美国(欢迎订阅Youtube破解资源君) 10
+      - CN_40 | 1.19Mb
+      - CN_240 |24.34Mb
+      - CN_229
+      - "|21.30Mb"
+      - CN_38 TG@peekfun
+      - _油管：全网最强白嫖 2
+      - "|44.33Mb"
+      - CN_248 |24.22Mb
+      - "|30.28Mb"
+      - _油管：全网最强白嫖 3
+      - CN_38 | 7.02Mb
       - ZZ |12.85Mb
+      - CN_54 TG@peekfun
+      - "|16.37Mb"
+      - CN_262
+      - CN_259 |24.37Mb
+      - CN_81 TG@peekfun
+      - CN_87 TG@peekfun
+      - CN_226
+      - 德国(youtube阿伟科技)
+      - _JP_日本
+      - CN_32 TG@peekfun
+      - "|19.53Mb"
       - "|40.30Mb"
+      - "|35.86Mb"
+      - "|44.61Mb"
+      - "|46.54Mb"
+      - 日本（欢迎订阅Youtube元亨利贞）
+      - 美国(youtube阿伟科技)
+      - Relay_🇺🇸US-🇺🇸US_20
+      - 美国(youtube阿伟科技) 2
+      - CN_45 TG@peekfun
+      - CN_255 |24.54Mb
+      - "|10.62Mb"
+      - "|45.99Mb"
+      - "|48.85Mb"
+      - "|33.55Mb"
+      - 美国(欢迎订阅Youtube破解资源君) 30
+      - CN_209
+      - "|17.22Mb"
+      - CN_77 TG@peekfun
       - "|46.98Mb"
-      - Relay_ |11.66Mb
-      - LT | 1.78Mb
+      - "|19.28Mb"
+      - 美国(欢迎订阅Youtube破解资源君) 12
+      - Relay_🇺🇸US-🇺🇸US_23
+      - CN_255
       - SG | 5.40Mb
       - ZZ |11.62Mb
-      - "|45.99Mb"
-      - "|44.91Mb"
       - "|43.97Mb"
       - "|11.93Mb"
-      - "|19.28Mb"
-      - "|48.85Mb"
-      - LT |12.78Mb
       - Pool_🇳🇱NL |13.66Mb
-      - US |15.31Mb
       - US |24.81Mb
-      - "|46.69Mb"
-      - "|46.02Mb"
-      - "|15.68Mb"
-      - "|33.55Mb"
       - "|47.21Mb"
       - "|27.36Mb"
-      - "|35.86Mb"
-      - "|46.63Mb"
-      - "|44.61Mb"
       - "|42.29Mb"
-      - "|46.19Mb"
-      - "|46.54Mb"
-      - NL |14.34Mb
-      - CN_54 TG@peekfun
-      - "|44.33Mb"
-      - "|30.28Mb"
-      - "|21.30Mb"
-      - "|10.62Mb"
-      - "|12.80Mb"
-      - "|10.59Mb"
-      - "|17.22Mb"
       - US |16.91Mb
       - US | 8.75Mb
-      - "|13.71Mb"
-      - "|16.37Mb"
       - "|19.80Mb"
       - "|12.58Mb"
       - "| 6.39Mb"
-      - "| 3.24Mb"
-      - Relay_ |37.23Mb
       - "| 3.41Mb"
+      - CN_227
+      - CN_158 | 0.05Mb
+      - "|44.91Mb"
+      - LT |12.78Mb
+      - "| 3.24Mb"
+      - "|46.69Mb"
+      - "|46.02Mb"
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - US |15.31Mb
+      - "|13.71Mb"
+      - 韩国(欢迎订阅Youtube破解资源君)
+      - CN_86 TG@peekfun
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -604,72 +764,92 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - CN_244 |10.30Mb
-      - Relay_🇨🇳CN-🇹🇼TW_34 |38.98Mb
-      - CN_255
-      - CN_229
-      - Relay_ | 1.78Mb
-      - _油管：全网最强白嫖
-      - Relay_🇨🇳CN | 3.14Mb
-      - CN_256 |24.30Mb
-      - CN_84 TG@peekfun
-      - _油管：全网最强白嫖 2
-      - _CN_中国->🇰🇷_KR_韩国
-      - _油管：全网最强白嫖 3
-      - CN_37 TG@peekfun
-      - CN_38 | 7.02Mb
-      - CN_40 | 1.19Mb
-      - "| 3.98Mb"
       - CN_72 TG@peekfun
-      - "|19.53Mb"
+      - CN_242 |24.15Mb
+      - Relay_🇨🇳CN-🇹🇼TW_34 |38.98Mb
+      - CN_243 |23.81Mb
+      - CN_256 |24.30Mb
+      - "|46.63Mb"
+      - "|46.19Mb"
+      - 美国-节点更新 bit.ly/36b6iJh 2
+      - CN_244 |10.30Mb
+      - "|15.68Mb"
+      - _油管：全网最强白嫖
+      - "| 3.98Mb"
+      - 美国(欢迎订阅Youtube破解资源君) 10
+      - CN_40 | 1.19Mb
+      - CN_240 |24.34Mb
+      - CN_229
+      - "|21.30Mb"
+      - CN_38 TG@peekfun
+      - _油管：全网最强白嫖 2
+      - "|44.33Mb"
+      - CN_248 |24.22Mb
+      - "|30.28Mb"
+      - _油管：全网最强白嫖 3
+      - CN_38 | 7.02Mb
       - ZZ |12.85Mb
+      - CN_54 TG@peekfun
+      - "|16.37Mb"
+      - CN_262
+      - CN_259 |24.37Mb
+      - CN_81 TG@peekfun
+      - CN_87 TG@peekfun
+      - CN_226
+      - 德国(youtube阿伟科技)
+      - _JP_日本
+      - CN_32 TG@peekfun
+      - "|19.53Mb"
       - "|40.30Mb"
+      - "|35.86Mb"
+      - "|44.61Mb"
+      - "|46.54Mb"
+      - 日本（欢迎订阅Youtube元亨利贞）
+      - 美国(youtube阿伟科技)
+      - Relay_🇺🇸US-🇺🇸US_20
+      - 美国(youtube阿伟科技) 2
+      - CN_45 TG@peekfun
+      - CN_255 |24.54Mb
+      - "|10.62Mb"
+      - "|45.99Mb"
+      - "|48.85Mb"
+      - "|33.55Mb"
+      - 美国(欢迎订阅Youtube破解资源君) 30
+      - CN_209
+      - "|17.22Mb"
+      - CN_77 TG@peekfun
       - "|46.98Mb"
-      - Relay_ |11.66Mb
-      - LT | 1.78Mb
+      - "|19.28Mb"
+      - 美国(欢迎订阅Youtube破解资源君) 12
+      - Relay_🇺🇸US-🇺🇸US_23
+      - CN_255
       - SG | 5.40Mb
       - ZZ |11.62Mb
-      - "|45.99Mb"
-      - "|44.91Mb"
       - "|43.97Mb"
       - "|11.93Mb"
-      - "|19.28Mb"
-      - "|48.85Mb"
-      - LT |12.78Mb
       - Pool_🇳🇱NL |13.66Mb
-      - US |15.31Mb
       - US |24.81Mb
-      - "|46.69Mb"
-      - "|46.02Mb"
-      - "|15.68Mb"
-      - "|33.55Mb"
       - "|47.21Mb"
       - "|27.36Mb"
-      - "|35.86Mb"
-      - "|46.63Mb"
-      - "|44.61Mb"
       - "|42.29Mb"
-      - "|46.19Mb"
-      - "|46.54Mb"
-      - NL |14.34Mb
-      - CN_54 TG@peekfun
-      - "|44.33Mb"
-      - "|30.28Mb"
-      - "|21.30Mb"
-      - "|10.62Mb"
-      - "|12.80Mb"
-      - "|10.59Mb"
-      - "|17.22Mb"
       - US |16.91Mb
       - US | 8.75Mb
-      - "|13.71Mb"
-      - "|16.37Mb"
       - "|19.80Mb"
       - "|12.58Mb"
       - "| 6.39Mb"
-      - "| 3.24Mb"
-      - Relay_ |37.23Mb
       - "| 3.41Mb"
+      - CN_227
+      - CN_158 | 0.05Mb
+      - "|44.91Mb"
+      - LT |12.78Mb
+      - "| 3.24Mb"
+      - "|46.69Mb"
+      - "|46.02Mb"
+      - 欧洲(欢迎订阅Youtube破解资源君) 7
+      - US |15.31Mb
+      - "|13.71Mb"
+      - 韩国(欢迎订阅Youtube破解资源君)
+      - CN_86 TG@peekfun
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
