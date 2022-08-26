@@ -5,191 +5,263 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Relay_ |19.46Mb, server: cm.spacez.cloud, port: 30003, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |65.03Mb, server: trojannmfan7.ripwallllc.com, port: 443, type: trojan, password: 7f0dcf73-bc93-4038-b683-c4728f06e7d7, sni: trojannmfan7.ripwallllc.com, skip-cert-verify: true, udp: true}
-  - {name: "| 2.48Mb", server: 14.29.124.168, port: 25267, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "| 4.62Mb", server: 14.29.124.168, port: 25272, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "| 0.34Mb", server: 14.29.124.168, port: 25259, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "| 1.47Mb", server: 14.29.124.168, port: 25289, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "| 3.98Mb", server: 14.29.124.168, port: 25280, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "| 2.35Mb", server: 14.29.124.168, port: 25217, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "| 8.40Mb", server: 14.29.124.168, port: 25251, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_227, server: 14.29.124.168, port: 25215, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "| 3.46Mb", server: 14.29.124.168, port: 25245, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "| 9.46Mb", server: 14.29.124.168, port: 25207, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "| 6.28Mb", server: 14.29.124.168, port: 25271, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "| 5.80Mb", server: 14.29.124.168, port: 25252, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "| 7.69Mb", server: 14.29.124.168, port: 25247, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "| 1.78Mb", server: 14.29.124.168, port: 25218, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "| 0.67Mb", server: 14.29.124.168, port: 25235, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "| 7.40Mb", server: 14.29.124.168, port: 25297, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "| 7.06Mb", server: 14.29.124.168, port: 25220, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "| 4.25Mb", server: 14.29.124.168, port: 25294, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "| 8.23Mb", server: 14.29.124.168, port: 25230, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "| 4.74Mb", server: 14.29.124.168, port: 25226, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "| 1.66Mb", server: 14.29.124.168, port: 25295, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "| 7.38Mb", server: 14.29.124.168, port: 25254, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "| 9.15Mb", server: 14.29.124.168, port: 25238, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "| 2.72Mb", server: 14.29.124.168, port: 25270, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "| 8.16Mb", server: 14.29.124.168, port: 25284, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "| 1.54Mb", server: 14.29.124.168, port: 25256, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "| 7.57Mb", server: 14.29.124.168, port: 25266, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Relay_ |17.46Mb, server: yytok.wvs22.buzz, port: 31848, type: vmess, uuid: b88dd566-4fb4-42d0-bb79-7f06638d4d61, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, udp: true}
-  - {name: "|35.30Mb", server: 14.29.124.168, port: 25210, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: Relay_ |16.57Mb, server: in-us-1.onebox6.org, port: 38401, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: in-us-1.onebox6.org}, udp: true}
-  - {name: Relay_ | 2.94Mb, server: 4.hk.zz.xxxxx.x-t-fuckword.network, port: 36676, type: vmess, uuid: 244effd9-0204-3c4a-8537-0dca4e5fd9b5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Relay_ |18.70Mb, server: lswjs.hootfun.top, port: 23313, type: trojan, password: 935f34c1-1713-402c-bfe1-f051cf49d370, sni: lswjs.hootfun.top, skip-cert-verify: true, udp: true}
-  - {name: "| 8.94Mb", server: 14.29.124.168, port: 25222, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "|10.23Mb", server: 109.169.72.249, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: "| 7.07Mb", server: 109.169.72.249, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: "| 3.13Mb", server: 45.152.65.174, port: 15941, type: ss, cipher: aes-256-gcm, password: Ni7Xn9PJPN, udp: true}
+  - {name: "| 6.70Mb", server: 213.183.53.222, port: 9058, type: ss, cipher: aes-256-cfb, password: dML2sfhbVwvtfNPe, udp: true}
+  - {name: "| 9.76Mb", server: 213.183.53.208, port: 9030, type: ss, cipher: aes-256-cfb, password: GeregetR8cvQHzYr, udp: true}
+  - {name: "| 5.90Mb", server: 213.183.53.222, port: 9003, type: ss, cipher: aes-256-cfb, password: JdmRK9gMEqFgs8nP, udp: true}
+  - {name: "| 9.23Mb", server: 213.183.53.208, port: 9056, type: ss, cipher: aes-256-cfb, password: rNBfNuuANFCAk7KB, udp: true}
+  - {name: "| 5.82Mb", server: 213.183.53.222, port: 9059, type: ss, cipher: aes-256-cfb, password: 9XwYyZsK8SNzQDtY, udp: true}
+  - {name: "|20.44Mb", server: 213.183.53.177, port: 9084, type: ss, cipher: aes-256-cfb, password: c3NtHJ5ujV2tGDfj, udp: true}
+  - {name: Pool_ |46.99Mb, server: 85.208.108.93, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "|46.88Mb", server: 85.208.108.18, port: 9101, type: ss, cipher: aes-256-gcm, password: e4FCWrgpkji3QY, udp: true}
+  - {name: Pool_ |41.92Mb, server: 85.208.108.94, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: Pool_ |40.94Mb, server: 85.208.108.21, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Pool_ |39.72Mb, server: 85.208.108.60, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: Pool_ |42.55Mb, server: 85.208.108.21, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true}
+  - {name: Pool_ |28.70Mb, server: 85.208.108.59, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "| 7.94Mb", server: 38.86.135.27, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "| 3.88Mb", server: 167.88.63.79, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: US_1389 | 7.29Mb, server: 38.75.136.21, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: "|11.36Mb", server: 38.143.66.55, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "| 3.95Mb", server: 167.88.63.79, port: 3306, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "| 8.53Mb", server: 172.99.190.149, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: "|13.67Mb", server: 38.114.114.69, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: "|23.09Mb", server: 38.114.114.69, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: US |38.92Mb, server: 138.2.44.211, port: 20081, type: vmess, uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "|92.31Mb", server: 103.172.116.8, port: 9040, type: ss, cipher: aes-256-cfb, password: p9z5BVADH2YFs3MN, udp: true}
+  - {name: _JP_日本, server: 85.208.108.90, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
   - {name: 欧洲(欢迎订阅Youtube破解资源君) 12, server: ingress-i1.onebox6.org, port: 38701, type: vmess, uuid: 79386685-16da-327c-9e14-aa6d702d86bc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hls/cctv5phd.m3u8, ws-headers: {Host: ingress-i1.onebox6.org}, udp: true}
-  - {name: Relay_ | 4.37Mb, server: cm.spacez.cloud, port: 30002, type: trojan, password: c9a3a61d-5d49-4158-9e60-6fa32684b122, sni: cm.spacez.cloud, skip-cert-verify: true, udp: true}
-  - {name: "| 6.20Mb", server: 14.29.124.168, port: 25241, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "| 4.47Mb", server: 14.29.124.168, port: 25233, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: "| 5.41Mb", server: 14.29.124.168, port: 25286, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_242 |24.15Mb, server: 14.29.124.168, port: 25229, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
-  - {name: CN_241 |24.37Mb, server: 14.29.124.168, port: 25293, type: ss, cipher: aes-128-cfb, password: QazEdcTgb159@$*, udp: true}
+  - {name: "|18.78Mb", server: 193.108.117.24, port: 8881, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: "| 8.29Mb", server: 149.202.82.172, port: 2376, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "| 9.56Mb", server: 149.202.82.172, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: "| 3.02Mb", server: 212.38.189.174, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "| 3.83Mb", server: 212.38.189.174, port: 8090, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27, udp: true}
+  - {name: "|27.27Mb", server: 213.183.63.221, port: 9094, type: ss, cipher: aes-256-cfb, password: rpgbNnU9rDDU4aWZ, udp: true}
+  - {name: "|10.81Mb", server: 213.183.53.221, port: 9030, type: ss, cipher: aes-256-cfb, password: GeregetR8cvQHzYr, udp: true}
+  - {name: "| 5.68Mb", server: 213.183.53.222, port: 9042, type: ss, cipher: aes-256-cfb, password: S7KwUu7yBy58S3Ga, udp: true}
+  - {name: "| 3.60Mb", server: 213.183.63.218, port: 9026, type: ss, cipher: aes-256-cfb, password: QWDDvVE9npNurQfA, udp: true}
+  - {name: "|10.52Mb", server: 213.183.53.208, port: 9046, type: ss, cipher: aes-256-cfb, password: NvS8N4Vf8qAGPSCL, udp: true}
+  - {name: "|14.73Mb", server: 213.183.53.208, port: 9000, type: ss, cipher: aes-256-cfb, password: a3GFYt36Sm82Vys9, udp: true}
+  - {name: "| 2.91Mb", server: 213.183.63.218, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: "| 3.85Mb", server: 213.183.53.212, port: 9019, type: ss, cipher: aes-256-cfb, password: GA9KzeEgvfxNrgmM, udp: true}
+  - {name: "| 5.99Mb", server: 213.183.63.218, port: 9057, type: ss, cipher: aes-256-cfb, password: wjTugX3ZtHMB9c3Z, udp: true}
+  - {name: "| 0.61Mb", server: 213.183.63.218, port: 9024, type: ss, cipher: aes-256-cfb, password: BejrQvtu9sqUeNuZ, udp: true}
+  - {name: "|13.80Mb", server: 213.183.53.208, port: 9070, type: ss, cipher: aes-256-cfb, password: bf7v334KKDV3YDhH, udp: true}
+  - {name: "|25.35Mb", server: 213.183.59.206, port: 9043, type: ss, cipher: aes-256-cfb, password: HSZuyJQcWe8dxNdF, udp: true}
+  - {name: "|14.28Mb", server: 162.251.61.221, port: 806, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: "| 4.69Mb", server: 172.99.190.87, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: "|13.83Mb", server: 38.68.135.19, port: 7002, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: "|12.87Mb", server: 38.114.114.69, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: "| 5.98Mb", server: 38.68.135.19, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: Relay_🇺🇸US |22.54Mb, server: s3.hazz.win, port: 12340, type: trojan, password: dfbf0d67-f03d-4184-a224-c2d64a571f99, sni: s3.hazz.win, skip-cert-verify: true, udp: true}
+  - {name: "| 2.63Mb", server: 169.197.141.187, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: Relay_🇨🇿CZ | 3.50Mb, server: v2cross.com.01.v2ce.com, port: 443, type: trojan, password: mMQ6qJB9xbhiRvgg, sni: v2cross.com.01.v2ce.com, skip-cert-verify: true, udp: true}
+  - {name: "| 3.19Mb", server: 93.186.201.124, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: "|23.59Mb", server: 54.36.174.181, port: 8119, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "|11.65Mb", server: 145.239.1.100, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: "| 3.17Mb", server: 212.38.189.174, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true}
+  - {name: HU | 6.60Mb, server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Relay_🇺🇸US |24.50Mb, server: fhcamd2.gaox.ml, port: 443, type: trojan, password: dbf9bf9c-2c3f-474a-8031-d4c00666a989, sni: fhcamd2.gaox.ml, skip-cert-verify: true, udp: true}
+  - {name: "| 8.62Mb", server: 38.114.114.67, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_ |19.46Mb
-      - Relay_ |65.03Mb
-      - "| 2.48Mb"
-      - "| 4.62Mb"
-      - "| 0.34Mb"
-      - "| 1.47Mb"
-      - "| 3.98Mb"
-      - "| 2.35Mb"
-      - "| 8.40Mb"
-      - CN_227
-      - "| 3.46Mb"
-      - "| 9.46Mb"
-      - "| 6.28Mb"
-      - "| 5.80Mb"
-      - "| 7.69Mb"
-      - "| 1.78Mb"
-      - "| 0.67Mb"
-      - "| 7.40Mb"
-      - "| 7.06Mb"
-      - "| 4.25Mb"
-      - "| 8.23Mb"
-      - "| 4.74Mb"
-      - "| 1.66Mb"
-      - "| 7.38Mb"
-      - "| 9.15Mb"
-      - "| 2.72Mb"
-      - "| 8.16Mb"
-      - "| 1.54Mb"
-      - "| 7.57Mb"
-      - Relay_ |17.46Mb
-      - "|35.30Mb"
-      - Relay_ |16.57Mb
-      - Relay_ | 2.94Mb
-      - Relay_ |18.70Mb
-      - "| 8.94Mb"
+      - "|10.23Mb"
+      - "| 7.07Mb"
+      - "| 3.13Mb"
+      - "| 6.70Mb"
+      - "| 9.76Mb"
+      - "| 5.90Mb"
+      - "| 9.23Mb"
+      - "| 5.82Mb"
+      - "|20.44Mb"
+      - Pool_ |46.99Mb
+      - "|46.88Mb"
+      - Pool_ |41.92Mb
+      - Pool_ |40.94Mb
+      - Pool_ |39.72Mb
+      - Pool_ |42.55Mb
+      - Pool_ |28.70Mb
+      - "| 7.94Mb"
+      - "| 3.88Mb"
+      - US_1389 | 7.29Mb
+      - "|11.36Mb"
+      - "| 3.95Mb"
+      - "| 8.53Mb"
+      - "|13.67Mb"
+      - "|23.09Mb"
+      - US |38.92Mb
+      - "|92.31Mb"
+      - _JP_日本
       - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - Relay_ | 4.37Mb
-      - "| 6.20Mb"
-      - "| 4.47Mb"
-      - "| 5.41Mb"
-      - CN_242 |24.15Mb
-      - CN_241 |24.37Mb
+      - "|18.78Mb"
+      - "| 8.29Mb"
+      - "| 9.56Mb"
+      - "| 3.02Mb"
+      - "| 3.83Mb"
+      - "|27.27Mb"
+      - "|10.81Mb"
+      - "| 5.68Mb"
+      - "| 3.60Mb"
+      - "|10.52Mb"
+      - "|14.73Mb"
+      - "| 2.91Mb"
+      - "| 3.85Mb"
+      - "| 5.99Mb"
+      - "| 0.61Mb"
+      - "|13.80Mb"
+      - "|25.35Mb"
+      - "|14.28Mb"
+      - "| 4.69Mb"
+      - "|13.83Mb"
+      - "|12.87Mb"
+      - "| 5.98Mb"
+      - Relay_🇺🇸US |22.54Mb
+      - "| 2.63Mb"
+      - Relay_🇨🇿CZ | 3.50Mb
+      - "| 3.19Mb"
+      - "|23.59Mb"
+      - "|11.65Mb"
+      - "| 3.17Mb"
+      - HU | 6.60Mb
+      - Relay_🇺🇸US |24.50Mb
+      - "| 8.62Mb"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - Relay_ |19.46Mb
-      - Relay_ |65.03Mb
-      - "| 2.48Mb"
-      - "| 4.62Mb"
-      - "| 0.34Mb"
-      - "| 1.47Mb"
-      - "| 3.98Mb"
-      - "| 2.35Mb"
-      - "| 8.40Mb"
-      - CN_227
-      - "| 3.46Mb"
-      - "| 9.46Mb"
-      - "| 6.28Mb"
-      - "| 5.80Mb"
-      - "| 7.69Mb"
-      - "| 1.78Mb"
-      - "| 0.67Mb"
-      - "| 7.40Mb"
-      - "| 7.06Mb"
-      - "| 4.25Mb"
-      - "| 8.23Mb"
-      - "| 4.74Mb"
-      - "| 1.66Mb"
-      - "| 7.38Mb"
-      - "| 9.15Mb"
-      - "| 2.72Mb"
-      - "| 8.16Mb"
-      - "| 1.54Mb"
-      - "| 7.57Mb"
-      - Relay_ |17.46Mb
-      - "|35.30Mb"
-      - Relay_ |16.57Mb
-      - Relay_ | 2.94Mb
-      - Relay_ |18.70Mb
-      - "| 8.94Mb"
+      - "|10.23Mb"
+      - "| 7.07Mb"
+      - "| 3.13Mb"
+      - "| 6.70Mb"
+      - "| 9.76Mb"
+      - "| 5.90Mb"
+      - "| 9.23Mb"
+      - "| 5.82Mb"
+      - "|20.44Mb"
+      - Pool_ |46.99Mb
+      - "|46.88Mb"
+      - Pool_ |41.92Mb
+      - Pool_ |40.94Mb
+      - Pool_ |39.72Mb
+      - Pool_ |42.55Mb
+      - Pool_ |28.70Mb
+      - "| 7.94Mb"
+      - "| 3.88Mb"
+      - US_1389 | 7.29Mb
+      - "|11.36Mb"
+      - "| 3.95Mb"
+      - "| 8.53Mb"
+      - "|13.67Mb"
+      - "|23.09Mb"
+      - US |38.92Mb
+      - "|92.31Mb"
+      - _JP_日本
       - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - Relay_ | 4.37Mb
-      - "| 6.20Mb"
-      - "| 4.47Mb"
-      - "| 5.41Mb"
-      - CN_242 |24.15Mb
-      - CN_241 |24.37Mb
+      - "|18.78Mb"
+      - "| 8.29Mb"
+      - "| 9.56Mb"
+      - "| 3.02Mb"
+      - "| 3.83Mb"
+      - "|27.27Mb"
+      - "|10.81Mb"
+      - "| 5.68Mb"
+      - "| 3.60Mb"
+      - "|10.52Mb"
+      - "|14.73Mb"
+      - "| 2.91Mb"
+      - "| 3.85Mb"
+      - "| 5.99Mb"
+      - "| 0.61Mb"
+      - "|13.80Mb"
+      - "|25.35Mb"
+      - "|14.28Mb"
+      - "| 4.69Mb"
+      - "|13.83Mb"
+      - "|12.87Mb"
+      - "| 5.98Mb"
+      - Relay_🇺🇸US |22.54Mb
+      - "| 2.63Mb"
+      - Relay_🇨🇿CZ | 3.50Mb
+      - "| 3.19Mb"
+      - "|23.59Mb"
+      - "|11.65Mb"
+      - "| 3.17Mb"
+      - HU | 6.60Mb
+      - Relay_🇺🇸US |24.50Mb
+      - "| 8.62Mb"
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_ |19.46Mb
-      - Relay_ |65.03Mb
-      - "| 2.48Mb"
-      - "| 4.62Mb"
-      - "| 0.34Mb"
-      - "| 1.47Mb"
-      - "| 3.98Mb"
-      - "| 2.35Mb"
-      - "| 8.40Mb"
-      - CN_227
-      - "| 3.46Mb"
-      - "| 9.46Mb"
-      - "| 6.28Mb"
-      - "| 5.80Mb"
-      - "| 7.69Mb"
-      - "| 1.78Mb"
-      - "| 0.67Mb"
-      - "| 7.40Mb"
-      - "| 7.06Mb"
-      - "| 4.25Mb"
-      - "| 8.23Mb"
-      - "| 4.74Mb"
-      - "| 1.66Mb"
-      - "| 7.38Mb"
-      - "| 9.15Mb"
-      - "| 2.72Mb"
-      - "| 8.16Mb"
-      - "| 1.54Mb"
-      - "| 7.57Mb"
-      - Relay_ |17.46Mb
-      - "|35.30Mb"
-      - Relay_ |16.57Mb
-      - Relay_ | 2.94Mb
-      - Relay_ |18.70Mb
-      - "| 8.94Mb"
+      - "|10.23Mb"
+      - "| 7.07Mb"
+      - "| 3.13Mb"
+      - "| 6.70Mb"
+      - "| 9.76Mb"
+      - "| 5.90Mb"
+      - "| 9.23Mb"
+      - "| 5.82Mb"
+      - "|20.44Mb"
+      - Pool_ |46.99Mb
+      - "|46.88Mb"
+      - Pool_ |41.92Mb
+      - Pool_ |40.94Mb
+      - Pool_ |39.72Mb
+      - Pool_ |42.55Mb
+      - Pool_ |28.70Mb
+      - "| 7.94Mb"
+      - "| 3.88Mb"
+      - US_1389 | 7.29Mb
+      - "|11.36Mb"
+      - "| 3.95Mb"
+      - "| 8.53Mb"
+      - "|13.67Mb"
+      - "|23.09Mb"
+      - US |38.92Mb
+      - "|92.31Mb"
+      - _JP_日本
       - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - Relay_ | 4.37Mb
-      - "| 6.20Mb"
-      - "| 4.47Mb"
-      - "| 5.41Mb"
-      - CN_242 |24.15Mb
-      - CN_241 |24.37Mb
+      - "|18.78Mb"
+      - "| 8.29Mb"
+      - "| 9.56Mb"
+      - "| 3.02Mb"
+      - "| 3.83Mb"
+      - "|27.27Mb"
+      - "|10.81Mb"
+      - "| 5.68Mb"
+      - "| 3.60Mb"
+      - "|10.52Mb"
+      - "|14.73Mb"
+      - "| 2.91Mb"
+      - "| 3.85Mb"
+      - "| 5.99Mb"
+      - "| 0.61Mb"
+      - "|13.80Mb"
+      - "|25.35Mb"
+      - "|14.28Mb"
+      - "| 4.69Mb"
+      - "|13.83Mb"
+      - "|12.87Mb"
+      - "| 5.98Mb"
+      - Relay_🇺🇸US |22.54Mb
+      - "| 2.63Mb"
+      - Relay_🇨🇿CZ | 3.50Mb
+      - "| 3.19Mb"
+      - "|23.59Mb"
+      - "|11.65Mb"
+      - "| 3.17Mb"
+      - HU | 6.60Mb
+      - Relay_🇺🇸US |24.50Mb
+      - "| 8.62Mb"
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -208,48 +280,66 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Relay_ |19.46Mb
-      - Relay_ |65.03Mb
-      - "| 2.48Mb"
-      - "| 4.62Mb"
-      - "| 0.34Mb"
-      - "| 1.47Mb"
-      - "| 3.98Mb"
-      - "| 2.35Mb"
-      - "| 8.40Mb"
-      - CN_227
-      - "| 3.46Mb"
-      - "| 9.46Mb"
-      - "| 6.28Mb"
-      - "| 5.80Mb"
-      - "| 7.69Mb"
-      - "| 1.78Mb"
-      - "| 0.67Mb"
-      - "| 7.40Mb"
-      - "| 7.06Mb"
-      - "| 4.25Mb"
-      - "| 8.23Mb"
-      - "| 4.74Mb"
-      - "| 1.66Mb"
-      - "| 7.38Mb"
-      - "| 9.15Mb"
-      - "| 2.72Mb"
-      - "| 8.16Mb"
-      - "| 1.54Mb"
-      - "| 7.57Mb"
-      - Relay_ |17.46Mb
-      - "|35.30Mb"
-      - Relay_ |16.57Mb
-      - Relay_ | 2.94Mb
-      - Relay_ |18.70Mb
-      - "| 8.94Mb"
+      - "|10.23Mb"
+      - "| 7.07Mb"
+      - "| 3.13Mb"
+      - "| 6.70Mb"
+      - "| 9.76Mb"
+      - "| 5.90Mb"
+      - "| 9.23Mb"
+      - "| 5.82Mb"
+      - "|20.44Mb"
+      - Pool_ |46.99Mb
+      - "|46.88Mb"
+      - Pool_ |41.92Mb
+      - Pool_ |40.94Mb
+      - Pool_ |39.72Mb
+      - Pool_ |42.55Mb
+      - Pool_ |28.70Mb
+      - "| 7.94Mb"
+      - "| 3.88Mb"
+      - US_1389 | 7.29Mb
+      - "|11.36Mb"
+      - "| 3.95Mb"
+      - "| 8.53Mb"
+      - "|13.67Mb"
+      - "|23.09Mb"
+      - US |38.92Mb
+      - "|92.31Mb"
+      - _JP_日本
       - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - Relay_ | 4.37Mb
-      - "| 6.20Mb"
-      - "| 4.47Mb"
-      - "| 5.41Mb"
-      - CN_242 |24.15Mb
-      - CN_241 |24.37Mb
+      - "|18.78Mb"
+      - "| 8.29Mb"
+      - "| 9.56Mb"
+      - "| 3.02Mb"
+      - "| 3.83Mb"
+      - "|27.27Mb"
+      - "|10.81Mb"
+      - "| 5.68Mb"
+      - "| 3.60Mb"
+      - "|10.52Mb"
+      - "|14.73Mb"
+      - "| 2.91Mb"
+      - "| 3.85Mb"
+      - "| 5.99Mb"
+      - "| 0.61Mb"
+      - "|13.80Mb"
+      - "|25.35Mb"
+      - "|14.28Mb"
+      - "| 4.69Mb"
+      - "|13.83Mb"
+      - "|12.87Mb"
+      - "| 5.98Mb"
+      - Relay_🇺🇸US |22.54Mb
+      - "| 2.63Mb"
+      - Relay_🇨🇿CZ | 3.50Mb
+      - "| 3.19Mb"
+      - "|23.59Mb"
+      - "|11.65Mb"
+      - "| 3.17Mb"
+      - HU | 6.60Mb
+      - Relay_🇺🇸US |24.50Mb
+      - "| 8.62Mb"
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -260,143 +350,197 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - Relay_ |19.46Mb
-      - Relay_ |65.03Mb
-      - "| 2.48Mb"
-      - "| 4.62Mb"
-      - "| 0.34Mb"
-      - "| 1.47Mb"
-      - "| 3.98Mb"
-      - "| 2.35Mb"
-      - "| 8.40Mb"
-      - CN_227
-      - "| 3.46Mb"
-      - "| 9.46Mb"
-      - "| 6.28Mb"
-      - "| 5.80Mb"
-      - "| 7.69Mb"
-      - "| 1.78Mb"
-      - "| 0.67Mb"
-      - "| 7.40Mb"
-      - "| 7.06Mb"
-      - "| 4.25Mb"
-      - "| 8.23Mb"
-      - "| 4.74Mb"
-      - "| 1.66Mb"
-      - "| 7.38Mb"
-      - "| 9.15Mb"
-      - "| 2.72Mb"
-      - "| 8.16Mb"
-      - "| 1.54Mb"
-      - "| 7.57Mb"
-      - Relay_ |17.46Mb
-      - "|35.30Mb"
-      - Relay_ |16.57Mb
-      - Relay_ | 2.94Mb
-      - Relay_ |18.70Mb
-      - "| 8.94Mb"
+      - "|10.23Mb"
+      - "| 7.07Mb"
+      - "| 3.13Mb"
+      - "| 6.70Mb"
+      - "| 9.76Mb"
+      - "| 5.90Mb"
+      - "| 9.23Mb"
+      - "| 5.82Mb"
+      - "|20.44Mb"
+      - Pool_ |46.99Mb
+      - "|46.88Mb"
+      - Pool_ |41.92Mb
+      - Pool_ |40.94Mb
+      - Pool_ |39.72Mb
+      - Pool_ |42.55Mb
+      - Pool_ |28.70Mb
+      - "| 7.94Mb"
+      - "| 3.88Mb"
+      - US_1389 | 7.29Mb
+      - "|11.36Mb"
+      - "| 3.95Mb"
+      - "| 8.53Mb"
+      - "|13.67Mb"
+      - "|23.09Mb"
+      - US |38.92Mb
+      - "|92.31Mb"
+      - _JP_日本
       - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - Relay_ | 4.37Mb
-      - "| 6.20Mb"
-      - "| 4.47Mb"
-      - "| 5.41Mb"
-      - CN_242 |24.15Mb
-      - CN_241 |24.37Mb
+      - "|18.78Mb"
+      - "| 8.29Mb"
+      - "| 9.56Mb"
+      - "| 3.02Mb"
+      - "| 3.83Mb"
+      - "|27.27Mb"
+      - "|10.81Mb"
+      - "| 5.68Mb"
+      - "| 3.60Mb"
+      - "|10.52Mb"
+      - "|14.73Mb"
+      - "| 2.91Mb"
+      - "| 3.85Mb"
+      - "| 5.99Mb"
+      - "| 0.61Mb"
+      - "|13.80Mb"
+      - "|25.35Mb"
+      - "|14.28Mb"
+      - "| 4.69Mb"
+      - "|13.83Mb"
+      - "|12.87Mb"
+      - "| 5.98Mb"
+      - Relay_🇺🇸US |22.54Mb
+      - "| 2.63Mb"
+      - Relay_🇨🇿CZ | 3.50Mb
+      - "| 3.19Mb"
+      - "|23.59Mb"
+      - "|11.65Mb"
+      - "| 3.17Mb"
+      - HU | 6.60Mb
+      - Relay_🇺🇸US |24.50Mb
+      - "| 8.62Mb"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - Relay_ |19.46Mb
-      - Relay_ |65.03Mb
-      - "| 2.48Mb"
-      - "| 4.62Mb"
-      - "| 0.34Mb"
-      - "| 1.47Mb"
-      - "| 3.98Mb"
-      - "| 2.35Mb"
-      - "| 8.40Mb"
-      - CN_227
-      - "| 3.46Mb"
-      - "| 9.46Mb"
-      - "| 6.28Mb"
-      - "| 5.80Mb"
-      - "| 7.69Mb"
-      - "| 1.78Mb"
-      - "| 0.67Mb"
-      - "| 7.40Mb"
-      - "| 7.06Mb"
-      - "| 4.25Mb"
-      - "| 8.23Mb"
-      - "| 4.74Mb"
-      - "| 1.66Mb"
-      - "| 7.38Mb"
-      - "| 9.15Mb"
-      - "| 2.72Mb"
-      - "| 8.16Mb"
-      - "| 1.54Mb"
-      - "| 7.57Mb"
-      - Relay_ |17.46Mb
-      - "|35.30Mb"
-      - Relay_ |16.57Mb
-      - Relay_ | 2.94Mb
-      - Relay_ |18.70Mb
-      - "| 8.94Mb"
+      - "|10.23Mb"
+      - "| 7.07Mb"
+      - "| 3.13Mb"
+      - "| 6.70Mb"
+      - "| 9.76Mb"
+      - "| 5.90Mb"
+      - "| 9.23Mb"
+      - "| 5.82Mb"
+      - "|20.44Mb"
+      - Pool_ |46.99Mb
+      - "|46.88Mb"
+      - Pool_ |41.92Mb
+      - Pool_ |40.94Mb
+      - Pool_ |39.72Mb
+      - Pool_ |42.55Mb
+      - Pool_ |28.70Mb
+      - "| 7.94Mb"
+      - "| 3.88Mb"
+      - US_1389 | 7.29Mb
+      - "|11.36Mb"
+      - "| 3.95Mb"
+      - "| 8.53Mb"
+      - "|13.67Mb"
+      - "|23.09Mb"
+      - US |38.92Mb
+      - "|92.31Mb"
+      - _JP_日本
       - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - Relay_ | 4.37Mb
-      - "| 6.20Mb"
-      - "| 4.47Mb"
-      - "| 5.41Mb"
-      - CN_242 |24.15Mb
-      - CN_241 |24.37Mb
+      - "|18.78Mb"
+      - "| 8.29Mb"
+      - "| 9.56Mb"
+      - "| 3.02Mb"
+      - "| 3.83Mb"
+      - "|27.27Mb"
+      - "|10.81Mb"
+      - "| 5.68Mb"
+      - "| 3.60Mb"
+      - "|10.52Mb"
+      - "|14.73Mb"
+      - "| 2.91Mb"
+      - "| 3.85Mb"
+      - "| 5.99Mb"
+      - "| 0.61Mb"
+      - "|13.80Mb"
+      - "|25.35Mb"
+      - "|14.28Mb"
+      - "| 4.69Mb"
+      - "|13.83Mb"
+      - "|12.87Mb"
+      - "| 5.98Mb"
+      - Relay_🇺🇸US |22.54Mb
+      - "| 2.63Mb"
+      - Relay_🇨🇿CZ | 3.50Mb
+      - "| 3.19Mb"
+      - "|23.59Mb"
+      - "|11.65Mb"
+      - "| 3.17Mb"
+      - HU | 6.60Mb
+      - Relay_🇺🇸US |24.50Mb
+      - "| 8.62Mb"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_ |19.46Mb
-      - Relay_ |65.03Mb
-      - "| 2.48Mb"
-      - "| 4.62Mb"
-      - "| 0.34Mb"
-      - "| 1.47Mb"
-      - "| 3.98Mb"
-      - "| 2.35Mb"
-      - "| 8.40Mb"
-      - CN_227
-      - "| 3.46Mb"
-      - "| 9.46Mb"
-      - "| 6.28Mb"
-      - "| 5.80Mb"
-      - "| 7.69Mb"
-      - "| 1.78Mb"
-      - "| 0.67Mb"
-      - "| 7.40Mb"
-      - "| 7.06Mb"
-      - "| 4.25Mb"
-      - "| 8.23Mb"
-      - "| 4.74Mb"
-      - "| 1.66Mb"
-      - "| 7.38Mb"
-      - "| 9.15Mb"
-      - "| 2.72Mb"
-      - "| 8.16Mb"
-      - "| 1.54Mb"
-      - "| 7.57Mb"
-      - Relay_ |17.46Mb
-      - "|35.30Mb"
-      - Relay_ |16.57Mb
-      - Relay_ | 2.94Mb
-      - Relay_ |18.70Mb
-      - "| 8.94Mb"
+      - "|10.23Mb"
+      - "| 7.07Mb"
+      - "| 3.13Mb"
+      - "| 6.70Mb"
+      - "| 9.76Mb"
+      - "| 5.90Mb"
+      - "| 9.23Mb"
+      - "| 5.82Mb"
+      - "|20.44Mb"
+      - Pool_ |46.99Mb
+      - "|46.88Mb"
+      - Pool_ |41.92Mb
+      - Pool_ |40.94Mb
+      - Pool_ |39.72Mb
+      - Pool_ |42.55Mb
+      - Pool_ |28.70Mb
+      - "| 7.94Mb"
+      - "| 3.88Mb"
+      - US_1389 | 7.29Mb
+      - "|11.36Mb"
+      - "| 3.95Mb"
+      - "| 8.53Mb"
+      - "|13.67Mb"
+      - "|23.09Mb"
+      - US |38.92Mb
+      - "|92.31Mb"
+      - _JP_日本
       - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - Relay_ | 4.37Mb
-      - "| 6.20Mb"
-      - "| 4.47Mb"
-      - "| 5.41Mb"
-      - CN_242 |24.15Mb
-      - CN_241 |24.37Mb
+      - "|18.78Mb"
+      - "| 8.29Mb"
+      - "| 9.56Mb"
+      - "| 3.02Mb"
+      - "| 3.83Mb"
+      - "|27.27Mb"
+      - "|10.81Mb"
+      - "| 5.68Mb"
+      - "| 3.60Mb"
+      - "|10.52Mb"
+      - "|14.73Mb"
+      - "| 2.91Mb"
+      - "| 3.85Mb"
+      - "| 5.99Mb"
+      - "| 0.61Mb"
+      - "|13.80Mb"
+      - "|25.35Mb"
+      - "|14.28Mb"
+      - "| 4.69Mb"
+      - "|13.83Mb"
+      - "|12.87Mb"
+      - "| 5.98Mb"
+      - Relay_🇺🇸US |22.54Mb
+      - "| 2.63Mb"
+      - Relay_🇨🇿CZ | 3.50Mb
+      - "| 3.19Mb"
+      - "|23.59Mb"
+      - "|11.65Mb"
+      - "| 3.17Mb"
+      - HU | 6.60Mb
+      - Relay_🇺🇸US |24.50Mb
+      - "| 8.62Mb"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -412,48 +556,66 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Relay_ |19.46Mb
-      - Relay_ |65.03Mb
-      - "| 2.48Mb"
-      - "| 4.62Mb"
-      - "| 0.34Mb"
-      - "| 1.47Mb"
-      - "| 3.98Mb"
-      - "| 2.35Mb"
-      - "| 8.40Mb"
-      - CN_227
-      - "| 3.46Mb"
-      - "| 9.46Mb"
-      - "| 6.28Mb"
-      - "| 5.80Mb"
-      - "| 7.69Mb"
-      - "| 1.78Mb"
-      - "| 0.67Mb"
-      - "| 7.40Mb"
-      - "| 7.06Mb"
-      - "| 4.25Mb"
-      - "| 8.23Mb"
-      - "| 4.74Mb"
-      - "| 1.66Mb"
-      - "| 7.38Mb"
-      - "| 9.15Mb"
-      - "| 2.72Mb"
-      - "| 8.16Mb"
-      - "| 1.54Mb"
-      - "| 7.57Mb"
-      - Relay_ |17.46Mb
-      - "|35.30Mb"
-      - Relay_ |16.57Mb
-      - Relay_ | 2.94Mb
-      - Relay_ |18.70Mb
-      - "| 8.94Mb"
+      - "|10.23Mb"
+      - "| 7.07Mb"
+      - "| 3.13Mb"
+      - "| 6.70Mb"
+      - "| 9.76Mb"
+      - "| 5.90Mb"
+      - "| 9.23Mb"
+      - "| 5.82Mb"
+      - "|20.44Mb"
+      - Pool_ |46.99Mb
+      - "|46.88Mb"
+      - Pool_ |41.92Mb
+      - Pool_ |40.94Mb
+      - Pool_ |39.72Mb
+      - Pool_ |42.55Mb
+      - Pool_ |28.70Mb
+      - "| 7.94Mb"
+      - "| 3.88Mb"
+      - US_1389 | 7.29Mb
+      - "|11.36Mb"
+      - "| 3.95Mb"
+      - "| 8.53Mb"
+      - "|13.67Mb"
+      - "|23.09Mb"
+      - US |38.92Mb
+      - "|92.31Mb"
+      - _JP_日本
       - 欧洲(欢迎订阅Youtube破解资源君) 12
-      - Relay_ | 4.37Mb
-      - "| 6.20Mb"
-      - "| 4.47Mb"
-      - "| 5.41Mb"
-      - CN_242 |24.15Mb
-      - CN_241 |24.37Mb
+      - "|18.78Mb"
+      - "| 8.29Mb"
+      - "| 9.56Mb"
+      - "| 3.02Mb"
+      - "| 3.83Mb"
+      - "|27.27Mb"
+      - "|10.81Mb"
+      - "| 5.68Mb"
+      - "| 3.60Mb"
+      - "|10.52Mb"
+      - "|14.73Mb"
+      - "| 2.91Mb"
+      - "| 3.85Mb"
+      - "| 5.99Mb"
+      - "| 0.61Mb"
+      - "|13.80Mb"
+      - "|25.35Mb"
+      - "|14.28Mb"
+      - "| 4.69Mb"
+      - "|13.83Mb"
+      - "|12.87Mb"
+      - "| 5.98Mb"
+      - Relay_🇺🇸US |22.54Mb
+      - "| 2.63Mb"
+      - Relay_🇨🇿CZ | 3.50Mb
+      - "| 3.19Mb"
+      - "|23.59Mb"
+      - "|11.65Mb"
+      - "| 3.17Mb"
+      - HU | 6.60Mb
+      - Relay_🇺🇸US |24.50Mb
+      - "| 8.62Mb"
 rules:
  - DOMAIN-SUFFIX,local,🎯 全球直连
  - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
