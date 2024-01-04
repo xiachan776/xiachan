@@ -1,9 +1,9 @@
 ####################################
 # 创建者：v2rayse.com
 # 客户端：Clash
-# 创建时间：2024-01-02 16:59:02
+# 创建时间：2024-01-04 17:17:51
 # 使用模版：V2RaySE 默认模版
-# 节点数量：4
+# 节点数量：5
 ####################################
 mixed-port: 7890
 allow-lan: true
@@ -85,10 +85,11 @@ dns:
       - 0.0.0.0/32
 
 proxies:
-  - {"name":"免费梯子https://t.me/mftizi","type":"vmess","server":"112.28.208.10","port":45055,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"关注电报https://t.me/mftizi","type":"vmess","server":"158.178.227.16","port":30839,"cipher":"auto","uuid":"19bf4866-54ce-4fc9-8903-db7e160c5b81","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"不定期抽奖https://t.me/mftizi","type":"vmess","server":"b11.ntbq.dynu.net","port":5643,"cipher":"auto","uuid":"847bfa48-992d-4634-904f-be77beb390ce","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
-  - {"name":"长期更新节点@mftizi","type":"vmess","server":"21.namesilo123.top","port":8880,"cipher":"auto","uuid":"40e71b6a-00cf-437d-8232-4e83e6437286","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/","headers":{"host":"uspp.sanfen002.top"}}}
+  - {"name":"免费梯子https://t.me/mftizi","type":"vmess","server":"112.28.208.10","port":46602,"cipher":"auto","uuid":"418048af-a293-4b99-9b0c-98ca3580dd24","alterId":64,"tls":false,"skip-cert-verify":true,"servername":"","network":"tcp"}
+  - {"name":"关注电报https://t.me/mftizi","type":"vmess","server":"data-us-v1.shwjfkw.cn","port":20401,"cipher":"auto","uuid":"b1478e24-4916-3abe-8f17-15931012ecbe","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/debian","headers":{"host":"data-us-v1.shwjfkw.cn"}}}
+  - {"name":"长期更新节点@mftizi","type":"vmess","server":"nb-02.v2fei.co","port":16500,"cipher":"auto","uuid":"6F954C1E-B6D1-F450-6013-1BDACA6267C5","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/video","headers":{"host":"nb-02.v2fei.co"}}}
+  - {"name":"不定期抽奖https://t.me/mftizi","type":"vmess","server":"lt2-vmess.sshmax.xyz","port":80,"cipher":"auto","uuid":"ea2928cb-f9cc-4747-ab60-d23abe3ba1e6","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/vmess"}}
+  - {"name":"关注频道https://t.me/mftizi","type":"vmess","server":"hanoi4.5gsieutocdo.com","port":80,"cipher":"auto","uuid":"c95357eb-2869-4511-8940-f0dc5e1ec9b1","alterId":0,"tls":false,"skip-cert-verify":true,"servername":"","network":"ws","ws-opts":{"path":"/5gsieutocdo.club"}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -97,8 +98,9 @@ proxy-groups:
       - DIRECT
       - 免费梯子https://t.me/mftizi
       - 关注电报https://t.me/mftizi
-      - 不定期抽奖https://t.me/mftizi
       - 长期更新节点@mftizi
+      - 不定期抽奖https://t.me/mftizi
+      - 关注频道https://t.me/mftizi
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -107,8 +109,9 @@ proxy-groups:
     proxies:
       - 免费梯子https://t.me/mftizi
       - 关注电报https://t.me/mftizi
-      - 不定期抽奖https://t.me/mftizi
       - 长期更新节点@mftizi
+      - 不定期抽奖https://t.me/mftizi
+      - 关注频道https://t.me/mftizi
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -117,8 +120,9 @@ proxy-groups:
       - 🎯 全球直连
       - 免费梯子https://t.me/mftizi
       - 关注电报https://t.me/mftizi
-      - 不定期抽奖https://t.me/mftizi
       - 长期更新节点@mftizi
+      - 不定期抽奖https://t.me/mftizi
+      - 关注频道https://t.me/mftizi
   - name: 📲 电报信息
     type: select
     proxies:
@@ -126,8 +130,9 @@ proxy-groups:
       - 🎯 全球直连
       - 免费梯子https://t.me/mftizi
       - 关注电报https://t.me/mftizi
-      - 不定期抽奖https://t.me/mftizi
       - 长期更新节点@mftizi
+      - 不定期抽奖https://t.me/mftizi
+      - 关注频道https://t.me/mftizi
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -135,8 +140,9 @@ proxy-groups:
       - 🚀 节点选择
       - 免费梯子https://t.me/mftizi
       - 关注电报https://t.me/mftizi
-      - 不定期抽奖https://t.me/mftizi
       - 长期更新节点@mftizi
+      - 不定期抽奖https://t.me/mftizi
+      - 关注频道https://t.me/mftizi
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -144,8 +150,9 @@ proxy-groups:
       - 🎯 全球直连
       - 免费梯子https://t.me/mftizi
       - 关注电报https://t.me/mftizi
-      - 不定期抽奖https://t.me/mftizi
       - 长期更新节点@mftizi
+      - 不定期抽奖https://t.me/mftizi
+      - 关注频道https://t.me/mftizi
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -170,8 +177,9 @@ proxy-groups:
       - ♻️ 自动选择
       - 免费梯子https://t.me/mftizi
       - 关注电报https://t.me/mftizi
-      - 不定期抽奖https://t.me/mftizi
       - 长期更新节点@mftizi
+      - 不定期抽奖https://t.me/mftizi
+      - 关注频道https://t.me/mftizi
 
 rules:
 # 本地/局域网地址
